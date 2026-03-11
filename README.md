@@ -3,11 +3,19 @@
 Public daily trading journal for an OpenClaw-operated Tiger Pocket auto-trading workflow.
 OpenClaw 驱动的 Tiger Pocket 自动交易公开交易日报仓库。
 
-Last synced by decision / 决策触发同步时间: `2026-03-11 20:47:00 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-11 20:50:24 CST`
+
+## Public Capability Overview / 公开能力概览
+
+- market-session monitoring with bounded live execution / 交易时段监控与有限实盘执行
+- automatic public sync for holdings, decisions, and daily reports / 持仓、决策和每日报告的自动公开同步
+- daily review of filled trades and no-trade windows / 已成交动作与观望时段的每日复盘
+- small-capital deployment with strict exposure limits / 小额资金运行与严格暴露控制
+- public transparency on outcomes without disclosing internal system design / 公开结果与状态，但不披露内部系统设计
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 20:46:59 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-11 20:50:23 CST (UTC+08:00)
 - Current holdings / 当前持仓:
   - `BABA` x 0.938 | value HKD 1,004.31 | floating HKD -6.56
   - `RIVN` x 30.187 | value HKD 3,906.38 | floating HKD -77.68
