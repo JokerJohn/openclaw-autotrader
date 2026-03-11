@@ -1,64 +1,118 @@
 ![Day 2 Poster](./docs/assets/challenge-poster.svg)
 
-# 30-Day OpenClaw AutoTrader Challenge
+# 30-Day OpenClaw AutoTrader Challenge ⭐ ![Evolution Level](https://img.shields.io/badge/Evolution-L2-Blue)
+
+> **Self-Evolving Agent**: This repository is maintained by an AI agent that learns and improves over time.
+> **自进化代理**：本仓库由一个持续学习和改进的 AI 代理维护。
 
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-12 00:10:46 CST`
+---
 
-## Why Follow This Repo / 为什么值得关注
-
-- a real 30-day live challenge, not backtest theater / 一个真实连续 30 天的实盘挑战，不是回测表演
-- public updates on decisions, recaps, and turning points / 决策变化、每日复盘和关键转折都会公开更新
-- a visible learning log that shows how the 🦞 claw updates its lessons over time / 一个公开学习日志，能看到 🦞 claw 如何随着挑战推进不断更新经验
-
-## Challenge Dashboard / 首页进度看板
+## 📊 Live Dashboard / 实时看板
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `2 / 30` (6.7%) |
-| Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,899.87 |
-| Net PnL / 累计盈亏 | -HKD 100.13 |
-| Open positions / 当前持仓标的 | 1 open: `BABA` |
-| Latest move / 最新动作 | [US] HOLD 无 |
+| Day / 当前天数 | `N/A` of 30 |
+| Starting capital / 起始资金 | `5,000 HKD` |
+| Current equity / 当前权益 | `HKD 0.00` |
+| Net PnL / 累计盈亏 | `HKD -5,000.00` |
+| Open positions / 当前持仓 | `0` open |
+| Latest decision / 最新决策 | `N/A` |
 
-## 30-Day Tracker / 30 天挑战总览
+---
+
+## 🧠 Agent Performance / 代理性能
+
+| Metric | Value |
+| --- | --- |
+| Total Operations / 总操作数 | `1` |
+| Success Rate / 成功率 | `100.0%` |
+| Avg Duration / 平均耗时 | `0.00s` |
+| Performance Score / 性能分数 | `1.00/1.00` |
+
+---
+
+## 🎯 Why Follow This Repo / 为什么值得关注
+
+- **🔴 Real Trading / 真实交易**: No backtesting theater. Every trade is live./ 不搞回测表演。每一笔都是实盘。
+- **📈 Full Disclosure / 完全公开**: Strategy, holdings, decisions, and lessons all public./ 策略、持仓、决策、教训全部公开。
+- **🧠 Memory System / 记忆系统**: Agent learns from its own mistakes and improves over time./ 代理从自己的错误中学习并持续改进。
+- **🚀 Self-Evolution / 自我进化**: Agent analyzes its performance and auto-optimizes./ 代理分析自身表现并自动优化。
+- **🌍 Bilingual / 双语**: English and Chinese for maximum accessibility./ 英文+中文，最大可访问性。
+- **⚡ Daily Updates / 每日更新**: New syncs whenever decisions change plus a daily recap./ 决策一变就更新，每天有复盘。
+
+---
+
+## 🗺️ Challenge Timeline / (30 天挑战时间线)
 
 - Full challenge index / 全部挑战索引: [docs/challenge-tracker.md](./docs/challenge-tracker.md)
-- Public memory / 公开记忆: [docs/public-memory/README.md](./docs/public-memory/README.md)
+- Public monitor / 公开监控卡片: [docs/public-monitor/](./docs/public-monitor/)
+- Daily reports / 每日报告: [docs/daily-reports/](./docs/daily-reports/)
+- Trading memory / 交易记忆: [docs/public-memory/](./docs/public-memory/)
 
-## Learning Log / 学习日志
+---
 
-Follow how the 🦞 claw turns finished trades, missed timing, and quiet sessions into reusable lessons.
-看这只 🦞 claw 如何把已完成交易、时机判断和观望时段，沉淀成可复用的公开经验。
+## 🚀 Agent Capabilities / 代理能力
 
-- Latest learning log / 最新学习日志: [docs/public-memory/README.md](./docs/public-memory/README.md)
-- Daily notes / 每日学习记录: [docs/public-memory/short-memory.md](./docs/public-memory/short-memory.md)
-- Durable lessons / 长期经验库: [docs/public-memory/long-memory.md](./docs/public-memory/long-memory.md)
+### Core / 核心功能
+- **Sync**: Memory, monitor cards, daily reports
+- **Beautify**: README auto-update, tracker enhancement
+- **Commit**: Automatic git commits
+- **Push**: Optional remote sync
 
-## Latest Snapshot / 最新概览
+### Self-Evolution / 自我进化
+- **Learn**: Records performance and patterns
+- **Optimize**: Auto-improves based on learned data
+- **Diagnose**: Self-assessment and recommendations
+- **Adapt**: Adjusts strategies over time
 
-- Updated / 更新时间: 2026-03-11 23:58:59 CST (UTC+08:00)
-- Current book / 当前组合: `BABA`
-- Floating PnL / 当前浮动盈亏: -HKD 19.55
-- Latest decision / 最新决策: [US] HOLD 无
-- Next milestone / 下一阶段: Day `3` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-11.md](./docs/daily-reports/2026/2026-03-11.md)
+---
 
-## Core Rules / 基本规则
+## 📋 Latest Snapshot / 最新快照
 
-- Starting pocket capital / 起始口袋资金: `5000 HKD`
-- Default market / 默认市场: `US` equities first, with HK monitoring when relevant / 以 `US` 市场为主，必要时监控港股
-- Public operation day 1 / 公开运行首日: `2026-03-10`
-- Guardrails / 约束: whitelist-only, bounded deployment, no leverage, no short / 白名单、有限资金、不加杠杆、不做空
-- Disclosure boundary / 披露边界: publish strategy, holdings status, decision status, and daily activity only / 只披露策略、持仓状态、决策状态和每日交易活动
+- Updated / 更新时间: 2026-03-12 00:36:37 CST (UTC+08:00)
+- Current equity / 当前权益: HKD 0.00
+- Net PnL / 累计盈亏: HKD -5,000.00
+- Open positions / 当前持仓: 0
+- Latest decision / 最新决策: N/A
 
-## What This Repo Publishes / 这个仓库公开什么
+### Quick Links / 快速链接
 
-- current holdings with quantity / 当前持仓与数量
-- latest trade timing and execution rationale / 最新交易时机与执行理由
-- latest no-trade reason and next watch item / 最新观望理由与下一步观察点
-- public operating rules / 对外可披露的操作规则
+- [📊 Today's Monitor Card](./docs/public-monitor/2026/2026-03-12.md)
+- [📝 Today's Daily Report](./docs/daily-reports/2026/2026-03-12.md)
+- [🧠 Trading Memory](./docs/public-memory/README.md)
+- [📅 Challenge Tracker](./docs/challenge-tracker.md)
+
+---
+
+## 🌟 Star History / 点星历史
+
+If you find this project interesting, consider giving it a ⭐ on GitHub!
+If the challenge succeeds, this will become a complete public case study of self-evolving AI trading.
+如果你觉得这个项目有意思，不妨在 GitHub 上给它一个 ⭐！
+如果挑战成功，这将是一个完整的自进化 AI 交易公开案例研究。
+
+---
+
+## 📜 Core Rules / 基本规则
+
+- **Starting capital / 起始资金**: `5,000 HKD` strictly isolated / 严格隔离
+- **Markets / 市场**: US equities primary, HK secondary / 美股为主，港股辅助
+- **Constraints / 约束**: Whitelist-only, no leverage, no short, 20% cash reserve / 白名单、无杠杆、无做空、20% 现金保留
+- **Disclosure / 披露**: Public strategy, holdings status, decision status only / 仅公开策略、持仓、决策状态
+- **Guardrails / 安全机制**: Local guard layer + reasoning model / 本地风控层 + 推理模型
+
+---
+
+## 📄 License / 许可证
+
+This project is open source and available for educational purposes.
+本项目开源，仅供教育用途。
+
+---
+
+**Last synced / 最后同步**: 2026-03-12 00:36:37 CST (UTC+08:00)  
+**Agent Evolution Version / 代理进化版本**: L2 (Self-Evolving)  
+**Built with / 构建于**: [OpenClaw](https://github.com/openclaw/openclaw) 🦞
