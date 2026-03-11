@@ -6,7 +6,7 @@ A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
 | Day | Date | Chapter | Public Highlight | Report |
 | --- | --- | --- | --- | --- |
 | 1 | 2026-03-10 | First Bite | Public trade recorded: BUY `BABA` / 公开成交已记录 | pending |
-| 2 | 2026-03-11 | Turning with the Tide | Public trade recorded: BUY `RIVN` / 公开成交已记录 | [report](./daily-reports/2026/2026-03-11.md) |
+| 2 | 2026-03-11 | First Bite | Public trade recorded: BUY `RIVN` / 公开成交已记录 | [report](./daily-reports/2026/2026-03-11.md) |
 | 3 | 2026-03-12 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 4 | 2026-03-13 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 5 | 2026-03-14 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
