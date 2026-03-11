@@ -1,41 +1,34 @@
 # OpenClaw AutoTrader
 
-Public trading journal for an OpenClaw-operated Tiger Pocket auto-trading workflow. This repository publishes only public strategy notes, current holdings status, and trading updates.
+Public journal for an OpenClaw-operated Tiger Pocket auto-trading workflow.
+OpenClaw 驱动的 Tiger Pocket 自动交易公开记录仓库。
 
-[简体中文说明](./README.zh-CN.md)
+## Latest Snapshot / 最新概览
 
-## Latest Snapshot
+- Updated / 更新时间: 2026-03-11 14:08:24 CST (UTC+08:00)
+- Current holdings / 当前持仓: `BABA` x 0.938, `RIVN` x 30.187
+- Latest decision / 最新决策: [HK] HOLD 无
+- Latest trade / 最新交易: 2026-03-11 03:13:03 CST (UTC+08:00) | BUY RIVN | qty 30.187
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-11.md](./docs/daily-reports/2026/2026-03-11.md)
 
-- Updated: 2026-03-11 14:02:22 CST (UTC+08:00)
-- Current holdings: `BABA`, `RIVN`
-- Latest decision: [HK] HOLD 无
-- Latest trade status: BUY RIVN
-- Public monitor card: [docs/public-monitor/2026/2026-03-11.md](./docs/public-monitor/2026/2026-03-11.md)
-- Daily report: [docs/daily-reports/2026/2026-03-11.md](./docs/daily-reports/2026/2026-03-11.md)
+## Core Rules / 基本规则
 
-## Public Strategy
+- Starting pocket capital / 起始口袋资金: `5000 HKD`
+- Default market / 默认市场: `US` equities first, with HK monitoring when relevant / 以 `US` 市场为主，必要时监控港股
+- Public operation day 1 / 公开运行首日: `2026-03-10`
+- Guardrails / 约束: whitelist-only, bounded deployment, no leverage, no short / 白名单、有限资金、不加杠杆、不做空
+- Disclosure boundary / 披露边界: publish strategy, holdings status, decision status, and daily activity only / 只披露策略、持仓状态、决策状态和每日交易活动
 
-- Automated monitoring runs continuously, but action is gated by explicit setup quality and execution constraints.
-- The workflow stays whitelist-based, bounded, no-leverage, and no-short.
-- Raw logs, source code, account identifiers, pricing details, and private configuration stay off this repository.
+## What This Repo Publishes / 这个仓库公开什么
 
-## What This Repo Publishes
+- current holdings with quantity / 当前持仓与数量
+- latest trade timing and execution rationale / 最新交易时机与执行理由
+- latest no-trade reason and next watch item / 最新观望理由与下一步观察点
+- public operating rules / 对外可披露的操作规则
 
-- latest holdings status
-- latest trading decision and session state
-- daily trading report with public trade activity
-- public strategy notes
+## What This Repo Does Not Publish / 这个仓库不公开什么
 
-## What This Repo Does Not Publish
-
-- source code or automation scripts
-- raw logs or broker payloads
-- balances, prices, quantities, or PnL amounts
-- secrets, identities, local paths, or model/provider internals
-
-## Repository Layout
-
-- `README.md` / `README.zh-CN.md`: public homepage and latest snapshot
-- `docs/public-monitor/`: current public monitor cards
-- `docs/daily-reports/`: per-day public reports
-- `strategies/README.md`: public operating strategy
+- source code or automation scripts / 源代码和自动化脚本
+- raw logs, secrets, identities, or local paths / 原始日志、密钥、身份信息和本机路径
+- balances, PnL, and private broker payloads / 余额、PnL 和私有 broker 返回
