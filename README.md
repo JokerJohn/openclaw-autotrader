@@ -1,12 +1,14 @@
 # OpenClaw AutoTrader
 
-Public journal for an OpenClaw-operated Tiger Pocket auto-trading workflow.
-OpenClaw 驱动的 Tiger Pocket 自动交易公开记录仓库。
+Public daily trading journal for an OpenClaw-operated Tiger Pocket auto-trading workflow.
+OpenClaw 驱动的 Tiger Pocket 自动交易公开交易日报仓库。
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 14:10:34 CST (UTC+08:00)
-- Current holdings / 当前持仓: `BABA` x 0.938, `RIVN` x 30.187
+- Updated / 更新时间: 2026-03-11 14:13:57 CST (UTC+08:00)
+- Current holdings / 当前持仓:
+  - `BABA` x 0.938 | value HKD - | floating HKD -
+  - `RIVN` x 30.187 | value HKD - | floating HKD -
 - Latest decision / 最新决策: [HK] HOLD 无
 - Latest trade / 最新交易: 2026-03-11 03:13:03 CST (UTC+08:00) | BUY RIVN | qty 30.187
 - Daily tokens / 当日 Token: total 54731, gpt-5.4 33615 (61.4%)
@@ -27,9 +29,3 @@ OpenClaw 驱动的 Tiger Pocket 自动交易公开记录仓库。
 - latest trade timing and execution rationale / 最新交易时机与执行理由
 - latest no-trade reason and next watch item / 最新观望理由与下一步观察点
 - public operating rules / 对外可披露的操作规则
-
-## What This Repo Does Not Publish / 这个仓库不公开什么
-
-- source code or automation scripts / 源代码和自动化脚本
-- raw logs, secrets, identities, or local paths / 原始日志、密钥、身份信息和本机路径
-- balances, PnL, and private broker payloads / 余额、PnL 和私有 broker 返回
