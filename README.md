@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-11 22:37:20 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-11 22:38:03 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -24,7 +24,7 @@ Last synced by decision / 决策触发同步时间: `2026-03-11 22:37:20 CST`
 | Current equity / 当前权益 | HKD 4,904.12 |
 | Net PnL / 累计盈亏 | -HKD 95.88 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
-| Latest move / 最新动作 | BUY `RIVN` |
+| Latest move / 最新动作 | [US] SELL RIVN |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -32,7 +32,7 @@ Last synced by decision / 决策触发同步时间: `2026-03-11 22:37:20 CST`
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-11 22:37:20 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-11 22:38:03 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
 - Floating PnL / 当前浮动盈亏: -HKD 15.29
 - Latest decision / 最新决策: [US] SELL RIVN
