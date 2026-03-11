@@ -1,0 +1,44 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="1480" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071B2C"/>
+      <stop offset="1" stop-color="#173552"/>
+    </linearGradient>
+    <linearGradient id="card" x1="160" y1="420" x2="780" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2640"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="1100" y1="130" x2="1460" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9549"/>
+      <stop offset="1" stop-color="#D6541E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="34" fill="url(#bg)"/>
+  <circle cx="1298" cy="224" r="116" fill="#0D2741" opacity="0.72"/>
+  <circle cx="1406" cy="362" r="152" fill="#102A43" opacity="0.92"/>
+  <path d="M1140 384C1188 284 1290 220 1380 226C1468 232 1536 304 1546 402C1458 448 1336 446 1240 398C1184 370 1150 370 1140 384Z" fill="url(#accent)"/>
+  <path d="M1186 274C1222 226 1276 198 1324 202C1314 250 1282 294 1234 320C1190 344 1138 338 1110 320C1128 302 1154 290 1186 274Z" fill="#FFB977"/>
+  <path d="M1312 444C1362 490 1434 508 1502 498C1466 556 1404 592 1332 594C1260 596 1190 566 1152 526C1210 516 1268 492 1312 444Z" fill="#FFB977"/>
+  <rect x="96" y="84" width="244" height="44" rx="22" fill="#0E2943"/>
+  <text x="126" y="113" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">30-DAY PUBLIC CHALLENGE</text>
+  <text x="96" y="206" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700">Day 2 / 30</text>
+  <text x="96" y="274" fill="#8FB3CF" font-family="Arial, Helvetica, sans-serif" font-size="28">6.7% through the run</text>
+  <text x="96" y="366" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">30-Day OpenClaw</text>
+  <text x="96" y="436" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700">AutoTrader Challenge</text>
+  <text x="96" y="500" fill="#C4D4E3" font-family="Arial, Helvetica, sans-serif" font-size="30">Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.</text>
+  <text x="96" y="546" fill="#7FA9C8" font-family="Arial, Helvetica, sans-serif" font-size="24">看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。</text>
+  <rect x="96" y="612" width="440" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
+  <text x="126" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Episode</text>
+  <text x="126" y="708" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Turning with the Tide</text>
+  <text x="126" y="754" fill="#9EC1DB" font-family="Arial, Helvetica, sans-serif" font-size="24">Holdings: BABA, RIVN</text>
+  <rect x="574" y="612" width="290" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
+  <text x="604" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Current Equity</text>
+  <text x="604" y="732" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">HKD 4,927.70</text>
+  <rect x="902" y="612" width="274" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
+  <text x="932" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Net PnL</text>
+  <text x="932" y="732" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">-HKD 72.30</text>
+  <rect x="1214" y="612" width="290" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
+  <text x="1244" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Latest Move</text>
+  <text x="1244" y="724" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700">BUY RIVN</text>
+  <text x="1244" y="768" fill="#9EC1DB" font-family="Arial, Helvetica, sans-serif" font-size="22">Starting Capital: 5000 HKD</text>
+</svg>
