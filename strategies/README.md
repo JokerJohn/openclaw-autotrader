@@ -16,4 +16,3 @@ This repository discloses the public operating principles of the OpenClaw tradin
 
 - publish holdings status and trade direction / 公开持仓状态和交易方向
 - publish timing rationale and no-trade rationale / 公开交易时机理由与观望理由
-- do not publish code, secrets, raw logs, or private broker data / 不公开代码、密钥、原始日志和私有 broker 数据
