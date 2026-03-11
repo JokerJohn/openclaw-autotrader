@@ -1,17 +1,11 @@
 # Daily Reports
 
-Store one sanitized markdown report per trading day.
+Store one public daily trading report per trading day.
 
-Path convention:
+Each report should include:
 
-- `YYYY/YYYY-MM-DD.md`
-
-Example:
-
-- `2026/2026-03-11.md`
-
-Public reports must exclude:
-
-- balances, cash, prices, quantities, and PnL amounts
-- order ids, token usage, model names, and local paths
-- identity or implementation details
+- holdings status
+- trade activity for the day
+- latest decision status
+- public operating notes
+- next-session watch items

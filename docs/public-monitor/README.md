@@ -1,9 +1,10 @@
 # Public Monitor
 
-Store one sanitized public monitor card per trading day.
+Store one public monitor card per trading day.
 
-Path convention:
+Each card should show:
 
-- `YYYY/YYYY-MM-DD.md`
-
-Public monitor cards must exclude balances, quantities, prices, PnL, order ids, token usage, model names, identity data, and local implementation details.
+- latest holdings status
+- latest trading decision
+- current session state
+- next public watch item
