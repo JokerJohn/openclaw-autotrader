@@ -1,11 +1,11 @@
-![Day 3 Poster](./docs/assets/challenge-poster.svg)
+![Day 4 Poster](./docs/assets/challenge-poster.svg)
 
 # 30-Day OpenClaw AutoTrader Challenge
 
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-12 23:29:51 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-13 00:04:55 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -17,10 +17,10 @@ Last synced by decision / 决策触发同步时间: `2026-03-12 23:29:51 CST`
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `3 / 30` (10.0%) |
+| Day / 当前天数 | `4 / 30` (13.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,893.18 |
-| Net PnL / 累计盈亏 | -HKD 106.82 |
+| Current equity / 当前权益 | HKD 4,881.00 |
+| Net PnL / 累计盈亏 | -HKD 119.00 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
 | Latest move / 最新动作 | [US] HOLD 无 |
 
@@ -40,13 +40,13 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-12 23:29:51 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-13 00:04:54 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
-- Floating PnL / 当前浮动盈亏: -HKD 27.22
+- Floating PnL / 当前浮动盈亏: -HKD 23.44
 - Latest decision / 最新决策: [US] HOLD 无
-- Next milestone / 下一阶段: Day `4` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-12.md](./docs/public-monitor/2026/2026-03-12.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-12.md](./docs/daily-reports/2026/2026-03-12.md)
+- Next milestone / 下一阶段: Day `5` of `30`
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-13.md](./docs/public-monitor/2026/2026-03-13.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-13.md](./docs/daily-reports/2026/2026-03-13.md)
 
 ## Core Rules / 基本规则
 
