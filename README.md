@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-13 13:38:08 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-13 14:03:10 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -22,7 +22,7 @@ Last synced by decision / 决策触发同步时间: `2026-03-13 13:38:08 CST`
 | Current equity / 当前权益 | HKD 4,895.44 |
 | Net PnL / 累计盈亏 | -HKD 104.56 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
-| Latest move / 最新动作 | 状态: [HK] 已跳过模型决策 |
+| Latest move / 最新动作 | [HK] 已跳过模型决策 |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-13 13:38:06 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-13 14:03:10 CST
 - Current book / 当前组合: `BABA`
 - Floating PnL / 当前浮动盈亏: -HKD 26.02
 - Latest decision / 最新决策: 
