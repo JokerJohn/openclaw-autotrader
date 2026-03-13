@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-13 14:37:20 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-13 14:47:34 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-13 14:37:20 CST`
 | --- | --- |
 | Day / 当前天数 | `4 / 30` (13.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,895.44 |
-| Net PnL / 累计盈亏 | -HKD 104.56 |
+| Current equity / 当前权益 | HKD 4,892.72 |
+| Net PnL / 累计盈亏 | -HKD 107.28 |
 | Open positions / 当前持仓标的 | 1 open: `BABA` |
 | Latest move / 最新动作 | [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会） |
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-13 14:37:19 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-13 14:47:33 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`
 - Floating PnL / 当前浮动盈亏: -HKD 26.02
 - Latest decision / 最新决策: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `BABA`, `NVDA`, `AMD` | HK: `1810.HK`, `0388.HK`, `3750.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: `AAOI`, `LITE`, `EWY`, `SNDK`, `TSM`, `COHR`, `TSLA`, `ORCL` | HK: `9868.HK`, `9888.HK`, `0981.HK`, `2015.HK`, `3690.HK`, `9961.HK`. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No HK candidate cleared the live entry bar. The strongest name, `1810.HK`, still showed score -2.96, post-fee EV -2.87%, and win probability 48.4%. / 当前港股活跃池机会评分不足（top_score=-2.96），已跳过本轮决策。
+- Latest gate result / 最新门槛结论: No HK candidate cleared the live entry bar. The strongest name, `1810.HK`, still showed score -2.99, post-fee EV -2.91%, and win probability 47.9%. / 当前港股活跃池机会评分不足（top_score=-2.99），已跳过本轮决策。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
-- Rationale / 理由: No HK candidate cleared the live entry bar. The strongest name, `1810.HK`, still showed score -2.96, post-fee EV -2.87%, and win probability 48.4%. / 当前港股活跃池机会评分不足（top_score=-2.96），已跳过本轮决策。
+- Rationale / 理由: No HK candidate cleared the live entry bar. The strongest name, `1810.HK`, still showed score -2.99, post-fee EV -2.91%, and win probability 47.9%. / 当前港股活跃池机会评分不足（top_score=-2.99），已跳过本轮决策。
 - Decision basis / 决策依据: Regime: mixed tape; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.00. / 市场状态：混合状态；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.00。
-- Candidate check / 候选检查: Reviewed 3 active candidate(s). Top checks: `1810.HK` (consumer hardware) | score -2.96 | post-fee EV -2.87% | win 48.4%; `3750.HK` (battery) | score -2.99 | post-fee EV -3.07% | win 51.9%; `0388.HK` (exchange) | score -3.14 | post-fee EV -3.06% | win 45.5%. / 共检查 3 只活跃候选。靠前检查结果：`1810.HK`（消费硬件） | 评分 -2.96 | 扣费后 EV -2.87% | 胜率 48.4%；`3750.HK`（电池） | 评分 -2.99 | 扣费后 EV -3.07% | 胜率 51.9%；`0388.HK`（交易所） | 评分 -3.14 | 扣费后 EV -3.06% | 胜率 45.5%。
+- Candidate check / 候选检查: Reviewed 3 active candidate(s). Top checks: `1810.HK` (consumer hardware) | score -2.99 | post-fee EV -2.91% | win 47.9%; `3750.HK` (battery) | score -3.06 | post-fee EV -3.13% | win 51.1%; `0388.HK` (exchange) | score -3.13 | post-fee EV -3.05% | win 45.6%. / 共检查 3 只活跃候选。靠前检查结果：`1810.HK`（消费硬件） | 评分 -2.99 | 扣费后 EV -2.91% | 胜率 47.9%；`3750.HK`（电池） | 评分 -3.06 | 扣费后 EV -3.13% | 胜率 51.1%；`0388.HK`（交易所） | 评分 -3.13 | 扣费后 EV -3.05% | 胜率 45.6%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
