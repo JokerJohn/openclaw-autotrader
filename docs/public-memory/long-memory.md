@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-14 14:35:57 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-14 14:36:03 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,17 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 4
-**Total Evidence Points / 累计证据点**: 7
+**Total Lessons / 教训总数**: 5
+**Total Evidence Points / 累计证据点**: 9
+
+## skipped_decision_still_needs_context
+
+**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+**Scope / 作用域**: `decision_output`
+**Evidence Count / 证据次数**: 3
+**Last Seen / 最后出现**: 2026-03-14
+**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14
+**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
 
@@ -24,15 +33,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-13
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
-
-## skipped_decision_still_needs_context
-
-**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
-**Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-03-13
-**Dates / 出现日期**: 2026-03-12, 2026-03-13
-**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## hk_symbol_must_be_normalized
 
@@ -51,3 +51,12 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-14
 **Dates / 出现日期**: 2026-03-14
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
+
+## missed_opportunity_AAOI
+
+**Lesson / 教训**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AAOI`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-14
+**Dates / 出现日期**: 2026-03-14
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:semiconductor, theme:存储, theme:NAND, theme:半导体, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
