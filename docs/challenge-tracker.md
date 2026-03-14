@@ -1,11 +1,3 @@
-
-## 🔥 Project Status / 项目状态
-
-![GitHub stars](https://img.shields.io/github/stars/JokerJohn/openclaw-autotrader?style=social)
-![GitHub forks](https://img.shields.io/github/forks/JokerJohn/openclaw-autotrader?style=social)
-![GitHub issues](https://img.shields.io/github/issues/JokerJohn/openclaw-autotrader)
-![GitHub license](https://img.shields.io/github/license/JokerJohn/openclaw-autotrader)
-
 # 30-Day Tracker / 30 天挑战总览
 
 A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
