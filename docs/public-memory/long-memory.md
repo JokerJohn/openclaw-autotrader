@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-16 13:44:21 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-16 14:16:23 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 5
-**Total Evidence Points / 累计证据点**: 11
+**Total Evidence Points / 累计证据点**: 12
 
 ## skipped_decision_still_needs_context
 
@@ -25,6 +25,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
+## sync_error_must_be_sanitized
+
+**Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
+**Scope / 作用域**: `ops`
+**Evidence Count / 证据次数**: 3
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16
+**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
+
 ## missed_opportunity_AAOI
 
 **Lesson / 教训**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -33,15 +42,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-15
 **Dates / 出现日期**: 2026-03-14, 2026-03-15
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:semiconductor, theme:存储, theme:NAND, theme:半导体, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
-
-## sync_error_must_be_sanitized
-
-**Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
-**Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-03-13
-**Dates / 出现日期**: 2026-03-12, 2026-03-13
-**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## hk_symbol_must_be_normalized
 
