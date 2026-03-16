@@ -1,11 +1,11 @@
-![Day 7 Poster](./docs/assets/challenge-poster.svg)
+![Day 8 Poster](./docs/assets/challenge-poster.svg)
 
 # 30-Day OpenClaw AutoTrader Challenge
 
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-16 23:50:59 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-17 00:04:25 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -17,10 +17,10 @@ Last synced by decision / 决策触发同步时间: `2026-03-16 23:50:59 CST`
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `7 / 30` (23.3%) |
+| Day / 当前天数 | `8 / 30` (26.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,912.23 |
-| Net PnL / 累计盈亏 | -HKD 87.77 |
+| Current equity / 当前权益 | HKD 4,896.21 |
+| Net PnL / 累计盈亏 | -HKD 103.79 |
 | Open positions / 当前持仓标的 | 2 open: `BABA`, `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,30 +40,30 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-16 23:50:42 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-17 00:04:13 CST (UTC+08:00)
 - Current book / 当前组合: `BABA`, `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 5.55
+- Floating PnL / 当前浮动盈亏: -HKD 8.34
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
-- Next milestone / 下一阶段: Day `8` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-16.md](./docs/public-monitor/2026/2026-03-16.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-16.md](./docs/daily-reports/2026/2026-03-16.md)
+- Next milestone / 下一阶段: Day `9` of `30`
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-17.md](./docs/public-monitor/2026/2026-03-17.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-17.md](./docs/daily-reports/2026/2026-03-17.md)
 
 ## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 5 trade(s) per hour, with a 2% cash reserve and HKD 5000 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 5 笔，并保留 2% 现金缓冲，单日亏损达到 HKD 5000 即停止扩张。
-- Live pools today / 今日实盘池: US: `MU`, `TSLA`, `QCOM`, `BABA` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
+- Live pools today / 今日实盘池: US: `BABA`, `RIVN`, `TSLA`, `QCOM` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `MU`, still showed score +2.71, post-fee EV +1.40%, and win probability 67.0%. / US 市场没有候选达到实盘门槛；最强标的 `MU` 仍只有评分 +2.71、扣费后 EV +1.40%、胜率 67.0%。
+- Latest gate result / 最新门槛结论: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `MU`, still showed score +2.71, post-fee EV +1.40%, and win probability 67.0%. / US 市场没有候选达到实盘门槛；最强标的 `MU` 仍只有评分 +2.71、扣费后 EV +1.40%、胜率 67.0%。
-- Decision basis / 决策依据: Regime: upward momentum; Path: compare-stage hold review; Model: GPT-5.4; Purpose: hold discipline; confidence 0.79. / 市场状态：上行动量；决策链路：候选比较后维持观望；模型：GPT-5.4；目的：观望纪律；置信度 0.79。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `MU` (semiconductor) | score +2.71 | post-fee EV +1.40% | win 67.0%; `SNDK` (semiconductor) | score +2.35 | post-fee EV +2.28% | win 63.1%; `EWY` (country etf) | score +0.95 | post-fee EV +0.85% | win 64.0%. / 共检查 5 只活跃候选。靠前检查结果：`MU`（半导体） | 评分 +2.71 | 扣费后 EV +1.40% | 胜率 67.0%；`SNDK`（半导体） | 评分 +2.35 | 扣费后 EV +2.28% | 胜率 63.1%；`EWY`（country etf） | 评分 +0.95 | 扣费后 EV +0.85% | 胜率 64.0%。
-- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
+- Rationale / 理由: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
+- Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: GPT-5.4; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：GPT-5.4；目的：常规审查；置信度 0.00。
+- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
+- Watch next / 下一步观察: tiger-pocket-research timed out / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Core Rules / 基本规则
 

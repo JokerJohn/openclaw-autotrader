@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-16 23:51:04 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-17 00:04:31 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 7
-**Total Evidence Points / 累计证据点**: 14
+**Total Lessons / 教训总数**: 9
+**Total Evidence Points / 累计证据点**: 20
 
 ## skipped_decision_still_needs_context
 
@@ -34,6 +34,42 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
+## missed_opportunity_1211.HK
+
+**Lesson / 教训**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-17
+**Dates / 出现日期**: 2026-03-16, 2026-03-17
+**Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+
+## positive_followthrough_buy_1211.HK
+
+**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-17
+**Dates / 出现日期**: 2026-03-16, 2026-03-17
+**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+
+## oversized_MU
+
+**Lesson / 教训**: MU 仓位曾明显超限，后续应优先按分层减仓规则把风险拉回目标区间。
+**Scope / 作用域**: `MU`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-17
+**Dates / 出现日期**: 2026-03-16, 2026-03-17
+**Tags / 标签**: `symbol:MU, market:us, risk:oversized`
+
+## us_buy_no_chasing_and_tighter_caps
+
+**Lesson / 教训**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
+**Scope / 作用域**: `portfolio`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-14, 2026-03-16
+**Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
 ## missed_opportunity_AAOI
 
 **Lesson / 教训**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -51,24 +87,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-13
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
-
-## missed_opportunity_1211.HK
-
-**Lesson / 教训**: 1211.HK 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-16
-**Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
-
-## positive_followthrough_buy_1211.HK
-
-**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-16
-**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
 
 ## event_market_gate_first
 
