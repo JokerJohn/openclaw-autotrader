@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-17 23:19:10 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-17 23:53:45 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 21
+**Total Evidence Points / 累计证据点**: 20
 
 ## skipped_decision_still_needs_context
 
@@ -33,15 +33,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-17
 **Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16, 2026-03-17
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
-
-## positive_followthrough_buy_1211.HK
-
-**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-03-17
-**Dates / 出现日期**: 2026-03-16, 2026-03-17
-**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
 
 ## oversized_MU
 
@@ -87,6 +78,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+
+## positive_followthrough_buy_1211.HK
+
+**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-16
+**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
 
 ## event_market_gate_first
 
