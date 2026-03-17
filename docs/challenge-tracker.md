@@ -13,7 +13,7 @@ A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
 | 6 | 2026-03-15 | Waiting for the Tide | Public session logged / 已记录公开会话 | pending |
 | 7 | 2026-03-16 | First Bite | Public trade recorded: BUY `MU` / 公开成交已记录 | [report](./daily-reports/2026/2026-03-16.md) |
 | 8 | 2026-03-17 | Holding the Current | Holding through the session: `BABA`, `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-17.md) |
-| 9 | 2026-03-18 | Holding the Current | Holding through the session: `BABA`, `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-18.md) |
+| 9 | 2026-03-18 | Turning with the Tide | Holding through the session: `BABA`, `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-18.md) |
 | 10 | 2026-03-19 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 11 | 2026-03-20 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 12 | 2026-03-21 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
