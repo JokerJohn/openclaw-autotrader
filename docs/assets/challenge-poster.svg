@@ -33,10 +33,10 @@
   <text x="126" y="754" fill="#9EC1DB" font-family="Arial, Helvetica, sans-serif" font-size="24">Holdings: BABA, MU</text>
   <rect x="574" y="612" width="290" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
   <text x="604" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Current Equity</text>
-  <text x="604" y="732" textLength="220" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">HK$ 4,918.46</text>
+  <text x="604" y="732" textLength="220" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">HK$ 4,912.77</text>
   <rect x="902" y="612" width="274" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
   <text x="932" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Net PnL</text>
-  <text x="932" y="732" textLength="214" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Loss HK$ 81.54</text>
+  <text x="932" y="732" textLength="214" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Loss HK$ 87.23</text>
   <rect x="1214" y="612" width="290" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
   <text x="1244" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Latest Move</text>
   <text x="1244" y="724" textLength="214" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">HOLD</text>
