@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-18 06:14:52 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-18 09:36:14 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,16 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 21
+**Total Evidence Points / 累计证据点**: 22
+
+## skipped_decision_still_needs_context
+
+**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+**Scope / 作用域**: `decision_output`
+**Evidence Count / 证据次数**: 6
+**Last Seen / 最后出现**: 2026-03-18
+**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16, 2026-03-17, 2026-03-18
+**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
 
@@ -24,15 +33,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-18
 **Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16, 2026-03-17, 2026-03-18
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
-
-## skipped_decision_still_needs_context
-
-**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
-**Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 5
-**Last Seen / 最后出现**: 2026-03-17
-**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16, 2026-03-17
-**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## oversized_MU
 
