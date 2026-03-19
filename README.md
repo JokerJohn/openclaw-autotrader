@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-19 21:42:48 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-19 21:57:16 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-03-19 21:42:48 CST`
 | --- | --- |
 | Day / 当前天数 | `10 / 30` (33.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 5,658.03 |
-| Net PnL / 累计盈亏 | +HKD 658.03 |
-| Open positions / 当前持仓标的 | 2 open: `BABA`, `MU` |
-| Latest move / 最新动作 | [US] SELL `BABA` / [US] 卖出 `BABA` |
+| Current equity / 当前权益 | HKD 4,774.48 |
+| Net PnL / 累计盈亏 | -HKD 225.52 |
+| Open positions / 当前持仓标的 | 1 open: `MU` |
+| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-19 21:42:33 CST (UTC+08:00)
-- Current book / 当前组合: `BABA`, `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 48.20
-- Latest decision / 最新决策: [US] SELL `BABA` / [US] 卖出 `BABA`
+- Updated / 更新时间: 2026-03-19 21:57:01 CST (UTC+08:00)
+- Current book / 当前组合: `MU`
+- Floating PnL / 当前浮动盈亏: -HKD 41.37
+- Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `11` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-19.md](./docs/public-monitor/2026/2026-03-19.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-03-19.md](./docs/daily-reports/2026/2026-03-19.md)
@@ -52,17 +52,17 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 5 trade(s) per hour, with a 8% cash reserve and HKD 5000 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 5 笔，并保留 8% 现金缓冲，单日亏损达到 HKD 5000 即停止扩张。
-- Live pools today / 今日实盘池: US: `BABA`, `MA`, `TSLA`, `AMD` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
+- Live pools today / 今日实盘池: US: `BABA`, `MU`, `TSLA`, `QCOM` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: The system selected `BABA` for a sell because it best fit the current fee-aware pocket-account setup. / BABA 日内跌幅已达 -9.4%，价格 121.79 已触发硬止损阈值。Local Guard Signal 高置信度 (0.99) 确认止损优先保护本金。现有持仓成本 137.74，当前浮亏约 11.6%，符合 STOP_LOSS 条件。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `BABA`, still showed score -0.20, post-fee EV +1.56%, and win probability 48.2%. / 市场处于高波动区间，BABA单日大跌8%存在破位风险，不宜接飞刀；TSLA与QCOM的费后预期收益为负，缺乏明确边际。当前已持有MU仓位，应先管理现有头寸而非新增风险。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [US] SELL `BABA` / [US] 卖出 `BABA`
-- Rationale / 理由: The system selected `BABA` for a sell because it best fit the current fee-aware pocket-account setup. / BABA 日内跌幅已达 -9.4%，价格 121.79 已触发硬止损阈值。Local Guard Signal 高置信度 (0.99) 确认止损优先保护本金。现有持仓成本 137.74，当前浮亏约 11.6%，符合 STOP_LOSS 条件。
-- Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: Kimi 2.5; Purpose: stop loss; confidence 0.99; limit 121.7900. / 市场状态：高波动；决策链路：常规决策链路；模型：Kimi 2.5；目的：STOP_LOSS；置信度 0.99；限价 121.7900。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `BABA` (China internet) | score +1.77 | post-fee EV +2.62% | win 50.1%; `TSLA` (EV) | score -0.74 | post-fee EV -0.27% | win 56.9%; `MU` (semiconductor) | score -1.78 | post-fee EV +1.35% | win 50.5%. / 共检查 5 只活跃候选。靠前检查结果：`BABA`（中概互联网） | 评分 +1.77 | 扣费后 EV +2.62% | 胜率 50.1%；`TSLA`（电动车） | 评分 -0.74 | 扣费后 EV -0.27% | 胜率 56.9%；`MU`（半导体） | 评分 -1.78 | 扣费后 EV +1.35% | 胜率 50.5%。
+- Result / 结果: [US] HOLD / [US] 观望
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `BABA`, still showed score -0.20, post-fee EV +1.56%, and win probability 48.2%. / 市场处于高波动区间，BABA单日大跌8%存在破位风险，不宜接飞刀；TSLA与QCOM的费后预期收益为负，缺乏明确边际。当前已持有MU仓位，应先管理现有头寸而非新增风险。
+- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Kimi 2.5; Purpose: hold discipline; confidence 0.00. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Kimi 2.5；目的：观望纪律；置信度 0.00。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `BABA` (China internet) | score -0.20 | post-fee EV +1.56% | win 48.2%; `TSLA` (EV) | score -1.09 | post-fee EV -0.61% | win 57.0%; `QCOM` (semiconductor) | score -2.16 | post-fee EV -1.43% | win 62.1%. / 共检查 5 只活跃候选。靠前检查结果：`BABA`（中概互联网） | 评分 -0.20 | 扣费后 EV +1.56% | 胜率 48.2%；`TSLA`（电动车） | 评分 -1.09 | 扣费后 EV -0.61% | 胜率 57.0%；`QCOM`（半导体） | 评分 -2.16 | 扣费后 EV -1.43% | 胜率 62.1%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
