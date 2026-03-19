@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-19 22:13:11 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-19 22:18:58 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-19 22:13:11 CST`
 | --- | --- |
 | Day / 当前天数 | `10 / 30` (33.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,802.92 |
-| Net PnL / 累计盈亏 | -HKD 197.08 |
+| Current equity / 当前权益 | HKD 4,801.44 |
+| Net PnL / 累计盈亏 | -HKD 198.56 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-19 22:12:56 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-19 22:18:43 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 12.93
+- Floating PnL / 当前浮动盈亏: -HKD 14.41
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `11` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-19.md](./docs/public-monitor/2026/2026-03-19.md)
@@ -52,17 +52,17 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 5 trade(s) per hour, with a 8% cash reserve and HKD 5000 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 5 笔，并保留 8% 现金缓冲，单日亏损达到 HKD 5000 即停止扩张。
-- Live pools today / 今日实盘池: US: `BABA`, `TSLA`, `QCOM`, `AMD` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
+- Live pools today / 今日实盘池: US: `BABA`, `ORCL`, `TSLA`, `QCOM` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `BABA`, still showed score -0.20, post-fee EV +1.56%, and win probability 48.2%. / 市场处于高波动区间，BABA单日大跌8%存在破位风险，不宜接飞刀；TSLA与QCOM的费后预期收益为负，缺乏明确边际。当前已持有MU仓位，应先管理现有头寸而非新增风险。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -1.07, post-fee EV -0.59%, and win probability 56.9%. / 研究链路未稳定返回，但当前最高候选 TSLA 的费后 EV 为 -0.59% ，仍低于 live 开仓门槛 0.80% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `BABA`, still showed score -0.20, post-fee EV +1.56%, and win probability 48.2%. / 市场处于高波动区间，BABA单日大跌8%存在破位风险，不宜接飞刀；TSLA与QCOM的费后预期收益为负，缺乏明确边际。当前已持有MU仓位，应先管理现有头寸而非新增风险。
-- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Kimi 2.5; Purpose: hold discipline; confidence 0.00. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Kimi 2.5；目的：观望纪律；置信度 0.00。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `BABA` (China internet) | score -0.20 | post-fee EV +1.56% | win 48.2%; `TSLA` (EV) | score -1.09 | post-fee EV -0.61% | win 57.0%; `QCOM` (semiconductor) | score -2.16 | post-fee EV -1.43% | win 62.1%. / 共检查 5 只活跃候选。靠前检查结果：`BABA`（中概互联网） | 评分 -0.20 | 扣费后 EV +1.56% | 胜率 48.2%；`TSLA`（电动车） | 评分 -1.09 | 扣费后 EV -0.61% | 胜率 57.0%；`QCOM`（半导体） | 评分 -2.16 | 扣费后 EV -1.43% | 胜率 62.1%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -1.07, post-fee EV -0.59%, and win probability 56.9%. / 研究链路未稳定返回，但当前最高候选 TSLA 的费后 EV 为 -0.59% ，仍低于 live 开仓门槛 0.80% ，按小账户费后纪律继续 HOLD。
+- Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：高波动；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `TSLA` (EV) | score -1.07 | post-fee EV -0.59% | win 56.9%; `BABA` (China internet) | score -1.20 | post-fee EV +0.55% | win 48.2%; `QCOM` (semiconductor) | score -2.11 | post-fee EV -1.38% | win 62.4%. / 共检查 5 只活跃候选。靠前检查结果：`TSLA`（电动车） | 评分 -1.07 | 扣费后 EV -0.59% | 胜率 56.9%；`BABA`（中概互联网） | 评分 -1.20 | 扣费后 EV +0.55% | 胜率 48.2%；`QCOM`（半导体） | 评分 -2.11 | 扣费后 EV -1.38% | 胜率 62.4%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
