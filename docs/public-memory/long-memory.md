@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-20 04:46:12 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-20 05:02:22 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -79,15 +79,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
 
-## missed_opportunity_AMD
-
-**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `AMD`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-20
-**Dates / 出现日期**: 2026-03-20
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
-
 ## sell_too_early_BABA
 
 **Lesson / 教训**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
@@ -105,3 +96,12 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+
+## positive_followthrough_buy_1211.HK
+
+**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-16
+**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
