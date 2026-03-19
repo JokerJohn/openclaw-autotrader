@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-19 23:20:17 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-19 23:33:57 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 28
+**Total Evidence Points / 累计证据点**: 29
 
 ## skipped_decision_still_needs_context
 
@@ -42,6 +42,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-11, 2026-03-14, 2026-03-16
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+## event_market_gate_first
+
+**Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
+**Scope / 作用域**: `event_layer`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-19
+**Dates / 出现日期**: 2026-03-14, 2026-03-19
+**Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## oversized_MU
 
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
-
-## event_market_gate_first
-
-**Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
-**Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-14
-**Dates / 出现日期**: 2026-03-14
-**Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`

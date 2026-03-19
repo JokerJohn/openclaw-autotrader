@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-19 23:20:17 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-19 23:33:57 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -153,19 +153,19 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-03-19
 
-**Summary / 摘要**: 2026-03-19 共 27 次计划、1 次成交、0 次换汇记录，对账权益 HKD 4,797.99，对账累计盈亏 HKD -202.01，对账未实现盈亏 HKD -17.85。
+**Summary / 摘要**: 2026-03-19 共 28 次计划、1 次成交、0 次换汇记录，对账权益 HKD 4,780.46，对账累计盈亏 HKD -219.54，对账未实现盈亏 HKD -35.38。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 27 |
+| Decision Count / 决策次数 | 28 |
 | Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 39 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 4,797.99 |
-| End Net PnL / 结束累计盈亏 | HKD -202.01 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD -17.85 |
+| End Equity / 结束权益 | HKD 4,780.46 |
+| End Net PnL / 结束累计盈亏 | HKD -219.54 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD -35.38 |
 | Trade Episodes / 交易片段 | 1 |
 
 **Recent Trade Episodes / 最近交易片段**
@@ -181,6 +181,9 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **skipped_decision_still_needs_context**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
   - Tags / 标签: `ops:decision-output, ux:skip-context, memory:decision-explain`
+
+- **event_market_gate_first**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
+  - Tags / 标签: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 - **sell_too_early_BABA**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
   - Tags / 标签: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
