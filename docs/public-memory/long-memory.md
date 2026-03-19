@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-03-19 23:52:31 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-20 00:08:38 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 29
+**Total Evidence Points / 累计证据点**: 30
 
 ## skipped_decision_still_needs_context
 
@@ -42,6 +42,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-11, 2026-03-14, 2026-03-16
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+## sell_too_early_BABA
+
+**Lesson / 教训**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
+**Scope / 作用域**: `BABA`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-03-20
+**Dates / 出现日期**: 2026-03-19, 2026-03-20
+**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
 
 ## event_market_gate_first
 
@@ -78,15 +87,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-13
 **Dates / 出现日期**: 2026-03-12, 2026-03-13
 **Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
-
-## sell_too_early_BABA
-
-**Lesson / 教训**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
-**Scope / 作用域**: `BABA`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-19
-**Dates / 出现日期**: 2026-03-19
-**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
 
 ## missed_opportunity_1211.HK
 

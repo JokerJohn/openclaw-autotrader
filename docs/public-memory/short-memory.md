@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-03-19 23:52:31 CST (UTC+08:00)
+Updated / 更新时间: 2026-03-20 00:08:38 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -11,32 +11,6 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 - decision, submission, and fill counts / 决策、下单和成交次数
 - a compact end-of-day equity and cumulative pnl snapshot / 简洁的日终权益与累计盈亏快照
 - day-level lessons worth carrying forward / 值得带到下一天的日级经验
-
-## 2026-03-15
-
-**Summary / 摘要**: 2026-03-15 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,889.42，对账累计盈亏 HKD -110.58，对账未实现盈亏 HKD -18.54。
-
-| Metric / 指标 | Value / 数值 |
-| --- | --- |
-| Decision Count / 决策次数 | 0 |
-| Order Submissions / 提交订单 | 0 |
-| Filled Trades / 成交笔数 | 0 |
-| FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 14 |
-| Latest Decision / 最新决策 | 无 |
-| End Equity / 结束权益 | HKD 4,889.42 |
-| End Net PnL / 结束累计盈亏 | HKD -110.58 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD -18.54 |
-| Trade Episodes / 交易片段 | 0 |
-
-**Reconciliation / 对账状态**: 已通过 Tiger API 对账
-
-**Lessons Learned / 提取教训**
-
-- **missed_opportunity_AAOI**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-  - Tags / 标签: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:semiconductor, theme:存储, theme:NAND, theme:半导体, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
-
----
 
 ## 2026-03-16
 
@@ -161,7 +135,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 39 |
+| Benchmarks / 基准快照 | 40 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
 | End Equity / 结束权益 | HKD 4,772.20 |
 | End Net PnL / 结束累计盈亏 | HKD -227.80 |
@@ -184,6 +158,32 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **event_market_gate_first**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
   - Tags / 标签: `event:market-gate, risk:macro-politics, memory:event-layer`
+
+- **sell_too_early_BABA**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
+  - Tags / 标签: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
+
+---
+
+## 2026-03-20
+
+**Summary / 摘要**: 2026-03-20 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,763.23，对账累计盈亏 HKD -236.77，对账未实现盈亏 HKD -35.83。
+
+| Metric / 指标 | Value / 数值 |
+| --- | --- |
+| Decision Count / 决策次数 | 0 |
+| Order Submissions / 提交订单 | 0 |
+| Filled Trades / 成交笔数 | 0 |
+| FX Events / 换汇记录 | 0 |
+| Benchmarks / 基准快照 | 12 |
+| Latest Decision / 最新决策 | 无 |
+| End Equity / 结束权益 | HKD 4,763.23 |
+| End Net PnL / 结束累计盈亏 | HKD -236.77 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD -35.83 |
+| Trade Episodes / 交易片段 | 0 |
+
+**Reconciliation / 对账状态**: 已通过 Tiger API 对账
+
+**Lessons Learned / 提取教训**
 
 - **sell_too_early_BABA**: BABA 最近卖出后继续上行，后续止盈/降仓需要更重视趋势延续和分批退出。
   - Tags / 标签: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`

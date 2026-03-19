@@ -1,11 +1,11 @@
-![Day 10 Poster](./docs/assets/challenge-poster.svg)
+![Day 11 Poster](./docs/assets/challenge-poster.svg)
 
 # 30-Day OpenClaw AutoTrader Challenge
 
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-19 23:52:09 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-20 00:08:20 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -17,12 +17,12 @@ Last synced by decision / 决策触发同步时间: `2026-03-19 23:52:09 CST`
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `10 / 30` (33.3%) |
+| Day / 当前天数 | `11 / 30` (36.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,772.04 |
-| Net PnL / 累计盈亏 | -HKD 227.96 |
-| Open positions / 当前持仓标的 | 1 open: `MU` |
-| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
+| Current equity / 当前权益 | HKD 4,763.29 |
+| Net PnL / 累计盈亏 | -HKD 236.71 |
+| Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
+| Latest move / 最新动作 | HOLD |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,13 +40,13 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-19 23:51:44 CST (UTC+08:00)
-- Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 43.81
-- Latest decision / 最新决策: [US] HOLD / [US] 观望
-- Next milestone / 下一阶段: Day `11` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-19.md](./docs/public-monitor/2026/2026-03-19.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-19.md](./docs/daily-reports/2026/2026-03-19.md)
+- Updated / 更新时间: 2026-03-20 00:08:01 CST (UTC+08:00)
+- Current book / 当前组合: No live positions / 暂无公开持仓
+- Floating PnL / 当前浮动盈亏: -HKD 35.77
+- Latest decision / 最新决策: 
+- Next milestone / 下一阶段: Day `12` of `30`
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-20.md](./docs/public-monitor/2026/2026-03-20.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-20.md](./docs/daily-reports/2026/2026-03-20.md)
 
 ## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
 
@@ -55,15 +55,15 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AVGO`, `BABA`, `MU`, `NVDA` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -6.74, post-fee EV -2.86%, and win probability 53.6%. / 全市场 fresh BUY 被事件层封锁（地缘风险+航运扰动）。所有候选标的费后预期收益均为负值（QCOM -2.86%、BABA -1.19%、AVGO -2.24%），无开仓价值。现有 MU 持仓为极小残余仓位（0.415股），无需调仓。
+- Latest gate result / 最新门槛结论: No public gate summary yet / 暂无公开门槛结论。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -6.74, post-fee EV -2.86%, and win probability 53.6%. / 全市场 fresh BUY 被事件层封锁（地缘风险+航运扰动）。所有候选标的费后预期收益均为负值（QCOM -2.86%、BABA -1.19%、AVGO -2.24%），无开仓价值。现有 MU 持仓为极小残余仓位（0.415股），无需调仓。
-- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Kimi 2.5; Purpose: hold discipline; confidence 0.95. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Kimi 2.5；目的：观望纪律；置信度 0.95。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `QCOM` (semiconductor) | score -6.74 | post-fee EV -2.86% | win 53.6%; `BABA` (China internet) | score -6.82 | post-fee EV -1.19% | win 40.5%; `AVGO` (semiconductor) | score -6.95 | post-fee EV -2.24% | win 52.1%. / 共检查 5 只活跃候选。靠前检查结果：`QCOM`（半导体） | 评分 -6.74 | 扣费后 EV -2.86% | 胜率 53.6%；`BABA`（中概互联网） | 评分 -6.82 | 扣费后 EV -1.19% | 胜率 40.5%；`AVGO`（半导体） | 评分 -6.95 | 扣费后 EV -2.24% | 胜率 52.1%。
-- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
+- Result / 结果: 
+- Rationale / 理由: No public rationale available. / 暂无公开理由。
+- Decision basis / 决策依据: No public decision basis yet. / 暂无公开决策依据。
+- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
+- Watch next / 下一步观察: No public risk note. / 暂无公开风险提示。
 
 ## Core Rules / 基本规则
 
