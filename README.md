@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-20 21:42:43 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-20 21:44:55 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-03-20 21:42:43 CST`
 | --- | --- |
 | Day / 当前天数 | `11 / 30` (36.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,803.98 |
-| Net PnL / 累计盈亏 | -HKD 196.02 |
+| Current equity / 当前权益 | HKD 4,804.80 |
+| Net PnL / 累计盈亏 | -HKD 195.20 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
-| Latest move / 最新动作 | [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会） |
+| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-20 21:42:20 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-20 21:44:33 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 10.31
-- Latest decision / 最新决策: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
+- Floating PnL / 当前浮动盈亏: -HKD 9.49
+- Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `12` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-20.md](./docs/public-monitor/2026/2026-03-20.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-03-20.md](./docs/daily-reports/2026/2026-03-20.md)
@@ -55,15 +55,15 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AVGO`, `NVDA`, `MU`, `QCOM` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -7.17, post-fee EV -2.86%, and win probability 54.0%. / 研究链路未稳定返回，但当前最高候选 QCOM 的费后 EV 为 -2.86% ，仍低于 live 开仓门槛 3.28% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
-- Rationale / 理由: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
-- Decision basis / 决策依据: Regime: unavailable; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.00。
-- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Result / 结果: [US] HOLD / [US] 观望
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -7.17, post-fee EV -2.86%, and win probability 54.0%. / 研究链路未稳定返回，但当前最高候选 QCOM 的费后 EV 为 -2.86% ，仍低于 live 开仓门槛 3.28% ，按小账户费后纪律继续 HOLD。
+- Decision basis / 决策依据: Regime: mixed tape; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：混合状态；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `QCOM` (semiconductor) | score -7.17 | post-fee EV -2.86% | win 54.0%; `AVGO` (semiconductor) | score -7.27 | post-fee EV -2.60% | win 52.3%; `NVDA` (semiconductor) | score -7.36 | post-fee EV -2.69% | win 50.9%. / 共检查 5 只活跃候选。靠前检查结果：`QCOM`（半导体） | 评分 -7.17 | 扣费后 EV -2.86% | 胜率 54.0%；`AVGO`（半导体） | 评分 -7.27 | 扣费后 EV -2.60% | 胜率 52.3%；`NVDA`（半导体） | 评分 -7.36 | 扣费后 EV -2.69% | 胜率 50.9%。
+- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
 
