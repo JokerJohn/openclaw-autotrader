@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-24 03:22:35 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-24 03:27:26 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-24 03:22:35 CST`
 | --- | --- |
 | Day / 当前天数 | `15 / 30` (50.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,654.74 |
-| Net PnL / 累计盈亏 | -HKD 345.26 |
+| Current equity / 当前权益 | HKD 4,656.44 |
+| Net PnL / 累计盈亏 | -HKD 343.56 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-24 03:21:29 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-24 03:26:33 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 144.32
+- Floating PnL / 当前浮动盈亏: -HKD 142.62
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `16` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-24.md](./docs/public-monitor/2026/2026-03-24.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `NVDA`, `AAPL`, `AMZN`, `META` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -6.38, post-fee EV -2.55%, and win probability 60.2%. / 比较结论已指向HOLD；NVDA/AMD/QCOM虽有相对强弱，但费后EV分别为-2.1038%/-2.5458%/-3.3835%，全部为负，且显著低于3.2745%的最低预期边际，当前开新仓不能最大化口袋费后收益。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -6.51, post-fee EV -2.68%, and win probability 58.7%. / 比较阶段已给出HOLD，且最新事件层对全市场新开仓仍是block_new_buys=true；NVDA/AMD/QCOM虽有相对强弱，但费后EV分别为-2.15%/-2.6795%/-3.323%，全部低于最小预期边际3.2745%，当前不开新仓更符合费后收益最大化。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -6.38, post-fee EV -2.55%, and win probability 60.2%. / 比较结论已指向HOLD；NVDA/AMD/QCOM虽有相对强弱，但费后EV分别为-2.1038%/-2.5458%/-3.3835%，全部为负，且显著低于3.2745%的最低预期边际，当前开新仓不能最大化口袋费后收益。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -6.51, post-fee EV -2.68%, and win probability 58.7%. / 比较阶段已给出HOLD，且最新事件层对全市场新开仓仍是block_new_buys=true；NVDA/AMD/QCOM虽有相对强弱，但费后EV分别为-2.15%/-2.6795%/-3.323%，全部低于最小预期边际3.2745%，当前不开新仓更符合费后收益最大化。
 - Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: gpt-5.4; Purpose: hold discipline; confidence 0.97. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：gpt-5.4；目的：观望纪律；置信度 0.97。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -6.38 | post-fee EV -2.55% | win 60.2%; `NVDA` (semiconductor) | score -6.75 | post-fee EV -2.10% | win 60.3%; `QCOM` (semiconductor) | score -7.31 | post-fee EV -3.38% | win 50.7%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -6.38 | 扣费后 EV -2.55% | 胜率 60.2%；`NVDA`（半导体） | 评分 -6.75 | 扣费后 EV -2.10% | 胜率 60.3%；`QCOM`（半导体） | 评分 -7.31 | 扣费后 EV -3.38% | 胜率 50.7%。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -6.51 | post-fee EV -2.68% | win 58.7%; `NVDA` (semiconductor) | score -6.80 | post-fee EV -2.15% | win 59.8%; `QCOM` (semiconductor) | score -7.25 | post-fee EV -3.32% | win 51.3%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -6.51 | 扣费后 EV -2.68% | 胜率 58.7%；`NVDA`（半导体） | 评分 -6.80 | 扣费后 EV -2.15% | 胜率 59.8%；`QCOM`（半导体） | 评分 -7.25 | 扣费后 EV -3.32% | 胜率 51.3%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
