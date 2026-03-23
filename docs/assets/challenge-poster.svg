@@ -29,8 +29,8 @@
   <text x="96" y="546" fill="#7FA9C8" font-family="Arial, Helvetica, sans-serif" font-size="24">看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。</text>
   <rect x="96" y="612" width="440" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
   <text x="126" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Episode</text>
-  <text x="126" y="708" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Waiting for the Tide</text>
-  <text x="126" y="754" fill="#9EC1DB" font-family="Arial, Helvetica, sans-serif" font-size="24">Holdings: No public positions</text>
+  <text x="126" y="708" fill="#F8FAFC" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">Holding the Current</text>
+  <text x="126" y="754" fill="#9EC1DB" font-family="Arial, Helvetica, sans-serif" font-size="24">Holdings: MU</text>
   <rect x="574" y="612" width="290" height="180" rx="28" fill="url(#card)" stroke="#21496B" stroke-width="2"/>
   <text x="604" y="662" fill="#FFB06B" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Current Equity</text>
   <text x="604" y="732" textLength="220" lengthAdjust="spacingAndGlyphs" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">HK$ 4,726.26</text>
