@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-23 21:47:44 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-23 22:05:00 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-23 21:47:44 CST`
 | --- | --- |
 | Day / 当前天数 | `14 / 30` (46.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,725.11 |
-| Net PnL / 累计盈亏 | -HKD 274.89 |
+| Current equity / 当前权益 | HKD 4,712.12 |
+| Net PnL / 累计盈亏 | -HKD 287.88 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-23 21:47:06 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-23 22:04:20 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 89.82
+- Floating PnL / 当前浮动盈亏: -HKD 102.80
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `15` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-23.md](./docs/public-monitor/2026/2026-03-23.md)
@@ -52,7 +52,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 0 trade(s) per hour, with a 0% cash reserve and HKD 0 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 0 笔，并保留 0% 现金缓冲，单日亏损达到 HKD 0 即停止扩张。
-- Live pools today / 今日实盘池: US: `NVDA`, `AMZN`, `MU`, `QCOM` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
+- Live pools today / 今日实盘池: US: `NVDA`, `AMZN`, `AAPL`, `META` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
 - Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -5.18, post-fee EV -2.06%, and win probability 63.6%. / 研究链路未稳定返回，但当前最高候选 QCOM 的费后 EV 为 -2.06% ，仍低于 live 开仓门槛 3.28% ，按小账户费后纪律继续 HOLD。
