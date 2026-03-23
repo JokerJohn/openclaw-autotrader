@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-24 01:17:09 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-24 01:29:56 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-24 01:17:09 CST`
 | --- | --- |
 | Day / 当前天数 | `15 / 30` (50.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,643.94 |
-| Net PnL / 累计盈亏 | -HKD 356.06 |
+| Current equity / 当前权益 | HKD 4,648.56 |
+| Net PnL / 累计盈亏 | -HKD 351.44 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-24 01:16:00 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-24 01:29:10 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 155.12
+- Floating PnL / 当前浮动盈亏: -HKD 150.51
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `16` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-24.md](./docs/public-monitor/2026/2026-03-24.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `NVDA`, `AAPL`, `AMZN`, `AMD` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.30, post-fee EV -2.26%, and win probability 61.3%. / 市场级event gate仍阻断新开仓，且NVDA/AMD/QCOM三者费后EV分别约-2.00%/-2.26%/-2.91%，全部低于0，更明显低于3.2745%的最低预期边际；比较后最高质量仍是空仓等待。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `NVDA`, still showed score -7.08, post-fee EV -2.41%, and win probability 55.4%. / comparison_stage已指向HOLD，且最新事件层market_blocked=true；NVDA/AAPL/AMD虽然盘中走强，但费后EV分别为-2.4069%/-2.4891%/-2.7523%，全部低于0，更远低于3.2745%的最低预期边际，当前不值得为追涨支付费用。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.30, post-fee EV -2.26%, and win probability 61.3%. / 市场级event gate仍阻断新开仓，且NVDA/AMD/QCOM三者费后EV分别约-2.00%/-2.26%/-2.91%，全部低于0，更明显低于3.2745%的最低预期边际；比较后最高质量仍是空仓等待。
-- Decision basis / 决策依据: Regime: upward momentum; Path: compare-stage hold review; Model: gpt-5.4; Purpose: hold discipline; confidence 0.88. / 市场状态：上行动量；决策链路：候选比较后维持观望；模型：gpt-5.4；目的：观望纪律；置信度 0.88。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -5.30 | post-fee EV -2.26% | win 61.3%; `QCOM` (semiconductor) | score -6.03 | post-fee EV -2.91% | win 53.4%; `NVDA` (semiconductor) | score -6.54 | post-fee EV -2.00% | win 62.1%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -5.30 | 扣费后 EV -2.26% | 胜率 61.3%；`QCOM`（半导体） | 评分 -6.03 | 扣费后 EV -2.91% | 胜率 53.4%；`NVDA`（半导体） | 评分 -6.54 | 扣费后 EV -2.00% | 胜率 62.1%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `NVDA`, still showed score -7.08, post-fee EV -2.41%, and win probability 55.4%. / comparison_stage已指向HOLD，且最新事件层market_blocked=true；NVDA/AAPL/AMD虽然盘中走强，但费后EV分别为-2.4069%/-2.4891%/-2.7523%，全部低于0，更远低于3.2745%的最低预期边际，当前不值得为追涨支付费用。
+- Decision basis / 决策依据: Regime: mixed tape; Path: compare-stage hold review; Model: gpt-5.4; Purpose: hold discipline; confidence 0.95. / 市场状态：混合状态；决策链路：候选比较后维持观望；模型：gpt-5.4；目的：观望纪律；置信度 0.95。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `NVDA` (semiconductor) | score -7.08 | post-fee EV -2.41% | win 55.4%; `AMD` (semiconductor) | score -7.11 | post-fee EV -2.75% | win 55.3%; `AAPL` (consumer hardware) | score -7.39 | post-fee EV -2.49% | win 54.1%. / 共检查 5 只活跃候选。靠前检查结果：`NVDA`（半导体） | 评分 -7.08 | 扣费后 EV -2.41% | 胜率 55.4%；`AMD`（半导体） | 评分 -7.11 | 扣费后 EV -2.75% | 胜率 55.3%；`AAPL`（消费硬件） | 评分 -7.39 | 扣费后 EV -2.49% | 胜率 54.1%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
