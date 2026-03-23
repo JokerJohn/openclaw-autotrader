@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-24 01:34:50 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-24 01:52:39 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-03-24 01:34:50 CST`
 | --- | --- |
 | Day / 当前天数 | `15 / 30` (50.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,649.19 |
-| Net PnL / 累计盈亏 | -HKD 350.81 |
+| Current equity / 当前权益 | HKD 4,649.07 |
+| Net PnL / 累计盈亏 | -HKD 350.93 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-24 01:34:00 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-24 01:51:55 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 149.87
+- Floating PnL / 当前浮动盈亏: -HKD 149.99
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `16` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-24.md](./docs/public-monitor/2026/2026-03-24.md)
@@ -52,7 +52,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 - Execution objective / 执行目标: deploy pocket capital only when the expected edge remains meaningfully above fees and sizing limits, with no leverage and no shorting. 仅在预期优势明显高于手续费且满足仓位上限时动用口袋资金，不加杠杆、不做空。
 - Session discipline / 时段纪律: live decisions stay inside regular sessions, capped at 0 trade(s) per hour, with a 0% cash reserve and HKD 0 daily loss stop. 实盘决策仅在常规交易时段内执行，每小时最多 0 笔，并保留 0% 现金缓冲，单日亏损达到 HKD 0 即停止扩张。
-- Live pools today / 今日实盘池: US: `NVDA`, `AAPL`, `AMZN`, `META` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
+- Live pools today / 今日实盘池: US: `NVDA`, `AAPL`, `AMZN`, `MU` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
 - Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `NVDA`, still showed score -7.08, post-fee EV -2.41%, and win probability 55.4%. / comparison_stage已指向HOLD，且最新事件层market_blocked=true；NVDA/AAPL/AMD虽然盘中走强，但费后EV分别为-2.4069%/-2.4891%/-2.7523%，全部低于0，更远低于3.2745%的最低预期边际，当前不值得为追涨支付费用。
