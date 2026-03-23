@@ -1,11 +1,11 @@
-![Day 14 Poster](./docs/assets/challenge-poster.svg)
+![Day 15 Poster](./docs/assets/challenge-poster.svg)
 
 # 30-Day OpenClaw AutoTrader Challenge
 
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-23 23:52:24 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-24 00:06:28 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -17,10 +17,10 @@ Last synced by decision / 决策触发同步时间: `2026-03-23 23:52:24 CST`
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `14 / 30` (46.7%) |
+| Day / 当前天数 | `15 / 30` (50.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,677.05 |
-| Net PnL / 累计盈亏 | -HKD 322.95 |
+| Current equity / 当前权益 | HKD 4,649.54 |
+| Net PnL / 累计盈亏 | -HKD 350.46 |
 | Open positions / 当前持仓标的 | 1 open: `MU` |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,13 +40,13 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-23 23:51:45 CST (UTC+08:00)
+- Updated / 更新时间: 2026-03-24 00:05:42 CST (UTC+08:00)
 - Current book / 当前组合: `MU`
-- Floating PnL / 当前浮动盈亏: -HKD 137.87
+- Floating PnL / 当前浮动盈亏: -HKD 149.52
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
-- Next milestone / 下一阶段: Day `15` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-23.md](./docs/public-monitor/2026/2026-03-23.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-23.md](./docs/daily-reports/2026/2026-03-23.md)
+- Next milestone / 下一阶段: Day `16` of `30`
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-03-24.md](./docs/public-monitor/2026/2026-03-24.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-03-24.md](./docs/daily-reports/2026/2026-03-24.md)
 
 ## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
 
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `NVDA`, `AMZN`, `AAPL`, `AMD` | HK: none / 暂无. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes No public theme focus / 暂无公开主题; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 No public theme focus / 暂无公开主题，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: none / 暂无 stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.15, post-fee EV -2.11%, and win probability 63.0%. / 比较阶段已给出HOLD，且当前候选里NVDA/AMD/QCOM费后EV分别约-1.92%/-2.11%/-2.63%，全部低于本轮最小预期边际3.2805%。同时市场级event gate仍命中，阻断新开仓；在混合市况下，强行追半导体只会把小仓优势让给手续费。现有MU持仓缺少实时劣化证据，暂不做被动卖出。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.53, post-fee EV -2.49%, and win probability 58.5%. / 研究链路未稳定返回，但当前最高候选 AMD 的费后 EV 为 -2.49% ，仍低于 live 开仓门槛 3.27% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.15, post-fee EV -2.11%, and win probability 63.0%. / 比较阶段已给出HOLD，且当前候选里NVDA/AMD/QCOM费后EV分别约-1.92%/-2.11%/-2.63%，全部低于本轮最小预期边际3.2805%。同时市场级event gate仍命中，阻断新开仓；在混合市况下，强行追半导体只会把小仓优势让给手续费。现有MU持仓缺少实时劣化证据，暂不做被动卖出。
-- Decision basis / 决策依据: Regime: upward momentum; Path: compare-stage hold review; Model: gpt-5.4; Purpose: hold discipline; confidence 0.96. / 市场状态：上行动量；决策链路：候选比较后维持观望；模型：gpt-5.4；目的：观望纪律；置信度 0.96。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -5.15 | post-fee EV -2.11% | win 63.0%; `QCOM` (semiconductor) | score -5.74 | post-fee EV -2.63% | win 56.9%; `NVDA` (semiconductor) | score -6.46 | post-fee EV -1.92% | win 63.3%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -5.15 | 扣费后 EV -2.11% | 胜率 63.0%；`QCOM`（半导体） | 评分 -5.74 | 扣费后 EV -2.63% | 胜率 56.9%；`NVDA`（半导体） | 评分 -6.46 | 扣费后 EV -1.92% | 胜率 63.3%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -5.53, post-fee EV -2.49%, and win probability 58.5%. / 研究链路未稳定返回，但当前最高候选 AMD 的费后 EV 为 -2.49% ，仍低于 live 开仓门槛 3.27% ，按小账户费后纪律继续 HOLD。
+- Decision basis / 决策依据: Regime: upward momentum; Path: standard decision flow; Model: gpt-5.4; Purpose: standard review; confidence 0.22. / 市场状态：上行动量；决策链路：常规决策链路；模型：gpt-5.4；目的：常规审查；置信度 0.22。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -5.53 | post-fee EV -2.49% | win 58.5%; `QCOM` (semiconductor) | score -5.99 | post-fee EV -2.88% | win 53.8%; `NVDA` (semiconductor) | score -6.60 | post-fee EV -2.06% | win 61.1%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -5.53 | 扣费后 EV -2.49% | 胜率 58.5%；`QCOM`（半导体） | 评分 -5.99 | 扣费后 EV -2.88% | 胜率 53.8%；`NVDA`（半导体） | 评分 -6.60 | 扣费后 EV -2.06% | 胜率 61.1%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
