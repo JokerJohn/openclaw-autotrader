@@ -21,7 +21,7 @@ A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
 | 14 | 2026-03-23 | Holding the Current | Holding through the session: `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-23.md) |
 | 15 | 2026-03-24 | Holding the Current | Holding through the session: `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-24.md) |
 | 16 | 2026-03-25 | Holding the Current | Holding through the session: `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-25.md) |
-| 17 | 2026-03-26 | Holding the Current | Holding through the session: `MU` / 会话结束仍在持有 | pending |
+| 17 | 2026-03-26 | Holding the Current | Holding through the session: `MU` / 会话结束仍在持有 | [report](./daily-reports/2026/2026-03-26.md) |
 | 18 | 2026-03-27 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 19 | 2026-03-28 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 20 | 2026-03-29 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
