@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-03-25 23:17:19 CST`
+Last synced by decision / 决策触发同步时间: `2026-03-25 23:26:36 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-03-25 23:17:19 CST
+- Updated / 更新时间: 2026-03-25 23:26:36 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: -HKD 239.31
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.11, post-fee EV -0.10%, and win probability 64.9%. / compare stage 已确认当前不值得开新风险，直接维持 HOLD。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -0.36, post-fee EV +0.13%, and win probability 67.7%. / 比较阶段已偏向HOLD；TSLA虽排名第一，但费后EV仅0.13%，local_score为负，且盈亏比仅约0.63，未过fresh live门槛，也未满足learning probe所需的score与reward-risk条件。QCOM、RIVN费后EV为负，继续等待优于强行开仓。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.11, post-fee EV -0.10%, and win probability 64.9%. / compare stage 已确认当前不值得开新风险，直接维持 HOLD。
-- Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: gpt-5.4; Purpose: standard review; confidence 0.36. / 市场状态：高波动；决策链路：常规决策链路；模型：gpt-5.4；目的：常规审查；置信度 0.36。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `QCOM` (semiconductor) | score -1.11 | post-fee EV -0.10% | win 64.9%; `RIVN` (EV) | score -1.69 | post-fee EV -0.80% | win 60.1%; `TSM` (semiconductor) | score -1.81 | post-fee EV -0.12% | win 62.0%. / 共检查 5 只活跃候选。靠前检查结果：`QCOM`（半导体） | 评分 -1.11 | 扣费后 EV -0.10% | 胜率 64.9%；`RIVN`（电动车） | 评分 -1.69 | 扣费后 EV -0.80% | 胜率 60.1%；`TSM`（半导体） | 评分 -1.81 | 扣费后 EV -0.12% | 胜率 62.0%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -0.36, post-fee EV +0.13%, and win probability 67.7%. / 比较阶段已偏向HOLD；TSLA虽排名第一，但费后EV仅0.13%，local_score为负，且盈亏比仅约0.63，未过fresh live门槛，也未满足learning probe所需的score与reward-risk条件。QCOM、RIVN费后EV为负，继续等待优于强行开仓。
+- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: gpt-5.4; Purpose: hold discipline; confidence 0.78. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：gpt-5.4；目的：观望纪律；置信度 0.78。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `TSLA` (EV) | score -0.36 | post-fee EV +0.13% | win 67.7%; `QCOM` (semiconductor) | score -1.38 | post-fee EV -0.37% | win 64.0%; `RIVN` (EV) | score -1.81 | post-fee EV -0.92% | win 52.8%. / 共检查 5 只活跃候选。靠前检查结果：`TSLA`（电动车） | 评分 -0.36 | 扣费后 EV +0.13% | 胜率 67.7%；`QCOM`（半导体） | 评分 -1.38 | 扣费后 EV -0.37% | 胜率 64.0%；`RIVN`（电动车） | 评分 -1.81 | 扣费后 EV -0.92% | 胜率 52.8%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
