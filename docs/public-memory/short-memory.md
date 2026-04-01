@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-01 21:46:47 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-01 21:54:37 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -114,13 +114,13 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-01
 
-**Summary / 摘要**: 2026-04-01 共 13 次计划、0 次成交、0 次换汇记录，但未通过 Tiger API 对账，收益/盈亏数据不纳入复盘结论与交易记忆。
+**Summary / 摘要**: 2026-04-01 共 13 次计划、1 次成交、0 次换汇记录，但未通过 Tiger API 对账，收益/盈亏数据不纳入复盘结论与交易记忆。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
 | Decision Count / 决策次数 | 13 |
 | Order Submissions / 提交订单 | 0 |
-| Filled Trades / 成交笔数 | 0 |
+| Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 0 |
 | Latest Decision / 最新决策 | [US] 跳过决策 |
