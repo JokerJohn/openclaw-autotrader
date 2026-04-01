@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-01 23:55:23 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-02 00:19:29 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,15 +14,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 51
+**Total Evidence Points / 累计证据点**: 50
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
 **Evidence Count / 证据次数**: 18
-**Last Seen / 最后出现**: 2026-04-01
-**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-14, 2026-03-16, 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-22, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01
+**Last Seen / 最后出现**: 2026-04-02
+**Dates / 出现日期**: 2026-03-13, 2026-03-14, 2026-03-16, 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-22, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
@@ -30,8 +30,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
 **Evidence Count / 证据次数**: 16
-**Last Seen / 最后出现**: 2026-04-01
-**Dates / 出现日期**: 2026-03-12, 2026-03-13, 2026-03-16, 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01
+**Last Seen / 最后出现**: 2026-04-02
+**Dates / 出现日期**: 2026-03-13, 2026-03-16, 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## event_market_gate_first
@@ -70,15 +70,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-14, 2026-03-15
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:semiconductor, theme:存储, theme:NAND, theme:半导体, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
-## hk_symbol_must_be_normalized
-
-**Lesson / 教训**: Tiger 港股行情和下单必须先把本地 `.HK` symbol 规范化成 Tiger 五位 broker code（如 0388.HK -> 00388），否则 quote/contract lookup 会回零值或报不支持交易。
-**Scope / 作用域**: `execution`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-03-13
-**Dates / 出现日期**: 2026-03-12, 2026-03-13
-**Tags / 标签**: `execution:hk-symbol, execution:quote-normalization, execution:broker-contract`
-
 ## missed_opportunity_RIVN
 
 **Lesson / 教训**: RIVN 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -105,3 +96,12 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
+
+## positive_followthrough_buy_1211.HK
+
+**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `1211.HK`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-03-16
+**Dates / 出现日期**: 2026-03-16
+**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
