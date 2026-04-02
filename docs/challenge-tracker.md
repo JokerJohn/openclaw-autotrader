@@ -29,7 +29,7 @@ A day-by-day public index for the 30-Day OpenClaw AutoTrader Challenge.
 | 22 | 2026-03-31 | Waiting for the Tide | No fresh entry, claw stays patient / 暂无新开仓，claw 保持耐心 | [report](./daily-reports/2026/2026-03-31.md) |
 | 23 | 2026-04-01 | Waiting for the Tide | No fresh entry, claw stays patient / 暂无新开仓，claw 保持耐心 | [report](./daily-reports/2026/2026-04-01.md) |
 | 24 | 2026-04-02 | Waiting for the Tide | No fresh entry, claw stays patient / 暂无新开仓，claw 保持耐心 | [report](./daily-reports/2026/2026-04-02.md) |
-| 25 | 2026-04-03 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
+| 25 | 2026-04-03 | Waiting for the Tide | No fresh entry, claw stays patient / 暂无新开仓，claw 保持耐心 | pending |
 | 26 | 2026-04-04 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 27 | 2026-04-05 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
 | 28 | 2026-04-06 | Waiting for the Tide | Awaiting its market window / 等待出场 | pending |
