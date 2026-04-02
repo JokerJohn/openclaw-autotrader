@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-02 22:57:11 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-02 23:00:10 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -70,6 +70,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-03-14, 2026-03-15
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:semiconductor, theme:存储, theme:NAND, theme:半导体, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
+## cash_reserve_block
+
+**Lesson / 教训**: 现金不足会直接阻断后续决策与轮动，必须保留至少20%机动现金。
+**Scope / 作用域**: `portfolio`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-02
+**Dates / 出现日期**: 2026-04-02
+**Tags / 标签**: `portfolio:cash, risk:reserve`
+
 ## missed_opportunity_RIVN
 
 **Lesson / 教训**: RIVN 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-16
 **Dates / 出现日期**: 2026-03-16
 **Tags / 标签**: `action:hold, purpose:hold, market:hk, regime:momentum_up, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
-
-## positive_followthrough_buy_1211.HK
-
-**Lesson / 教训**: 1211.HK 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
-**Scope / 作用域**: `1211.HK`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-16
-**Dates / 出现日期**: 2026-03-16
-**Tags / 标签**: `action:buy, purpose:open, market:hk, regime:momentum_up, tier:satellite, sector:ev, theme:电动车, theme:动力电池, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade`
