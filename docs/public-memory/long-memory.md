@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-06 23:56:37 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-07 00:16:32 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,25 +13,25 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 7
-**Total Evidence Points / 累计证据点**: 43
+**Total Lessons / 教训总数**: 6
+**Total Evidence Points / 累计证据点**: 40
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 17
+**Evidence Count / 证据次数**: 16
 **Last Seen / 最后出现**: 2026-04-06
-**Dates / 出现日期**: 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-22, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06
+**Dates / 出现日期**: 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-22, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 16
+**Evidence Count / 证据次数**: 15
 **Last Seen / 最后出现**: 2026-04-06
-**Dates / 出现日期**: 2026-03-17, 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06
+**Dates / 出现日期**: 2026-03-18, 2026-03-19, 2026-03-20, 2026-03-21, 2026-03-23, 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## event_market_gate_first
@@ -69,12 +69,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-03-19
 **Dates / 出现日期**: 2026-03-19
 **Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:china_internet, theme:中概, theme:电商, theme:云, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:macro_rates`
-
-## oversized_MU
-
-**Lesson / 教训**: MU 仓位曾明显超限，后续应优先按分层减仓规则把风险拉回目标区间。
-**Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-03-17
-**Dates / 出现日期**: 2026-03-17
-**Tags / 标签**: `symbol:MU, market:us, risk:oversized`
