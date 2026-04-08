@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-08 22:52:59 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-08 23:08:05 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 7
-**Total Evidence Points / 累计证据点**: 43
+**Total Lessons / 教训总数**: 8
+**Total Evidence Points / 累计证据点**: 44
 
 ## skipped_decision_still_needs_context
 
@@ -60,6 +60,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-08
 **Dates / 出现日期**: 2026-04-08
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+## good_exit_MU
+
+**Lesson / 教训**: MU 最近的退出时点较有效，说明该类风险缩减纪律值得继续保留。
+**Scope / 作用域**: `MU`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-08
+**Dates / 出现日期**: 2026-04-08
+**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:存储, theme:HBM, theme:半导体, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict`
 
 ## missed_opportunity_RIVN
 

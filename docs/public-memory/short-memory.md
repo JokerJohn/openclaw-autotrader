@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-08 22:52:59 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-08 23:08:05 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -119,10 +119,10 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
 | Decision Count / 决策次数 | 11 |
-| Order Submissions / 提交订单 | 1 |
+| Order Submissions / 提交订单 | 2 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 0 |
+| Benchmarks / 基准快照 | 1 |
 | Latest Decision / 最新决策 | [US] BUY AMZN |
 | End Equity / 结束权益 | HKD 4,676.56 |
 | End Net PnL / 结束累计盈亏 | HKD -323.44 |
@@ -132,7 +132,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 **Recent Trade Episodes / 最近交易片段**
 
 - BUY AMZN | plan_only | edge=+1.49% | conf=0.00 | q=+0.00
-- SELL MU | filled | edge=+4.77% | conf=0.96 | q=+0.00
+- SELL MU | filled | edge=+4.77% | conf=0.96 | q=+1.66 | one_hour sell_exit_good +1.66%
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
@@ -146,5 +146,8 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
   - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+- **good_exit_MU**: MU 最近的退出时点较有效，说明该类风险缩减纪律值得继续保留。
+  - Tags / 标签: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:存储, theme:HBM, theme:半导体, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict`
 
 ---
