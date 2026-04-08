@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-08 21:52:38 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-08 22:07:43 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-04-08 21:52:38 CST`
 | --- | --- |
 | Day / 当前天数 | `30 / 30` (100.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,685.11 |
-| Net PnL / 累计盈亏 | -HKD 314.89 |
+| Current equity / 当前权益 | HKD 4,676.56 |
+| Net PnL / 累计盈亏 | -HKD 323.44 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] SELL `MU` / [US] 卖出 `MU` |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-08 21:52:38 CST
+- Updated / 更新时间: 2026-04-08 22:07:43 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: -HKD 130.83
+- Floating PnL / 当前浮动盈亏: HKD 0.00
 - Latest decision / 最新决策: [US] SELL `MU` / [US] 卖出 `MU`
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-08.md](./docs/public-monitor/2026/2026-04-08.md)
