@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-09 22:35:26 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-09 22:39:21 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 7
-**Total Evidence Points / 累计证据点**: 43
+**Total Lessons / 教训总数**: 8
+**Total Evidence Points / 累计证据点**: 44
 
 ## skipped_decision_still_needs_context
 
@@ -60,6 +60,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-03
 **Dates / 出现日期**: 2026-04-02, 2026-04-03
 **Tags / 标签**: `portfolio:cash, risk:reserve`
+
+## realtime_quote_gate
+
+**Lesson / 教训**: 需要实时行情或明确的开盘状态才能进入实盘决策，缺行情时不要强行交易。
+**Scope / 作用域**: `execution`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-09
+**Dates / 出现日期**: 2026-04-09
+**Tags / 标签**: `execution:quotes, execution:session`
 
 ## good_exit_MU
 
