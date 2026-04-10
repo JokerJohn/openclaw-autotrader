@@ -1,0 +1,302 @@
+[
+  {
+    "id": "day-01-launch",
+    "day": 1,
+    "stage": "launch",
+    "goal": "解释挑战规则、资金边界和为什么要做 90 天连续公开记录。",
+    "titlePattern": "第{day}天启动：5000 港币自动交易挑战开跑",
+    "coverPattern": "Day {day}\\n启动日",
+    "cta": "如果你想看 90 天连续更新，可以先收藏这个系列。",
+    "focus": ["规则", "边界", "起点"]
+  },
+  {
+    "id": "day-02-first-bite",
+    "day": 2,
+    "stage": "launch",
+    "goal": "展示第一次真实出手后的判断框架，而不是只晒盈亏。",
+    "titlePattern": "第{day}天：第一次出手后，我只看这 3 个信号",
+    "coverPattern": "Day {day}\\n第一次出手",
+    "cta": "明天继续更新，看系统是追还是等。",
+    "focus": ["第一次交易", "信号", "纪律"]
+  },
+  {
+    "id": "day-03-rhythm",
+    "day": 3,
+    "stage": "launch",
+    "goal": "让读者知道策略并不是每天都交易，节奏本身就是内容。",
+    "titlePattern": "第{day}天：自动交易不是一直下单，节奏更重要",
+    "coverPattern": "Day {day}\\n交易节奏",
+    "cta": "如果你也反感无脑高频，这一系列会适合你。",
+    "focus": ["节奏", "观望", "耐心"]
+  },
+  {
+    "id": "day-04-rules",
+    "day": 4,
+    "stage": "launch",
+    "goal": "把仓位、白名单、不加杠杆这些约束讲清楚。",
+    "titlePattern": "第{day}天：我先公开 4 条硬规则，再谈收益",
+    "coverPattern": "Day {day}\\n硬规则",
+    "cta": "先把规则立住，后面的波动才有解释空间。",
+    "focus": ["仓位", "白名单", "风控"]
+  },
+  {
+    "id": "day-05-first-pressure",
+    "day": 5,
+    "stage": "launch",
+    "goal": "处理开局不顺时的外部观感，强调系统而不是表演。",
+    "titlePattern": "第{day}天：开局不顺时，我怎么判断该不该硬扛",
+    "coverPattern": "Day {day}\\n承压日",
+    "cta": "第一个承压点最关键，明天继续看系统会不会变形。",
+    "focus": ["回撤", "抗压", "系统"]
+  },
+  {
+    "id": "day-06-patience",
+    "day": 6,
+    "stage": "week-1",
+    "goal": "把“没做什么”写成有信息量的内容。",
+    "titlePattern": "第{day}天：今天没有猛冲，耐心反而是主角",
+    "coverPattern": "Day {day}\\n耐心值钱",
+    "cta": "很多时候，少做就是一种能力。",
+    "focus": ["耐心", "空仓", "观察"]
+  },
+  {
+    "id": "day-07-hold",
+    "day": 7,
+    "stage": "week-1",
+    "goal": "解释 HOLD 背后的逻辑，让观望也可追更。",
+    "titlePattern": "第{day}天：系统继续 HOLD，背后其实有明确理由",
+    "coverPattern": "Day {day}\\n继续 HOLD",
+    "cta": "如果你想看系统什么时候才会真正出手，继续追更。",
+    "focus": ["HOLD", "阈值", "理由"]
+  },
+  {
+    "id": "day-08-execution-gap",
+    "day": 8,
+    "stage": "week-1",
+    "goal": "讲执行和预期之间的落差，建立真实感。",
+    "titlePattern": "第{day}天：交易最难的不是选股，是执行偏差",
+    "coverPattern": "Day {day}\\n执行偏差",
+    "cta": "真实记录里，执行误差往往比策略本身更重要。",
+    "focus": ["执行", "偏差", "复盘"]
+  },
+  {
+    "id": "day-09-reconciliation",
+    "day": 9,
+    "stage": "week-1",
+    "goal": "把回填成交、对账等运营问题转成内容亮点。",
+    "titlePattern": "第{day}天：最容易被忽略的，其实是对账和回填",
+    "coverPattern": "Day {day}\\n对账问题",
+    "cta": "后面我会持续把系统层面的坑也公开出来。",
+    "focus": ["对账", "回填", "运营"]
+  },
+  {
+    "id": "day-10-week-1-recap",
+    "day": 10,
+    "stage": "week-1",
+    "goal": "做第一周总结，建立阶段性里程碑。",
+    "titlePattern": "第{day}天：第一阶段复盘，系统到底学到了什么",
+    "coverPattern": "Day {day}\\n第一周复盘",
+    "cta": "第一阶段先交卷，第二阶段开始看修正能力。",
+    "focus": ["阶段复盘", "经验", "修正"]
+  },
+  {
+    "id": "day-11-reset",
+    "day": 11,
+    "stage": "week-2",
+    "goal": "强调第二阶段不是重开，而是带着第一阶段经验继续跑。",
+    "titlePattern": "第{day}天：第二阶段开始，重点不再是开局",
+    "coverPattern": "Day {day}\\n第二阶段",
+    "cta": "接下来会更看重稳定度，而不是单日波动。",
+    "focus": ["阶段切换", "稳定度", "延续"]
+  },
+  {
+    "id": "day-12-small-win",
+    "day": 12,
+    "stage": "week-2",
+    "goal": "小盈利也要写出判断过程，避免单纯晒图。",
+    "titlePattern": "第{day}天：就算只是小赚，我也更关心过程",
+    "coverPattern": "Day {day}\\n小赢不飘",
+    "cta": "真正能复制的不是一次盈利，而是判断过程。",
+    "focus": ["小盈利", "过程", "复制"]
+  },
+  {
+    "id": "day-13-mistake-log",
+    "day": 13,
+    "stage": "week-2",
+    "goal": "把错误公开做成系列标签。",
+    "titlePattern": "第{day}天：今天最值得写的不是机会，是错误日志",
+    "coverPattern": "Day {day}\\n错误日志",
+    "cta": "系列里我会持续公开最不体面的部分。",
+    "focus": ["错误", "公开", "修正"]
+  },
+  {
+    "id": "day-14-noise",
+    "day": 14,
+    "stage": "week-2",
+    "goal": "告诉读者什么叫市场噪音，为什么系统要过滤。",
+    "titlePattern": "第{day}天：今天市场很吵，但噪音不等于机会",
+    "coverPattern": "Day {day}\\n过滤噪音",
+    "cta": "看得见噪音，也要看得懂过滤规则。",
+    "focus": ["噪音", "过滤", "信号"]
+  },
+  {
+    "id": "day-15-discipline-check",
+    "day": 15,
+    "stage": "week-2",
+    "goal": "半程之前做一次纪律体检。",
+    "titlePattern": "第{day}天：半程前先检查纪律有没有松",
+    "coverPattern": "Day {day}\\n纪律体检",
+    "cta": "系统能不能走完 90 天，关键看纪律有没有掉线。",
+    "focus": ["纪律", "体检", "半程"]
+  },
+  {
+    "id": "day-16-mental-load",
+    "day": 16,
+    "stage": "week-3",
+    "goal": "把连续更新带来的心理负担写出来。",
+    "titlePattern": "第{day}天：连续公开更新，心理负担开始出现了",
+    "coverPattern": "Day {day}\\n心理负担",
+    "cta": "后半程更难的，往往不是市场，而是持续性。",
+    "focus": ["持续性", "心理", "公开更新"]
+  },
+  {
+    "id": "day-17-position-sizing",
+    "day": 17,
+    "stage": "week-3",
+    "goal": "聚焦仓位控制，而不是押方向。",
+    "titlePattern": "第{day}天：方向之外，仓位才是真正的命门",
+    "coverPattern": "Day {day}\\n仓位命门",
+    "cta": "后面会继续把仓位控制拆开讲清楚。",
+    "focus": ["仓位", "命门", "风险"]
+  },
+  {
+    "id": "day-18-opportunity-cost",
+    "day": 18,
+    "stage": "week-3",
+    "goal": "把错过机会也写成系列的一部分。",
+    "titlePattern": "第{day}天：错过机会的那天，其实更值得复盘",
+    "coverPattern": "Day {day}\\n机会成本",
+    "cta": "错过本身也是系统的一部分，不该被删掉。",
+    "focus": ["错过", "机会成本", "复盘"]
+  },
+  {
+    "id": "day-19-repeatable-edge",
+    "day": 19,
+    "stage": "week-3",
+    "goal": "开始回答什么东西具有可重复性。",
+    "titlePattern": "第{day}天：跑到这里，我只想留下可重复的部分",
+    "coverPattern": "Day {day}\\n留下可重复",
+    "cta": "后半程会越来越强调可重复，而不是偶然命中。",
+    "focus": ["可重复", "边际", "筛选"]
+  },
+  {
+    "id": "day-20-week-3-recap",
+    "day": 20,
+    "stage": "week-3",
+    "goal": "第三阶段总结，衔接收官段。",
+    "titlePattern": "第{day}天：第三阶段复盘，系统开始有性格了",
+    "coverPattern": "Day {day}\\n阶段复盘",
+    "cta": "进入最后 10 天后，我会更关注系统有没有稳定个性。",
+    "focus": ["阶段总结", "稳定性", "性格"]
+  },
+  {
+    "id": "day-21-fatigue-control",
+    "day": 21,
+    "stage": "week-4",
+    "goal": "强调疲劳下的流程控制。",
+    "titlePattern": "第{day}天：跑到第 3 周，疲劳控制比判断更重要",
+    "coverPattern": "Day {day}\\n疲劳控制",
+    "cta": "连续挑战后期，比拼的往往是谁先失真。",
+    "focus": ["疲劳", "流程", "失真"]
+  },
+  {
+    "id": "day-22-signal-quality",
+    "day": 22,
+    "stage": "week-4",
+    "goal": "解释为什么后期宁可少发信号也不乱发。",
+    "titlePattern": "第{day}天：越到后面，越要保住信号质量",
+    "coverPattern": "Day {day}\\n信号质量",
+    "cta": "后半段最怕的不是少做，而是质量滑坡。",
+    "focus": ["信号质量", "后半段", "保真"]
+  },
+  {
+    "id": "day-23-cash-position",
+    "day": 23,
+    "stage": "week-4",
+    "goal": "把现金仓位解释为有效决策，而不是没动作。",
+    "titlePattern": "第{day}天：现金也是仓位，不是空白",
+    "coverPattern": "Day {day}\\n现金也是仓位",
+    "cta": "很多时候，空着不是懒，是主动选择。",
+    "focus": ["现金", "仓位", "主动选择"]
+  },
+  {
+    "id": "day-24-adaptation",
+    "day": 24,
+    "stage": "week-4",
+    "goal": "突出系统有没有真正适应市场变化。",
+    "titlePattern": "第{day}天：市场变了，系统有没有跟上",
+    "coverPattern": "Day {day}\\n适应变化",
+    "cta": "如果系统不能适应变化，再漂亮的前半程也没意义。",
+    "focus": ["适应", "变化", "跟上"]
+  },
+  {
+    "id": "day-25-pressure",
+    "day": 25,
+    "stage": "week-4",
+    "goal": "给收官前的压力一个明确表达。",
+    "titlePattern": "第{day}天：收官前压力开始变大，我只盯这几件事",
+    "coverPattern": "Day {day}\\n收官压力",
+    "cta": "最后几天我会更严格地看一致性和边界。",
+    "focus": ["压力", "一致性", "边界"]
+  },
+  {
+    "id": "day-26-closing-prep",
+    "day": 26,
+    "stage": "closing",
+    "goal": "提前铺垫收官总结，不让最后几篇失焦。",
+    "titlePattern": "第{day}天：离收官越来越近，先把问题列出来",
+    "coverPattern": "Day {day}\\n收官准备",
+    "cta": "最后几天不追戏剧性，先把该回答的问题立起来。",
+    "focus": ["收官", "问题", "准备"]
+  },
+  {
+    "id": "day-27-best-lesson",
+    "day": 27,
+    "stage": "closing",
+    "goal": "提炼最好的一条经验，让系列开始沉淀。",
+    "titlePattern": "第{day}天：这 27 天里，最有价值的一条经验是什么",
+    "coverPattern": "Day {day}\\n最好经验",
+    "cta": "收官前我会把最值得保留的经验逐条捞出来。",
+    "focus": ["经验", "沉淀", "保留"]
+  },
+  {
+    "id": "day-28-worst-mistake",
+    "day": 28,
+    "stage": "closing",
+    "goal": "公开最大失误，制造讨论度同时保留真实性。",
+    "titlePattern": "第{day}天：如果只选一个失误公开，我会选这个",
+    "coverPattern": "Day {day}\\n最大失误",
+    "cta": "最大的失误，往往最能说明系统的边界。",
+    "focus": ["失误", "边界", "讨论度"]
+  },
+  {
+    "id": "day-29-final-adjustment",
+    "day": 29,
+    "stage": "checkpoint",
+    "goal": "用阶段性视角说明系统还有没有必要继续调整。",
+    "titlePattern": "第{day}天：阶段复盘，系统还需要继续改吗",
+    "coverPattern": "Day {day}\\n最后调整",
+    "cta": "这个阶段结束前，我会把该改和不该改的界线说清楚。",
+    "focus": ["调整", "界线", "阶段复盘"]
+  },
+  {
+    "id": "day-30-finale",
+    "day": 30,
+    "stage": "checkpoint",
+    "goal": "做一次阶段复盘，给出结果、经验和下一阶段方向。",
+    "titlePattern": "第{day}天阶段复盘：90 天自动交易挑战走到哪了",
+    "coverPattern": "Day {day}\\n最终复盘",
+    "cta": "如果这个系列有价值，下一阶段我会继续公开系统演化。",
+    "focus": ["阶段复盘", "完整复盘", "下一阶段"]
+  }
+]

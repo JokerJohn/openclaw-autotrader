@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw.local/xhs-agent/public-snapshot.schema.json",
+  "title": "Public Snapshot",
+  "type": "object",
+  "required": [
+    "version",
+    "challenge",
+    "snapshot_at",
+    "market",
+    "performance",
+    "strategy",
+    "session",
+    "holdings",
+    "lessons",
+    "source_refs",
+    "assets"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "challenge": {
+      "type": "object",
+      "required": [
+        "id",
+        "series_name",
+        "day",
+        "total_days",
+        "timezone",
+        "opened_at",
+        "source_repo"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "series_name": {
+          "type": "string"
+        },
+        "day": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "opened_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "source_repo": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "snapshot_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "market": {
+      "type": "object",
+      "required": [
+        "primary"
+      ],
+      "properties": {
+        "primary": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "performance": {
+      "type": "object",
+      "required": [
+        "starting_capital_hkd",
+        "current_equity_hkd",
+        "net_pnl_hkd",
+        "net_pnl_pct",
+        "daily_pnl_hkd",
+        "daily_pnl_pct"
+      ],
+      "properties": {
+        "starting_capital_hkd": {
+          "type": "number"
+        },
+        "current_equity_hkd": {
+          "type": "number"
+        },
+        "net_pnl_hkd": {
+          "type": "number"
+        },
+        "net_pnl_pct": {
+          "type": "number"
+        },
+        "daily_pnl_hkd": {
+          "type": "number"
+        },
+        "daily_pnl_pct": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": false
+    },
+    "strategy": {
+      "type": "object",
+      "required": [
+        "summary",
+        "entry_rule",
+        "risk_rule",
+        "hold_rule",
+        "today_context"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "entry_rule": {
+          "type": "string"
+        },
+        "risk_rule": {
+          "type": "string"
+        },
+        "hold_rule": {
+          "type": "string"
+        },
+        "today_context": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "session": {
+      "type": "object",
+      "required": [
+        "research_cycles",
+        "order_submissions",
+        "filled_trades",
+        "latest_decision",
+        "latest_no_trade_reason",
+        "next_watch"
+      ],
+      "properties": {
+        "research_cycles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "order_submissions": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "filled_trades": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "latest_decision": {
+          "type": "string"
+        },
+        "latest_action_symbol": {
+          "type": "string"
+        },
+        "latest_no_trade_reason": {
+          "type": "string"
+        },
+        "next_watch": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "holdings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "symbol",
+          "qty",
+          "value_hkd",
+          "floating_pnl_hkd",
+          "status"
+        ],
+        "properties": {
+          "symbol": {
+            "type": "string"
+          },
+          "qty": {
+            "type": "number"
+          },
+          "value_hkd": {
+            "type": "number"
+          },
+          "floating_pnl_hkd": {
+            "type": "number"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "trades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "time",
+          "action",
+          "symbol",
+          "qty",
+          "avg_fill",
+          "rationale"
+        ],
+        "properties": {
+          "time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "action": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          },
+          "qty": {
+            "type": "number"
+          },
+          "avg_fill": {
+            "type": "number"
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "headline",
+          "detail",
+          "type"
+        ],
+        "properties": {
+          "headline": {
+            "type": "string"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "path",
+          "caption"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "story": {
+      "type": "object",
+      "properties": {
+        "mascot_name": {
+          "type": "string"
+        },
+        "mascot_emoji": {
+          "type": "string"
+        },
+        "persona": {
+          "type": "string"
+        },
+        "series_hook": {
+          "type": "string"
+        },
+        "chapter_title": {
+          "type": "string"
+        },
+        "public_highlight": {
+          "type": "string"
+        },
+        "narrative_stage": {
+          "type": "string"
+        },
+        "creator_themes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audience_promises": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "learning_focus": {
+          "type": "string"
+        },
+        "title_seeds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hashtag_seeds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "durable_lessons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "collection_name": {
+          "type": "string"
+        },
+        "collection_intro": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

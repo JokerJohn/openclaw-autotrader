@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "description": "Delete the current Day1-Day5 series notes and republish them with the tightened persona-driven style.",
+  "steps": [
+    {
+      "id": "day-01-republish",
+      "action": "publish",
+      "date": "2026-03-10"
+    },
+    {
+      "id": "day-02-republish",
+      "action": "publish",
+      "date": "2026-03-11"
+    },
+    {
+      "id": "day-03-republish",
+      "action": "publish",
+      "date": "2026-03-12"
+    },
+    {
+      "id": "day-04-republish",
+      "action": "publish",
+      "date": "2026-03-13"
+    },
+    {
+      "id": "day-05-republish",
+      "action": "publish",
+      "date": "2026-03-14"
+    }
+  ]
+}

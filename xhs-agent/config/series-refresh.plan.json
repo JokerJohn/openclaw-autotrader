@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "description": "Refresh the current 90-day series posts with the anti-homogenization rule set and the canonical collection.",
+  "steps": [
+    {
+      "id": "day-01-refresh",
+      "action": "edit",
+      "date": "2026-03-10",
+      "note_id": "69b53bd0000000002301593a"
+    },
+    {
+      "id": "day-02-refresh",
+      "action": "edit",
+      "date": "2026-03-11",
+      "note_id": "69b53c41000000001f001880"
+    },
+    {
+      "id": "day-03-refresh",
+      "action": "edit",
+      "date": "2026-03-12",
+      "note_id": "69b53cb3000000001d01f974"
+    },
+    {
+      "id": "day-04-refresh",
+      "action": "edit",
+      "date": "2026-03-13",
+      "note_id": "69b53d13000000001e00d20f"
+    },
+    {
+      "id": "day-05-refresh",
+      "action": "edit",
+      "date": "2026-03-14",
+      "note_id": "69b5255100000000210115cb"
+    }
+  ]
+}

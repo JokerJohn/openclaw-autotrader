@@ -1,0 +1,332 @@
+{
+  "version": 1,
+  "agent": {
+    "name": "xhs-agent",
+    "owner": "OpenClaw",
+    "mode": "strict",
+    "rulesPath": "../docs/xhs-agent-rules.md",
+    "model": {
+      "provider": "volcengine",
+      "model": "kimi2.5",
+      "purpose": "小红书标题、正文和复盘润色"
+    }
+  },
+  "standardAgent": {
+    "entrypoint": "./src/run-agent.mjs",
+    "defaultTask": "daily_publish",
+    "taskStateDir": "../state/agent-tasks",
+    "taskLogDir": "../artifacts/agent-runs",
+    "supportedTasks": [
+      "daily_publish",
+      "rewrite_legacy",
+      "compose_package",
+      "sync_feedback"
+    ]
+  },
+  "platformExecutor": {
+    "type": "xhs-web",
+    "channel": "playwright",
+    "capabilities": [
+      "publish_note",
+      "edit_note",
+      "delete_note",
+      "sync_account_analytics"
+    ],
+    "commands": {
+      "publish": "./src/run-publish-job.mjs",
+      "edit": "./src/edit-note-job.mjs",
+      "syncAnalytics": "./src/sync-xhs-analytics.mjs"
+    }
+  },
+  "seriesName": "OpenClaw 90-Day Trading Challenge",
+  "timezone": "Asia/Shanghai",
+  "publishMode": "${XHS_PUBLISH_MODE:-draft}",
+  "paths": {
+    "receiptDir": "../receipts",
+    "artifactDir": "../artifacts",
+    "stateDir": "../state"
+  },
+  "limits": {
+    "minImages": 1,
+    "maxImages": 1,
+    "publishRetry": 2
+  },
+  "contentPolicy": {
+    "titleMaxGraphemes": 28,
+    "bodyMaxGraphemes": 560,
+    "hashtagsMaxCount": 8,
+    "requiredSectionLabels": [
+      "今天结果",
+      "今天怎么做",
+      "今日记录"
+    ],
+    "requiredHashtags": [
+      "#slam",
+      "#机器人",
+      "#养龙虾",
+      "#小龙虾",
+      "#OpenClaw",
+      "#AIAgent",
+      "#openclaw",
+      "#养虾的正确打开方式"
+    ],
+    "requiredTitleKeywords": [
+      "养龙虾",
+      "OpenClaw"
+    ],
+    "preferredTitlePatterns": [
+      "养龙虾第X天｜OpenClaw小盈",
+      "养龙虾第X天｜OpenClaw今天小亏",
+      "养龙虾第X天，OpenClaw今天持平"
+    ],
+    "requiredCoverStyle": "vertical-github-poster",
+    "requiredBodyTone": "像账号旧帖一样直给、短句、有更新感和第一人称。正文默认只保留 今天结果 / 今天怎么做 / 今日记录 三段，先报结果再补当天判断，不写第4段学习总结。允许自然混用 stock / current / PnL / fill / size 这类英文词，但不能每篇都复用同一套句骨架；必须保留活人感、轻微情绪颗粒度和当天自己的判断，不要写公开实验口吻、免责声明口吻或AI汇报口吻。",
+    "disallowedPhrases": [
+      "仅做公开记录",
+      "不构成任何建议",
+      "公开实验",
+      "实验记录",
+      "系统复盘",
+      "模板目标",
+      "让读者知道",
+      "节奏本身就是内容",
+      "公开写清楚",
+      "系统依然优先服从",
+      "会话结束仍在持有",
+      "AI味",
+      "美股全自动",
+      "全自动美股",
+      "美股复盘",
+      "自动量化交易",
+      "美股自动交易",
+      "交易复盘",
+      "日盈亏",
+      "当前持仓",
+      "今日成交",
+      "收盘持仓",
+      "BUY ",
+      "SELL ",
+      "HOLD",
+      "先拿小 size 试",
+      "有 signal 再动，没优势就收手",
+      "先确认链路顺不顺，再决定后面要不要放大",
+      "这一天重点就是把节奏守住",
+      "今天没硬上，机会不过线就直接跳过"
+    ],
+    "visibilityRiskPhrases": [
+      "美股全自动",
+      "全自动美股",
+      "美股复盘",
+      "美股自动交易",
+      "自动量化交易",
+      "量化交易",
+      "交易复盘",
+      "日盈亏",
+      "当前持仓",
+      "今日成交",
+      "收盘持仓",
+      "持仓",
+      "成交",
+      "收益",
+      "开仓",
+      "下单",
+      "股票",
+      "荐股",
+      "BUY ",
+      "SELL ",
+      "HOLD",
+      "OpenClaw养龙虾90天美股自动交易"
+    ],
+    "requiredDisclaimer": "",
+    "sensitiveReplacements": [
+      {
+        "pattern": "新开仓",
+        "replacement": "新增动作"
+      },
+      {
+        "pattern": "开仓",
+        "replacement": "推进动作"
+      },
+      {
+        "pattern": "Tiger Pocket",
+        "replacement": "券商侧"
+      },
+      {
+        "pattern": "Tiger",
+        "replacement": "券商侧"
+      }
+    ]
+  },
+  "runner": {
+    "repoRoot": "../..",
+    "defaultMode": "publish",
+    "outDir": "../out",
+    "archiveDir": "../artifacts/archive",
+    "logDir": "../artifacts/logs",
+    "schedule": {
+      "label": "com.openclaw.xhs-agent.daily",
+      "hour": 9,
+      "minute": 30
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "fetchAllHistory": true,
+    "includeContent": true,
+    "notesPerPage": 10,
+    "maxPages": 100,
+    "detailLimit": 8,
+    "lookbackDays": 45,
+    "latestAnalyticsPath": "../state/xhs-note-analytics.latest.json",
+    "strategyStatePath": "../state/xhs-feedback-strategy.json",
+    "contentCachePath": "../state/xhs-note-content-cache.json"
+  },
+  "personaAnalysis": {
+    "enabled": true,
+    "transport": "openclaw-gateway",
+    "cliPath": "openclaw",
+    "agentId": "xhs-persona-agent",
+    "thinking": "minimal",
+    "timeoutSeconds": 90,
+    "maxBodyCharsPerNote": 220,
+    "maxTopNotes": 6,
+    "maxRecentNotes": 5,
+    "maxWeakNotes": 4,
+    "maxEvolutionNotes": 4,
+    "maxRetries": 1,
+    "retryBackoffMs": 6000,
+    "serialGuardWaitTimeoutSeconds": 420,
+    "preferredProvider": "openai-codex",
+    "preferredModel": "gpt-5.4",
+    "preferredRetryAttempts": 1,
+    "preferredRetryBackoffMs": 45000
+  },
+  "notifications": {
+    "feishu": {
+      "enabled": false,
+      "strict": true,
+      "webhookEnv": "FEISHU_XHS_AGENT_WEBHOOK_URL",
+      "transportKeyword": "codex-cli-monitor",
+      "messagePrefix": "OpenClaw XHS",
+      "keywords": [
+        "xhs",
+        "小红薯",
+        "小红书",
+        "🍠",
+        "redbook",
+        "rednote"
+      ],
+      "preferredKeyword": "小红书",
+      "notifyOn": [
+        "publish",
+        "edit",
+        "error"
+      ]
+    }
+  },
+  "postPublishReview": {
+    "enabled": true,
+    "policyVersion": "2026-03-12",
+    "manualReviewWindowMinutes": 30,
+    "analyticsFollowUpHours": 2,
+    "lowReadThreshold": 150,
+    "tagClickReview": {
+      "enabled": true,
+      "timeoutMs": 20000,
+      "initialWaitMs": 3500
+    },
+    "collectionPageReview": {
+      "enabled": true,
+      "timeoutMs": 20000,
+      "initialWaitMs": 3500
+    }
+  },
+  "maintenance": {
+    "planPath": "../config/series-maintenance.plan.json",
+    "preserveLegacyImages": true,
+    "coverMustBeFirst": true,
+    "editSafety": {
+      "enabled": true,
+      "cooldownHours": 24,
+      "maxSuccessfulEditsPerNote": 2,
+      "blockOnPlatformLimit": true
+    }
+  },
+  "collection": {
+    "enabled": true,
+    "autoCreate": true,
+    "name": "OpenClaw养龙虾90天记录",
+    "description": "记录 OpenClaw 这只龙虾连续 90 天的公开日更：本金、当前、进度、当天动作和规则修正。"
+  },
+  "xhs": {
+    "creatorUrl": "https://creator.xiaohongshu.com/publish/publish",
+    "channel": "chrome",
+    "headless": false,
+    "attachToExistingChrome": true,
+    "remoteDebuggingUrl": "http://127.0.0.1:9222",
+    "fallbackToLaunch": true,
+    "userDataDir": "../state/xhs-chrome-profile",
+    "selectors": {
+      "contentTabText": [
+        "上传图文",
+        "图文"
+      ],
+      "titleInput": [
+        "input[placeholder*='填写标题']",
+        "input[placeholder*='标题']"
+      ],
+      "bodyEditor": [
+        "[contenteditable='true']"
+      ],
+      "uploadInput": [
+        "input[type='file']"
+      ],
+      "imagePreviewArea": [
+        ".img-preview-area",
+        ".image-preview"
+      ],
+      "imageRemoveButton": [
+        ".close-btn.hoverShow",
+        ".close-btn"
+      ],
+      "publishButtonText": [
+        "发布"
+      ],
+      "draftButtonText": [
+        "暂存离开"
+      ],
+      "collectionTriggerText": [
+        "选择合集"
+      ],
+      "collectionEntrySelector": [
+        "[class*='collection-plugin-choose']"
+      ],
+      "collectionCreateText": [
+        "创建合集"
+      ],
+      "collectionCreateAndJoinText": [
+        "创建并加入"
+      ],
+      "collectionNameInput": [
+        "input[placeholder*='合集名称']",
+        "input[placeholder*='吸引更多用户']"
+      ],
+      "collectionDescInput": [
+        "textarea[placeholder*='介绍你的合集']"
+      ],
+      "confirmButtonText": [
+        "确认发布",
+        "确认"
+      ],
+      "successTexts": [
+        "发布成功",
+        "笔记已发布",
+        "草稿保存成功"
+      ]
+    },
+    "calibration": {
+      "artifactDir": "../artifacts/calibration",
+      "sampleImage": "../../docs/assets/social-preview.png"
+    }
+  }
+}

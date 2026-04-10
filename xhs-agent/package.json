@@ -1,0 +1,28 @@
+{
+  "name": "openclaw-xhs-agent",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "run-agent": "node ./src/run-agent.mjs",
+    "build-snapshot": "node ./src/build-public-snapshot.mjs",
+    "validate-package": "node ./src/validate-post-package.mjs",
+    "generate-package": "node ./src/generate-post-package.mjs",
+    "sync-analytics": "node ./src/sync-xhs-analytics.mjs",
+    "update-feedback": "node ./src/update-xhs-feedback-strategy.mjs",
+    "notify-feishu": "node ./src/notify-feishu.mjs",
+    "post-publish-review": "node ./src/post-publish-review.mjs",
+    "edit-note": "node ./src/edit-note-job.mjs",
+    "run-maintenance": "node ./src/run-series-maintenance.mjs",
+    "run-daily": "node ./src/run-daily-job.mjs",
+    "publish-job": "node ./src/run-publish-job.mjs",
+    "open-login": "node ./src/open-creator-session.mjs",
+    "calibrate-config": "node ./src/calibrate-xhs-config.mjs",
+    "install-launchd": "node ./src/install-launchd-job.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}

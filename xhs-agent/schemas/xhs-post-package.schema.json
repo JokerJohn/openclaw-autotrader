@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw.local/xhs-agent/xhs-post-package.schema.json",
+  "title": "XHS Post Package",
+  "type": "object",
+  "required": [
+    "version",
+    "package_id",
+    "series",
+    "content",
+    "assets",
+    "publish",
+    "source_refs",
+    "audit"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "package_id": {
+      "type": "string"
+    },
+    "series": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "day",
+        "total_days",
+        "stage",
+        "template_id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "day": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "stage": {
+          "type": "string"
+        },
+        "template_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "title",
+        "body",
+        "cover_text",
+        "hooks",
+        "sections",
+        "hashtags",
+        "disclaimer"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "cover_text": {
+          "type": "string"
+        },
+        "hooks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "hashtags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "disclaimer": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "kind",
+          "path",
+          "caption",
+          "required"
+        ],
+        "properties": {
+          "kind": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          },
+          "required": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "publish": {
+      "type": "object",
+      "required": [
+        "platform",
+        "mode",
+        "target_time"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "dry-run",
+            "draft",
+            "publish"
+          ]
+        },
+        "target_time": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "collection": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "name",
+            "description",
+            "auto_create"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "auto_create": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "audit": {
+      "type": "object",
+      "required": [
+        "generated_at",
+        "generator",
+        "snapshot_at"
+      ],
+      "properties": {
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "generator": {
+          "type": "string"
+        },
+        "snapshot_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "description": "修复Day 1、Day 2和Day 3图片重复问题",
+  "steps": [
+    {
+      "id": "day-01-fix-images",
+      "action": "edit",
+      "date": "2026-03-10",
+      "note_id": "69b077d8000000000603294d",
+      "reason": "删除重复图片，只保留1张封面"
+    },
+    {
+      "id": "day-02-fix-images",
+      "action": "edit",
+      "date": "2026-03-11",
+      "note_id": "69b1a9a5000000001d012155",
+      "reason": "删除重复图片，只保留1张封面"
+    },
+    {
+      "id": "day-03-fix-images",
+      "action": "edit",
+      "date": "2026-03-12",
+      "note_id": "69b1c0a1000000001d026466",
+      "reason": "删除重复图片，只保留1张封面"
+    }
+  ]
+}
