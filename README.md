@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-11 00:09:53 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-11 00:14:49 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-11 00:09:53 CST
+- Updated / 更新时间: 2026-04-11 00:14:49 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: +HKD 111.75
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMZN`, still showed score -2.17, post-fee EV -1.31%, and win probability 54.9%. / 研究链路未稳定返回，但当前最高候选 AMZN 的费后 EV 为 -1.31% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMZN`, still showed score -2.19, post-fee EV -1.29%, and win probability 54.7%. / 研究链路未稳定返回，但当前最高候选 AMZN 的费后 EV 为 -1.29% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMZN`, still showed score -2.17, post-fee EV -1.31%, and win probability 54.9%. / 研究链路未稳定返回，但当前最高候选 AMZN 的费后 EV 为 -1.31% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMZN`, still showed score -2.19, post-fee EV -1.29%, and win probability 54.7%. / 研究链路未稳定返回，但当前最高候选 AMZN 的费后 EV 为 -1.29% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
 - Decision basis / 决策依据: Regime: mixed tape; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：混合状态；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMZN` (cloud software) | score -2.17 | post-fee EV -1.31% | win 54.9%; `NVDA` (semiconductor) | score -3.25 | post-fee EV -1.14% | win 56.5%; `ASML` (semiconductor) | score -3.31 | post-fee EV -1.28% | win 55.6%. / 共检查 5 只活跃候选。靠前检查结果：`AMZN`（云软件） | 评分 -2.17 | 扣费后 EV -1.31% | 胜率 54.9%；`NVDA`（半导体） | 评分 -3.25 | 扣费后 EV -1.14% | 胜率 56.5%；`ASML`（半导体） | 评分 -3.31 | 扣费后 EV -1.28% | 胜率 55.6%。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMZN` (cloud software) | score -2.19 | post-fee EV -1.29% | win 54.7%; `NVDA` (semiconductor) | score -3.19 | post-fee EV -1.05% | win 56.7%; `ASML` (semiconductor) | score -3.26 | post-fee EV -1.19% | win 55.7%. / 共检查 5 只活跃候选。靠前检查结果：`AMZN`（云软件） | 评分 -2.19 | 扣费后 EV -1.29% | 胜率 54.7%；`NVDA`（半导体） | 评分 -3.19 | 扣费后 EV -1.05% | 胜率 56.7%；`ASML`（半导体） | 评分 -3.26 | 扣费后 EV -1.19% | 胜率 55.7%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
