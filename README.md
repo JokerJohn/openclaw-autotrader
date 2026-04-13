@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-13 23:16:28 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-13 23:22:30 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-04-13 23:16:28 CST`
 | --- | --- |
 | Day / 当前天数 | `35 / 30` (116.7%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,775.16 |
-| Net PnL / 累计盈亏 | -HKD 224.84 |
+| Current equity / 当前权益 | HKD 4,780.60 |
+| Net PnL / 累计盈亏 | -HKD 219.40 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-13 23:16:28 CST
+- Updated / 更新时间: 2026-04-13 23:22:30 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 108.48
+- Floating PnL / 当前浮动盈亏: +HKD 113.92
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-13.md](./docs/public-monitor/2026/2026-04-13.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AVGO`, still showed score -2.75, post-fee EV -1.56%, and win probability 61.4%. / 研究链路未稳定返回，但当前最高候选 AVGO 的费后 EV 为 -1.56% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -2.77, post-fee EV -1.89%, and win probability 54.8%. / 研究链路未稳定返回，但当前最高候选 AMD 的费后 EV 为 -1.89% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AVGO`, still showed score -2.75, post-fee EV -1.56%, and win probability 61.4%. / 研究链路未稳定返回，但当前最高候选 AVGO 的费后 EV 为 -1.56% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -2.77, post-fee EV -1.89%, and win probability 54.8%. / 研究链路未稳定返回，但当前最高候选 AMD 的费后 EV 为 -1.89% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
 - Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：高波动；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AVGO` (semiconductor) | score -2.75 | post-fee EV -1.56% | win 61.4%; `AMD` (semiconductor) | score -2.85 | post-fee EV -1.96% | win 53.7%; `QCOM` (semiconductor) | score -2.90 | post-fee EV -1.94% | win 54.1%. / 共检查 5 只活跃候选。靠前检查结果：`AVGO`（半导体） | 评分 -2.75 | 扣费后 EV -1.56% | 胜率 61.4%；`AMD`（半导体） | 评分 -2.85 | 扣费后 EV -1.96% | 胜率 53.7%；`QCOM`（半导体） | 评分 -2.90 | 扣费后 EV -1.94% | 胜率 54.1%。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -2.77 | post-fee EV -1.89% | win 54.8%; `AVGO` (semiconductor) | score -2.77 | post-fee EV -1.59% | win 60.9%; `QCOM` (semiconductor) | score -2.87 | post-fee EV -1.91% | win 54.5%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -2.77 | 扣费后 EV -1.89% | 胜率 54.8%；`AVGO`（半导体） | 评分 -2.77 | 扣费后 EV -1.59% | 胜率 60.9%；`QCOM`（半导体） | 评分 -2.87 | 扣费后 EV -1.91% | 胜率 54.5%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
