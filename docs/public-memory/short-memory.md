@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-13 13:28:07 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-13 13:33:01 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -138,11 +138,11 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-13
 
-**Summary / 摘要**: 2026-04-13 共 4 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,783.20，对账账本周期盈亏 HKD -216.80，对账未实现盈亏 +HKD 116.52。
+**Summary / 摘要**: 2026-04-13 共 5 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,783.20，对账账本周期盈亏 HKD -216.80，对账未实现盈亏 +HKD 116.52。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 4 |
+| Decision Count / 决策次数 | 5 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
