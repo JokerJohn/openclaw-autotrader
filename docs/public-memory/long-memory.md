@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-13 09:37:40 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-13 09:54:05 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,16 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 40
+**Total Evidence Points / 累计证据点**: 41
+
+## skipped_decision_still_needs_context
+
+**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+**Scope / 作用域**: `decision_output`
+**Evidence Count / 证据次数**: 15
+**Last Seen / 最后出现**: 2026-04-13
+**Dates / 出现日期**: 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13
+**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## sync_error_must_be_sanitized
 
@@ -24,15 +33,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-10
 **Dates / 出现日期**: 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
-
-## skipped_decision_still_needs_context
-
-**Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
-**Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 14
-**Last Seen / 最后出现**: 2026-04-10
-**Dates / 出现日期**: 2026-03-24, 2026-03-25, 2026-03-26, 2026-03-27, 2026-03-30, 2026-03-31, 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10
-**Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## event_market_gate_first
 
