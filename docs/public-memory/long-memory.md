@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-14 23:55:35 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-14 23:57:13 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 43
+**Total Lessons / 教训总数**: 10
+**Total Evidence Points / 累计证据点**: 44
 
 ## sync_error_must_be_sanitized
 
@@ -69,6 +69,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-03
 **Dates / 出现日期**: 2026-04-02, 2026-04-03
 **Tags / 标签**: `portfolio:cash, risk:reserve`
+
+## event_source_failure_explicit
+
+**Lesson / 教训**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
+**Scope / 作用域**: `ops`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-14
+**Dates / 出现日期**: 2026-04-14
+**Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
 
 ## missed_opportunity_AMZN
 
