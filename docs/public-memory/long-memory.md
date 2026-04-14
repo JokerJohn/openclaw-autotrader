@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-15 03:29:05 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-15 03:36:40 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 44
+**Total Lessons / 教训总数**: 9
+**Total Evidence Points / 累计证据点**: 43
 
 ## sync_error_must_be_sanitized
 
@@ -78,15 +78,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-03
 **Dates / 出现日期**: 2026-04-02, 2026-04-03
 **Tags / 标签**: `portfolio:cash, risk:reserve`
-
-## missed_opportunity_MSFT
-
-**Lesson / 教训**: MSFT 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `MSFT`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-15
-**Dates / 出现日期**: 2026-04-15
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics`
 
 ## missed_opportunity_AMZN
 
