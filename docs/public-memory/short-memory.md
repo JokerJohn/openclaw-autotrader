@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-14 22:09:56 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-14 22:14:01 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -131,20 +131,24 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-14
 
-**Summary / 摘要**: 2026-04-14 共 18 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,835.91，对账账本周期盈亏 HKD -164.09，对账未实现盈亏 +HKD 168.87。
+**Summary / 摘要**: 2026-04-14 共 19 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,827.96，对账账本周期盈亏 HKD -172.04，对账未实现盈亏 +HKD 160.92。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 18 |
-| Order Submissions / 提交订单 | 0 |
+| Decision Count / 决策次数 | 19 |
+| Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 26 |
-| Latest Decision / 最新决策 | [HK] 跳过决策 |
-| End Equity / 结束权益 | HKD 4,835.91 |
-| End Net PnL / 结束累计盈亏 | HKD -164.09 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 168.87 |
-| Trade Episodes / 交易片段 | 0 |
+| Latest Decision / 最新决策 | [US] SELL AMZN |
+| End Equity / 结束权益 | HKD 4,827.96 |
+| End Net PnL / 结束累计盈亏 | HKD -172.04 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 160.92 |
+| Trade Episodes / 交易片段 | 1 |
+
+**Recent Trade Episodes / 最近交易片段**
+
+- SELL AMZN | plan_only | edge=+11.34% | conf=0.93 | q=+0.00
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
