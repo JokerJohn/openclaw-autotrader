@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-14 22:40:06 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-14 22:48:17 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-04-14 22:40:06 CST`
 | --- | --- |
 | Day / 当前天数 | `36 / 30` (120.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,824.97 |
-| Net PnL / 累计盈亏 | -HKD 175.03 |
+| Current equity / 当前权益 | HKD 4,827.79 |
+| Net PnL / 累计盈亏 | -HKD 172.21 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
-| Latest move / 最新动作 | [US] SELL `AMZN` / [US] 卖出 `AMZN` |
+| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-14 22:40:06 CST
+- Updated / 更新时间: 2026-04-14 22:48:17 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 83.25
-- Latest decision / 最新决策: [US] SELL `AMZN` / [US] 卖出 `AMZN`
+- Floating PnL / 当前浮动盈亏: +HKD 86.07
+- Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-14.md](./docs/public-monitor/2026/2026-04-14.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-04-14.md](./docs/daily-reports/2026/2026-04-14.md)
@@ -55,15 +55,15 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: The system selected `AMZN` for a sell because it best fit the current fee-aware pocket-account setup. / AMZN 浮盈达到 6.00% ，按规则先止盈 50% 仓位，剩余仓位切换到保本止损跟踪。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `META`, still showed score -2.11, post-fee EV -0.44%, and win probability 56.9%. / 研究链路未稳定返回，但当前最高候选 META 的费后 EV 为 -0.44% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [US] SELL `AMZN` / [US] 卖出 `AMZN`
-- Rationale / 理由: The system selected `AMZN` for a sell because it best fit the current fee-aware pocket-account setup. / AMZN 浮盈达到 6.00% ，按规则先止盈 50% 仓位，剩余仓位切换到保本止损跟踪。
-- Decision basis / 决策依据: Regime: unavailable; Path: pre-check guard only; Model: no research model invoked; Purpose: take profit; confidence 0.93; limit 245.7300. / 市场状态：暂无；决策链路：仅前置守门；模型：未调用研究模型；目的：TAKE_PROFIT；置信度 0.93；限价 245.7300。
-- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: Sharp moves in tracked symbols may create missed-opportunity risk if the system remains patient. / 若后续继续快速上行，提前兑现会带来部分机会成本。
+- Result / 结果: [US] HOLD / [US] 观望
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `META`, still showed score -2.11, post-fee EV -0.44%, and win probability 56.9%. / 研究链路未稳定返回，但当前最高候选 META 的费后 EV 为 -0.44% ，仍低于 live 开仓门槛 0.42% ，按小账户费后纪律继续 HOLD。
+- Decision basis / 决策依据: Regime: mixed tape; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：混合状态；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `META` (internet platform) | score -2.11 | post-fee EV -0.44% | win 56.9%; `MU` (semiconductor) | score -2.11 | post-fee EV -0.99% | win 59.5%; `AMZN` (cloud software) | score -2.16 | post-fee EV -0.86% | win 53.3%. / 共检查 5 只活跃候选。靠前检查结果：`META`（互联网平台） | 评分 -2.11 | 扣费后 EV -0.44% | 胜率 56.9%；`MU`（半导体） | 评分 -2.11 | 扣费后 EV -0.99% | 胜率 59.5%；`AMZN`（云软件） | 评分 -2.16 | 扣费后 EV -0.86% | 胜率 53.3%。
+- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
 
