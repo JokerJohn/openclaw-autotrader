@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-17 00:02:46 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-17 00:17:52 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -22,7 +22,7 @@ Last synced by decision / 决策触发同步时间: `2026-04-17 00:02:46 CST`
 | Current equity / 当前权益 | HKD - |
 | Net PnL / 累计盈亏 | HKD - |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
-| Latest move / 最新动作 | [HK] 已跳过模型决策 |
+| Latest move / 最新动作 | HOLD |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-17 00:02:46 CST
+- Updated / 更新时间: 2026-04-17 00:17:52 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: HKD -
-- Latest decision / 最新决策: [HK] 已跳过模型决策
+- Latest decision / 最新决策: 
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-17.md](./docs/public-monitor/2026/2026-04-17.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-04-17.md](./docs/daily-reports/2026/2026-04-17.md)
@@ -59,11 +59,11 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [HK] 已跳过模型决策
-- Rationale / 理由: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Result / 结果: 
+- Rationale / 理由: No public rationale available. / 暂无公开理由。
 - Decision basis / 决策依据: No public decision basis yet. / 暂无公开决策依据。
 - Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Watch next / 下一步观察: No public risk note. / 暂无公开风险提示。
 
 ## Core Rules / 基本规则
 
