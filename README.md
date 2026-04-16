@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-17 01:03:10 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-17 01:04:59 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-04-17 01:03:10 CST`
 | --- | --- |
 | Day / 当前天数 | `39 / 30` (130.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,817.60 |
-| Net PnL / 累计盈亏 | -HKD 182.40 |
+| Current equity / 当前权益 | HKD 4,818.37 |
+| Net PnL / 累计盈亏 | -HKD 181.63 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-17 01:03:10 CST
+- Updated / 更新时间: 2026-04-17 01:04:59 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 90.71
+- Floating PnL / 当前浮动盈亏: +HKD 91.49
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-17.md](./docs/public-monitor/2026/2026-04-17.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.98, post-fee EV -1.25%, and win probability 56.9%. / dry-run 本地快评估维持 HOLD。top candidates: QCOM:-1.98/-1.25% | ASML:-2.04/-0.95% | TSM:-2.06/-1.12%
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.94, post-fee EV -1.21%, and win probability 57.1%. / 研究链路未稳定返回，但当前最高候选 QCOM 的费后 EV 为 -1.21% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.98, post-fee EV -1.25%, and win probability 56.9%. / dry-run 本地快评估维持 HOLD。top candidates: QCOM:-1.98/-1.25% | ASML:-2.04/-0.95% | TSM:-2.06/-1.12%
-- Decision basis / 决策依据: Regime: high volatility; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.28. / 市场状态：高波动；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.28。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `QCOM` (semiconductor) | score -1.98 | post-fee EV -1.25% | win 56.9%; `ASML` (semiconductor) | score -2.04 | post-fee EV -0.95% | win 46.2%; `TSM` (semiconductor) | score -2.06 | post-fee EV -1.12% | win 48.3%. / 共检查 5 只活跃候选。靠前检查结果：`QCOM`（半导体） | 评分 -1.98 | 扣费后 EV -1.25% | 胜率 56.9%；`ASML`（半导体） | 评分 -2.04 | 扣费后 EV -0.95% | 胜率 46.2%；`TSM`（半导体） | 评分 -2.06 | 扣费后 EV -1.12% | 胜率 48.3%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `QCOM`, still showed score -1.94, post-fee EV -1.21%, and win probability 57.1%. / 研究链路未稳定返回，但当前最高候选 QCOM 的费后 EV 为 -1.21% ，仍低于 live 开仓门槛 0.58% ，按小账户费后纪律继续 HOLD。
+- Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：高波动；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `QCOM` (semiconductor) | score -1.94 | post-fee EV -1.21% | win 57.1%; `TSM` (semiconductor) | score -1.96 | post-fee EV -1.05% | win 48.3%; `SNDK` (semiconductor) | score -2.03 | post-fee EV -1.32% | win 60.6%. / 共检查 5 只活跃候选。靠前检查结果：`QCOM`（半导体） | 评分 -1.94 | 扣费后 EV -1.21% | 胜率 57.1%；`TSM`（半导体） | 评分 -1.96 | 扣费后 EV -1.05% | 胜率 48.3%；`SNDK`（半导体） | 评分 -2.03 | 扣费后 EV -1.32% | 胜率 60.6%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
