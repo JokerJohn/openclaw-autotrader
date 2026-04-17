@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-18 02:13:19 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-18 02:16:02 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -50,7 +50,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Evidence Count / 证据次数**: 2
 **Last Seen / 最后出现**: 2026-04-18
 **Dates / 出现日期**: 2026-04-16, 2026-04-18
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates, regime:mixed, event:market_block, event_theme:energy_oil`
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates, event:market_block, event_theme:energy_oil`
 
 ## event_source_failure_explicit
 
