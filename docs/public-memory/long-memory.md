@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-21 23:55:00 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-22 00:07:25 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,33 +14,33 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 51
+**Total Evidence Points / 累计证据点**: 50
 
 ## sync_error_must_be_sanitized
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 15
+**Evidence Count / 证据次数**: 14
 **Last Seen / 最后出现**: 2026-04-21
-**Dates / 出现日期**: 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21
+**Dates / 出现日期**: 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 15
+**Evidence Count / 证据次数**: 14
 **Last Seen / 最后出现**: 2026-04-21
-**Dates / 出现日期**: 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21
+**Dates / 出现日期**: 2026-04-02, 2026-04-03, 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## event_market_gate_first
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 10
-**Last Seen / 最后出现**: 2026-04-21
-**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21
+**Evidence Count / 证据次数**: 11
+**Last Seen / 最后出现**: 2026-04-22
+**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## event_source_failure_explicit
@@ -79,6 +79,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-02, 2026-04-03
 **Tags / 标签**: `portfolio:cash, risk:reserve`
 
+## missed_opportunity_AMD
+
+**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AMD`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-22
+**Dates / 出现日期**: 2026-04-22
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics`
+
 ## missed_opportunity_ASML
 
 **Lesson / 教训**: ASML 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-10
 **Dates / 出现日期**: 2026-04-10
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict, event_theme:macro_rates`
-
-## good_exit_MU
-
-**Lesson / 教训**: MU 最近的退出时点较有效，说明该类风险缩减纪律值得继续保留。
-**Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-08
-**Dates / 出现日期**: 2026-04-08
-**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:存储, theme:HBM, theme:半导体, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict`
