@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-23 02:24:14 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-23 02:34:42 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-04-23 02:24:14 CST`
 | --- | --- |
 | Day / 当前天数 | `45 / 30` (150.0%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,836.21 |
-| Net PnL / 累计盈亏 | -HKD 163.79 |
+| Current equity / 当前权益 | HKD 4,838.47 |
+| Net PnL / 累计盈亏 | -HKD 161.53 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-23 02:24:14 CST
+- Updated / 更新时间: 2026-04-23 02:34:42 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 109.32
+- Floating PnL / 当前浮动盈亏: +HKD 111.58
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-23.md](./docs/public-monitor/2026/2026-04-23.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AAPL`, still showed score -1.00, post-fee EV +0.16%, and win probability 62.1%. / 虽然市场处于趋势上行（momentum_up），但最新的事件信号显示国际政治风险升温（news_risk_level: severe），且伴随航运扰动风险。对比候选股，最高费后 EV 标的 ORCL 为 0.217%，AAPL 为 0.1591%，均显著低于 live 开仓门槛 (0.36%)。即便考虑核心探测（core_probe），因事件层风险等级为 severe，且候选股 local_score 均为负值（AAPL -0.99, ORCL -1.17），此时新开仓性价比极低，应遵循小账户费后纪律与事件避险逻辑继续观察。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `ORCL`, still showed score -1.08, post-fee EV +0.25%, and win probability 58.4%. / 虽然市场处于趋势上行（momentum_up）且参与广度处于 Neutral 区间（43.3），但最新的事件层信号显示国际政治风险等级为 severe（geopolitics_risk, shipping_disruption），这对美股风险偏好构成了直接压制。对比候选标的，ORCL 和 AAPL 虽然在费后 EV 上表现尚可（ORCL 0.248%），但仍未达到 entry_live 要求的 0.36% 门槛。尽管核心探测（core_probe）逻辑在 severe 风险下仍被允许用于白名单标的，但当前所有候选股的 local_score 均为负值（ORCL -1.08, AAPL -1.59），记忆画像也显示这些标的在当前波动率下的质量得分（avg_quality_score）偏低。基于小账户费后纪律和事件避险逻辑，选择继续 HOLD 观察，不进行非必要的样本采集。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AAPL`, still showed score -1.00, post-fee EV +0.16%, and win probability 62.1%. / 虽然市场处于趋势上行（momentum_up），但最新的事件信号显示国际政治风险升温（news_risk_level: severe），且伴随航运扰动风险。对比候选股，最高费后 EV 标的 ORCL 为 0.217%，AAPL 为 0.1591%，均显著低于 live 开仓门槛 (0.36%)。即便考虑核心探测（core_probe），因事件层风险等级为 severe，且候选股 local_score 均为负值（AAPL -0.99, ORCL -1.17），此时新开仓性价比极低，应遵循小账户费后纪律与事件避险逻辑继续观察。
-- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Gemini 3 Flash Preview; Purpose: hold discipline; confidence 0.35. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Gemini 3 Flash Preview；目的：观望纪律；置信度 0.35。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AAPL` (consumer hardware) | score -1.00 | post-fee EV +0.16% | win 62.1%; `ORCL` (cloud software) | score -1.18 | post-fee EV +0.22% | win 58.4%; `QCOM` (semiconductor) | score -1.81 | post-fee EV -1.60% | win 56.2%. / 共检查 5 只活跃候选。靠前检查结果：`AAPL`（消费硬件） | 评分 -1.00 | 扣费后 EV +0.16% | 胜率 62.1%；`ORCL`（云软件） | 评分 -1.18 | 扣费后 EV +0.22% | 胜率 58.4%；`QCOM`（半导体） | 评分 -1.81 | 扣费后 EV -1.60% | 胜率 56.2%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `ORCL`, still showed score -1.08, post-fee EV +0.25%, and win probability 58.4%. / 虽然市场处于趋势上行（momentum_up）且参与广度处于 Neutral 区间（43.3），但最新的事件层信号显示国际政治风险等级为 severe（geopolitics_risk, shipping_disruption），这对美股风险偏好构成了直接压制。对比候选标的，ORCL 和 AAPL 虽然在费后 EV 上表现尚可（ORCL 0.248%），但仍未达到 entry_live 要求的 0.36% 门槛。尽管核心探测（core_probe）逻辑在 severe 风险下仍被允许用于白名单标的，但当前所有候选股的 local_score 均为负值（ORCL -1.08, AAPL -1.59），记忆画像也显示这些标的在当前波动率下的质量得分（avg_quality_score）偏低。基于小账户费后纪律和事件避险逻辑，选择继续 HOLD 观察，不进行非必要的样本采集。
+- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Gemini 3 Flash Preview; Purpose: hold discipline; confidence 0.45. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Gemini 3 Flash Preview；目的：观望纪律；置信度 0.45。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `ORCL` (cloud software) | score -1.08 | post-fee EV +0.25% | win 58.4%; `AAPL` (consumer hardware) | score -1.60 | post-fee EV -0.09% | win 62.1%; `QCOM` (semiconductor) | score -1.91 | post-fee EV -1.70% | win 54.7%. / 共检查 5 只活跃候选。靠前检查结果：`ORCL`（云软件） | 评分 -1.08 | 扣费后 EV +0.25% | 胜率 58.4%；`AAPL`（消费硬件） | 评分 -1.60 | 扣费后 EV -0.09% | 胜率 62.1%；`QCOM`（半导体） | 评分 -1.91 | 扣费后 EV -1.70% | 胜率 54.7%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
