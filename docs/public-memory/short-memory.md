@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-23 01:38:56 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-23 01:46:00 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -131,24 +131,31 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-23
 
-**Summary / 摘要**: 2026-04-23 共 3 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,833.78，对账账本周期盈亏 HKD -166.22，对账未实现盈亏 +HKD 106.89。
+**Summary / 摘要**: 2026-04-23 共 5 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,834.07，对账账本周期盈亏 HKD -165.93，对账未实现盈亏 +HKD 107.18。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 3 |
+| Decision Count / 决策次数 | 5 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 15 |
+| Benchmarks / 基准快照 | 16 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 4,833.78 |
-| End Net PnL / 结束累计盈亏 | HKD -166.22 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 106.89 |
-| Trade Episodes / 交易片段 | 0 |
+| End Equity / 结束权益 | HKD 4,834.07 |
+| End Net PnL / 结束累计盈亏 | HKD -165.93 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 107.18 |
+| Trade Episodes / 交易片段 | 1 |
+
+**Recent Trade Episodes / 最近交易片段**
+
+- BUY ORCL | plan_only | edge=+0.41% | conf=0.37 | q=+0.00
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
 **Lessons Learned / 提取教训**
+
+- **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
+  - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
 - **missed_opportunity_MU**: MU 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
   - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade, event_theme:shipping_logistics`
