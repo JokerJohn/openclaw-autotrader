@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-23 23:46:05 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-24 00:01:33 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -11,27 +11,6 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 - decision, submission, and fill counts / 决策、下单和成交次数
 - a compact end-of-day equity and cumulative pnl snapshot / 简洁的日终权益与累计盈亏快照
 - day-level lessons worth carrying forward / 值得带到下一天的日级经验
-
-## 2026-04-19
-
-**Summary / 摘要**: 2026-04-19 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,824.91，对账账本周期盈亏 HKD -175.09，对账未实现盈亏 +HKD 98.02。
-
-| Metric / 指标 | Value / 数值 |
-| --- | --- |
-| Decision Count / 决策次数 | 0 |
-| Order Submissions / 提交订单 | 0 |
-| Filled Trades / 成交笔数 | 0 |
-| FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 9 |
-| Latest Decision / 最新决策 | 无 |
-| End Equity / 结束权益 | HKD 4,824.91 |
-| End Net PnL / 结束累计盈亏 | HKD -175.09 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 98.02 |
-| Trade Episodes / 交易片段 | 0 |
-
-**Reconciliation / 对账状态**: 已通过 Tiger API 对账
-
----
 
 ## 2026-04-20
 
@@ -139,7 +118,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 39 |
+| Benchmarks / 基准快照 | 40 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
 | End Equity / 结束权益 | HKD 4,864.04 |
 | End Net PnL / 结束累计盈亏 | HKD -135.96 |
@@ -165,5 +144,26 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
   - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+---
+
+## 2026-04-24
+
+**Summary / 摘要**: 2026-04-24 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,845.63，对账账本周期盈亏 HKD -154.37，对账未实现盈亏 +HKD 118.74。
+
+| Metric / 指标 | Value / 数值 |
+| --- | --- |
+| Decision Count / 决策次数 | 0 |
+| Order Submissions / 提交订单 | 0 |
+| Filled Trades / 成交笔数 | 0 |
+| FX Events / 换汇记录 | 0 |
+| Benchmarks / 基准快照 | 18 |
+| Latest Decision / 最新决策 | 无 |
+| End Equity / 结束权益 | HKD 4,845.63 |
+| End Net PnL / 结束累计盈亏 | HKD -154.37 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 118.74 |
+| Trade Episodes / 交易片段 | 0 |
+
+**Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
 ---
