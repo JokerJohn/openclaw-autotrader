@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-23 21:29:59 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-23 21:37:58 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 52
+**Total Evidence Points / 累计证据点**: 53
 
 ## sync_error_must_be_sanitized
 
@@ -38,9 +38,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 11
-**Last Seen / 最后出现**: 2026-04-22
-**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22
+**Evidence Count / 证据次数**: 12
+**Last Seen / 最后出现**: 2026-04-23
+**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## us_buy_no_chasing_and_tighter_caps
