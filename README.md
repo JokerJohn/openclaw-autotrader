@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-24 22:11:31 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-24 22:19:45 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-04-24 22:11:31 CST`
 | --- | --- |
 | Day / 当前天数 | `46 / 30` (153.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,868.01 |
-| Net PnL / 累计盈亏 | -HKD 131.99 |
+| Current equity / 当前权益 | HKD 4,872.56 |
+| Net PnL / 累计盈亏 | -HKD 127.44 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
-| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
+| Latest move / 最新动作 | [US] BUY `ASML` / [US] 买入 `ASML` |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-24 22:11:31 CST
+- Updated / 更新时间: 2026-04-24 22:19:45 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 126.49
-- Latest decision / 最新决策: [US] HOLD / [US] 观望
+- Floating PnL / 当前浮动盈亏: +HKD 131.04
+- Latest decision / 最新决策: [US] BUY `ASML` / [US] 买入 `ASML`
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-24.md](./docs/public-monitor/2026/2026-04-24.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-04-24.md](./docs/daily-reports/2026/2026-04-24.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -1.52, post-fee EV -0.31%, and win probability 60.7%. / 研究链路未稳定返回，但当前最高候选 TSLA 的费后 EV 为 -0.31% ，仍低于 live 开仓门槛 0.28% ，按小账户费后纪律继续 HOLD。
+- Latest gate result / 最新门槛结论: The system selected `ASML` for a buy because it best fit the current fee-aware pocket-account setup. / 在混合市场环境下，ASML 表现出最强的费后 EV (0.54%) 与胜率 (66.8%)，且本地评分 (0.48) 突破了小账户 entry_live 门槛 (0.35)。尽管存在地缘政治与航运风险导致的 market_gate 调整 (-0.1)，但 ASML 的半导体核心地位与当前的 proxy_edge 提供了足够的安全垫。当前决策风格为 aggressive，且 ASML 允许开盘追涨 (opening_chase_allowed=true)，符合当前捕捉核心池溢价的策略。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `TSLA`, still showed score -1.52, post-fee EV -0.31%, and win probability 60.7%. / 研究链路未稳定返回，但当前最高候选 TSLA 的费后 EV 为 -0.31% ，仍低于 live 开仓门槛 0.28% ，按小账户费后纪律继续 HOLD。
-- Decision basis / 决策依据: Regime: high volatility; Path: standard decision flow; Model: research gpt-5.4, compare A; Purpose: standard review; confidence 0.22. / 市场状态：高波动；决策链路：常规决策链路；模型：研究模型 gpt-5.4，候选比较 A；目的：常规审查；置信度 0.22。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `TSLA` (EV) | score -1.52 | post-fee EV -0.31% | win 60.7%; `NVDA` (semiconductor) | score -1.95 | post-fee EV -0.53% | win 65.3%; `AMZN` (cloud software) | score -2.48 | post-fee EV -0.37% | win 58.3%. / 共检查 5 只活跃候选。靠前检查结果：`TSLA`（电动车） | 评分 -1.52 | 扣费后 EV -0.31% | 胜率 60.7%；`NVDA`（半导体） | 评分 -1.95 | 扣费后 EV -0.53% | 胜率 65.3%；`AMZN`（云软件） | 评分 -2.48 | 扣费后 EV -0.37% | 胜率 58.3%。
+- Result / 结果: [US] BUY `ASML` / [US] 买入 `ASML`
+- Rationale / 理由: The system selected `ASML` for a buy because it best fit the current fee-aware pocket-account setup. / 在混合市场环境下，ASML 表现出最强的费后 EV (0.54%) 与胜率 (66.8%)，且本地评分 (0.48) 突破了小账户 entry_live 门槛 (0.35)。尽管存在地缘政治与航运风险导致的 market_gate 调整 (-0.1)，但 ASML 的半导体核心地位与当前的 proxy_edge 提供了足够的安全垫。当前决策风格为 aggressive，且 ASML 允许开盘追涨 (opening_chase_allowed=true)，符合当前捕捉核心池溢价的策略。
+- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Gemini 3 Flash Preview; Purpose: new position; confidence 0.68; limit 1457.0850. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Gemini 3 Flash Preview；目的：新开仓；置信度 0.68；限价 1457.0850。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `ASML` (semiconductor) | score +0.48 | post-fee EV +0.54% | win 66.8%; `NVDA` (semiconductor) | score -1.92 | post-fee EV -0.51% | win 65.4%; `LLY` (pharma) | score -2.28 | post-fee EV -0.44% | win 46.9%. / 共检查 5 只活跃候选。靠前检查结果：`ASML`（半导体） | 评分 +0.48 | 扣费后 EV +0.54% | 胜率 66.8%；`NVDA`（半导体） | 评分 -1.92 | 扣费后 EV -0.51% | 胜率 65.4%；`LLY`（pharma） | 评分 -2.28 | 扣费后 EV -0.44% | 胜率 46.9%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
