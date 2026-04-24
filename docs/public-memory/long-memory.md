@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-25 00:42:47 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-25 00:57:54 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -20,9 +20,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 15
-**Last Seen / 最后出现**: 2026-04-24
-**Dates / 出现日期**: 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24
+**Evidence Count / 证据次数**: 16
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-06, 2026-04-07, 2026-04-08, 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
@@ -51,15 +51,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-24
 **Dates / 出现日期**: 2026-04-08, 2026-04-09, 2026-04-23, 2026-04-24
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
-
-## missed_opportunity_NVDA
-
-**Lesson / 教训**: NVDA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `NVDA`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-04-25
-**Dates / 出现日期**: 2026-04-24, 2026-04-25
-**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil, action:hold, purpose:hold`
 
 ## event_source_failure_explicit
 
@@ -105,3 +96,12 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-25
 **Dates / 出现日期**: 2026-04-25
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
+
+## positive_followthrough_buy_AAOI
+
+**Lesson / 教训**: AAOI 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `AAOI`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-25
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
