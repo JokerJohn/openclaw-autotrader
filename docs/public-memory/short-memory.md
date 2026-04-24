@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-25 02:13:28 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-25 02:26:09 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -161,25 +161,25 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-25
 
-**Summary / 摘要**: 2026-04-25 共 4 次计划、1 次成交、0 次换汇记录，对账权益 HKD 4,853.55，对账账本周期盈亏 HKD -146.45，对账未实现盈亏 +HKD 142.26。
+**Summary / 摘要**: 2026-04-25 共 5 次计划、1 次成交、0 次换汇记录，对账权益 HKD 4,852.53，对账账本周期盈亏 HKD -147.47，对账未实现盈亏 +HKD 141.24。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 4 |
+| Decision Count / 决策次数 | 5 |
 | Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 14 |
-| Latest Decision / 最新决策 | [US] BUY BABA |
-| End Equity / 结束权益 | HKD 4,853.55 |
-| End Net PnL / 结束累计盈亏 | HKD -146.45 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 142.26 |
+| Benchmarks / 基准快照 | 15 |
+| Latest Decision / 最新决策 | [US] HOLD 无 |
+| End Equity / 结束权益 | HKD 4,852.53 |
+| End Net PnL / 结束累计盈亏 | HKD -147.47 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 141.24 |
 | Trade Episodes / 交易片段 | 2 |
 
 **Recent Trade Episodes / 最近交易片段**
 
 - BUY BABA | filled | edge=+1.00% | conf=0.58 | q=+0.00
-- BUY META | plan_only | edge=+0.98% | conf=0.45 | q=+0.00
+- BUY META | plan_only | edge=+0.98% | conf=0.45 | q=-1.19 | one_hour buy_neutral -0.75% | regret=+1.12%
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
@@ -194,13 +194,13 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 - **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
   - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
-- **missed_opportunity_AAOI**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
-
 - **missed_opportunity_QCOM**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
   - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
 
 - **positive_followthrough_buy_AAOI**: AAOI 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
   - Tags / 标签: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
+
+- **missed_opportunity_AAOI**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:policy_trade`
 
 ---
