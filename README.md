@@ -5,7 +5,7 @@
 Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-24 23:27:09 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-24 23:30:24 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-04-24 23:27:09 CST`
 | --- | --- |
 | Day / 当前天数 | `46 / 30` (153.3%) |
 | Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 4,873.10 |
-| Net PnL / 累计盈亏 | -HKD 126.90 |
+| Current equity / 当前权益 | HKD 4,875.66 |
+| Net PnL / 累计盈亏 | -HKD 124.34 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
-| Latest move / 最新动作 | [US] BUY `ASML` / [US] 买入 `ASML` |
+| Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-24 23:27:09 CST
+- Updated / 更新时间: 2026-04-24 23:30:24 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 131.58
-- Latest decision / 最新决策: [US] BUY `ASML` / [US] 买入 `ASML`
+- Floating PnL / 当前浮动盈亏: +HKD 134.14
+- Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-24.md](./docs/public-monitor/2026/2026-04-24.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-04-24.md](./docs/daily-reports/2026/2026-04-24.md)
@@ -55,15 +55,15 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: The system selected `ASML` for a buy because it best fit the current fee-aware pocket-account setup. / 基于 comparison_stage 的首选判断。ASML 在混合市场（Mixed Regime）中展现出极高的历史胜率（66.8%）和正向费后期望回报（0.2879%），本地评分（0.48）已突破小账户 entry_live 门槛（0.35）。虽然地缘政治冲突对美股整体风险偏好有 -0.1 的市场门槛压制，但 ASML 作为半导体光刻机垄断者，其基本面催化剂足以支撑在 aggressive 风格下的适度开仓。当前 60 分钟内无新增风险头寸，符合 fresh_open_slots_per_hour=2 的限制。
+- Latest gate result / 最新门槛结论: critic gate 拦截：final expected_edge_pct 0.28% 低于成本覆盖门槛 0.53% / critic gate 拦截：final expected_edge_pct 0.28% 低于成本覆盖门槛 0.53%
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [US] BUY `ASML` / [US] 买入 `ASML`
-- Rationale / 理由: The system selected `ASML` for a buy because it best fit the current fee-aware pocket-account setup. / 基于 comparison_stage 的首选判断。ASML 在混合市场（Mixed Regime）中展现出极高的历史胜率（66.8%）和正向费后期望回报（0.2879%），本地评分（0.48）已突破小账户 entry_live 门槛（0.35）。虽然地缘政治冲突对美股整体风险偏好有 -0.1 的市场门槛压制，但 ASML 作为半导体光刻机垄断者，其基本面催化剂足以支撑在 aggressive 风格下的适度开仓。当前 60 分钟内无新增风险头寸，符合 fresh_open_slots_per_hour=2 的限制。
-- Decision basis / 决策依据: Regime: high volatility; Path: compare-stage hold review; Model: Gemini 3 Flash Preview; Purpose: new position; confidence 0.68; limit 1452.9950. / 市场状态：高波动；决策链路：候选比较后维持观望；模型：Gemini 3 Flash Preview；目的：新开仓；置信度 0.68；限价 1452.9950。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `ASML` (semiconductor) | score -0.21 | post-fee EV +0.29% | win 66.8%; `LLY` (pharma) | score -1.52 | post-fee EV +0.11% | win 46.9%; `BABA` (China internet) | score -2.57 | post-fee EV -0.45% | win 62.5%. / 共检查 5 只活跃候选。靠前检查结果：`ASML`（半导体） | 评分 -0.21 | 扣费后 EV +0.29% | 胜率 66.8%；`LLY`（pharma） | 评分 -1.52 | 扣费后 EV +0.11% | 胜率 46.9%；`BABA`（中概互联网） | 评分 -2.57 | 扣费后 EV -0.45% | 胜率 62.5%。
-- Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
+- Result / 结果: [US] HOLD / [US] 观望
+- Rationale / 理由: critic gate 拦截：final expected_edge_pct 0.28% 低于成本覆盖门槛 0.53% / critic gate 拦截：final expected_edge_pct 0.28% 低于成本覆盖门槛 0.53%
+- Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: Gemini 3 Flash Preview; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：Gemini 3 Flash Preview；目的：常规审查；置信度 0.00。
+- Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
+- Watch next / 下一步观察: 研究输出存在执行风险，已降级为 HOLD。 / 研究输出存在执行风险，已降级为 HOLD。
 
 ## Core Rules / 基本规则
 

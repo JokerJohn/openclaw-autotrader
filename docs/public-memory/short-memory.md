@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-24 23:27:10 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-24 23:30:25 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -149,19 +149,19 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-24
 
-**Summary / 摘要**: 2026-04-24 共 23 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,873.10，对账账本周期盈亏 HKD -126.90，对账未实现盈亏 +HKD 131.58。
+**Summary / 摘要**: 2026-04-24 共 24 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,875.66，对账账本周期盈亏 HKD -124.34，对账未实现盈亏 +HKD 134.14。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 23 |
+| Decision Count / 决策次数 | 24 |
 | Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 51 |
-| Latest Decision / 最新决策 | [US] BUY ASML |
-| End Equity / 结束权益 | HKD 4,873.10 |
-| End Net PnL / 结束累计盈亏 | HKD -126.90 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 131.58 |
+| Latest Decision / 最新决策 | [US] HOLD 无 |
+| End Equity / 结束权益 | HKD 4,875.66 |
+| End Net PnL / 结束累计盈亏 | HKD -124.34 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 134.14 |
 | Trade Episodes / 交易片段 | 3 |
 
 **Recent Trade Episodes / 最近交易片段**
