@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-04-24 21:41:18 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-24 21:44:35 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -149,19 +149,19 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-04-24
 
-**Summary / 摘要**: 2026-04-24 共 20 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,854.85，对账账本周期盈亏 HKD -145.15，对账未实现盈亏 +HKD 113.33。
+**Summary / 摘要**: 2026-04-24 共 21 次计划、0 次成交、0 次换汇记录，对账权益 HKD 4,868.14，对账账本周期盈亏 HKD -131.86，对账未实现盈亏 +HKD 126.62。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 20 |
+| Decision Count / 决策次数 | 21 |
 | Order Submissions / 提交订单 | 1 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 49 |
-| Latest Decision / 最新决策 | [HK] 跳过决策 |
-| End Equity / 结束权益 | HKD 4,854.85 |
-| End Net PnL / 结束累计盈亏 | HKD -145.15 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 113.33 |
+| Latest Decision / 最新决策 | [US] HOLD 无 |
+| End Equity / 结束权益 | HKD 4,868.14 |
+| End Net PnL / 结束累计盈亏 | HKD -131.86 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 126.62 |
 | Trade Episodes / 交易片段 | 1 |
 
 **Recent Trade Episodes / 最近交易片段**
