@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-24 23:57:25 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-25 00:06:11 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 55
+**Total Evidence Points / 累计证据点**: 57
 
 ## sync_error_must_be_sanitized
 
@@ -38,9 +38,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 13
-**Last Seen / 最后出现**: 2026-04-24
-**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24
+**Evidence Count / 证据次数**: 14
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## us_buy_no_chasing_and_tighter_caps
@@ -51,6 +51,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-24
 **Dates / 出现日期**: 2026-04-08, 2026-04-09, 2026-04-23, 2026-04-24
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
+
+## missed_opportunity_NVDA
+
+**Lesson / 教训**: NVDA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `NVDA`
+**Evidence Count / 证据次数**: 2
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-24, 2026-04-25
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil, action:hold, purpose:hold`
 
 ## event_source_failure_explicit
 
@@ -70,38 +79,29 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-09, 2026-04-10
 **Tags / 标签**: `execution:quotes, execution:session`
 
-## missed_opportunity_NVDA
+## missed_opportunity_AMD
 
-**Lesson / 教训**: NVDA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `NVDA`
+**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AMD`
 **Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-24
-**Dates / 出现日期**: 2026-04-24
-**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-25
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:war_conflict`
 
-## missed_opportunity_ASML
+## missed_opportunity_AAOI
 
-**Lesson / 教训**: ASML 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `ASML`
+**Lesson / 教训**: AAOI 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AAOI`
 **Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-16
-**Dates / 出现日期**: 2026-04-16
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-25
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
 
-## missed_opportunity_AMZN
+## missed_opportunity_QCOM
 
-**Lesson / 教训**: AMZN 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `AMZN`
+**Lesson / 教训**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `QCOM`
 **Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-10
-**Dates / 出现日期**: 2026-04-10
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict, event_theme:macro_rates`
-
-## good_exit_MU
-
-**Lesson / 教训**: MU 最近的退出时点较有效，说明该类风险缩减纪律值得继续保留。
-**Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-08
-**Dates / 出现日期**: 2026-04-08
-**Tags / 标签**: `action:sell, purpose:stop_loss, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:存储, theme:HBM, theme:半导体, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict`
+**Last Seen / 最后出现**: 2026-04-25
+**Dates / 出现日期**: 2026-04-25
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:shipping_logistics, event_theme:policy_trade, event_theme:energy_oil`
