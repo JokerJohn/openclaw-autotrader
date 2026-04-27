@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-28 00:38:32 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-28 00:39:43 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-04-28 00:38:32 CST`
 | --- | --- |
 | Day / 当前天数 | `50 / 30` (166.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
-| Current equity / 当前权益 | HKD 9,805.78 |
-| Net PnL / 累计盈亏 | -HKD 194.22 |
+| Current equity / 当前权益 | HKD 9,808.44 |
+| Net PnL / 累计盈亏 | -HKD 191.56 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-28 00:38:32 CST
+- Updated / 更新时间: 2026-04-28 00:39:43 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 94.50
+- Floating PnL / 当前浮动盈亏: +HKD 97.15
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-28.md](./docs/public-monitor/2026/2026-04-28.md)
@@ -55,14 +55,14 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AAOI`, still showed score -2.60, post-fee EV +0.74%, and win probability 38.4%. / 当前仅 AAOI 的费用后 EV 为正(0.74%)，但其 local_score 为 -2.60、win_prob 仅 0.3844，且 reward/risk 不足，未通过小额账户新增开仓门槛；其余候选 ASML/AMD/NVDA/GOOGL/TSLA/AAPL/BABA 的费用后 EV 全部为负，短线净期望不足，未形成可执行正边际。
+- Latest gate result / 最新门槛结论: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -4.72, post-fee EV -0.86%, and win probability 43.1%. / compare stage 已确认当前不值得开新风险，直接维持 HOLD。
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AAOI`, still showed score -2.60, post-fee EV +0.74%, and win probability 38.4%. / 当前仅 AAOI 的费用后 EV 为正(0.74%)，但其 local_score 为 -2.60、win_prob 仅 0.3844，且 reward/risk 不足，未通过小额账户新增开仓门槛；其余候选 ASML/AMD/NVDA/GOOGL/TSLA/AAPL/BABA 的费用后 EV 全部为负，短线净期望不足，未形成可执行正边际。
-- Decision basis / 决策依据: Regime: mixed tape; Path: compare-stage hold review; Model: gpt-5.4-fast; Purpose: hold discipline; confidence 0.96. / 市场状态：混合状态；决策链路：候选比较后维持观望；模型：gpt-5.4-fast；目的：观望纪律；置信度 0.96。
-- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AAOI` (optical networking) | score -2.60 | post-fee EV +0.74% | win 38.4%; `AMD` (semiconductor) | score -4.56 | post-fee EV -0.76% | win 43.1%; `ASML` (semiconductor) | score -4.94 | post-fee EV -1.23% | win 52.4%. / 共检查 5 只活跃候选。靠前检查结果：`AAOI`（optical networking） | 评分 -2.60 | 扣费后 EV +0.74% | 胜率 38.4%；`AMD`（半导体） | 评分 -4.56 | 扣费后 EV -0.76% | 胜率 43.1%；`ASML`（半导体） | 评分 -4.94 | 扣费后 EV -1.23% | 胜率 52.4%。
+- Rationale / 理由: No US candidate cleared the live entry bar. The strongest name, `AMD`, still showed score -4.72, post-fee EV -0.86%, and win probability 43.1%. / compare stage 已确认当前不值得开新风险，直接维持 HOLD。
+- Decision basis / 决策依据: Regime: mixed tape; Path: standard decision flow; Model: gpt-5.4-fast; Purpose: standard review; confidence 0.36. / 市场状态：混合状态；决策链路：常规决策链路；模型：gpt-5.4-fast；目的：常规审查；置信度 0.36。
+- Candidate check / 候选检查: Reviewed 5 active candidate(s). Top checks: `AMD` (semiconductor) | score -4.72 | post-fee EV -0.86% | win 43.1%; `NVDA` (semiconductor) | score -4.84 | post-fee EV -0.66% | win 60.0%; `ASML` (semiconductor) | score -5.04 | post-fee EV -1.35% | win 53.5%. / 共检查 5 只活跃候选。靠前检查结果：`AMD`（半导体） | 评分 -4.72 | 扣费后 EV -0.86% | 胜率 43.1%；`NVDA`（半导体） | 评分 -4.84 | 扣费后 EV -0.66% | 胜率 60.0%；`ASML`（半导体） | 评分 -5.04 | 扣费后 EV -1.35% | 胜率 53.5%。
 - Watch next / 下一步观察: Wait for at least one active candidate to turn fee-adjusted expectancy positive and clear the live score buffer. / 等待至少一只活跃候选的扣费后预期收益转正，并越过实盘评分缓冲区。
 
 ## Core Rules / 基本规则
