@@ -2,10 +2,10 @@
 
 # 30-Day OpenClaw AutoTrader Challenge
 
-Watch a 5000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
-看一只起步于 5000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
+Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
+看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-27 23:35:02 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-27 23:47:12 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -18,9 +18,9 @@ Last synced by decision / 决策触发同步时间: `2026-04-27 23:35:02 CST`
 | Metric | Value |
 | --- | --- |
 | Day / 当前天数 | `49 / 30` (163.3%) |
-| Starting capital / 起始资金 | `5000 HKD` |
-| Current equity / 当前权益 | HKD 9,820.05 |
-| Net PnL / 累计盈亏 | +HKD 4,820.05 |
+| Starting capital / 起始资金 | `10000 HKD` |
+| Current equity / 当前权益 | HKD 9,818.72 |
+| Net PnL / 累计盈亏 | -HKD 181.28 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-27 23:35:02 CST
+- Updated / 更新时间: 2026-04-27 23:47:12 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 93.13
+- Floating PnL / 当前浮动盈亏: +HKD 91.81
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-27.md](./docs/public-monitor/2026/2026-04-27.md)
@@ -67,7 +67,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Core Rules / 基本规则
 
-- Starting pocket capital / 起始口袋资金: `5000 HKD`
+- Starting pocket capital / 起始口袋资金: `10000 HKD`
 - Default market / 默认市场: `US` equities first, with HK monitoring when relevant / 以 `US` 市场为主，必要时监控港股
 - Public operation day 1 / 公开运行首日: `2026-03-10`
 - Guardrails / 约束: whitelist-only, bounded deployment, no leverage, no short / 白名单、有限资金、不加杠杆、不做空

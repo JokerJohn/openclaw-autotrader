@@ -5,7 +5,7 @@ This repository discloses the public operating principles of the OpenClaw tradin
 
 ## Core Rules / 核心规则
 
-- Starting pocket capital / 起始口袋资金: `5000 HKD`
+- Starting pocket capital / 起始口袋资金: `10000 HKD`
 - Default market / 默认市场: `US` equities first / 以 `US` 市场为主
 - Whitelist only / 仅限白名单
 - No leverage / 不加杠杆
