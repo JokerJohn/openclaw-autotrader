@@ -632,7 +632,7 @@ async function main() {
   const previousSessionSummary = previousReport ? parseSessionSummary(previousReport) : {};
   const currentEquity =
     parseCurrency(sessionSummary["current equity"]) ?? readmeInfo.currentEquityHkd ?? parseCurrency(noTrade["equity"]);
-  const startingCapital = readmeInfo.startingCapitalHkd ?? 5000;
+  const startingCapital = readmeInfo.startingCapitalHkd ?? 10000;
   const netPnl = parseCurrency(sessionSummary["net pnl"]) ?? readmeInfo.netPnlHkd ?? currentEquity - startingCapital;
   const previousEquity = parseCurrency(previousSessionSummary["current equity"]);
   const dailyPnl = Number(((previousEquity == null ? netPnl : currentEquity - previousEquity) ?? 0).toFixed(2));

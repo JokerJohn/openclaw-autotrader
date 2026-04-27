@@ -29,7 +29,7 @@ Use this skill when an OpenClaw series note is visible in creator backend but ex
 - Keep `养龙虾` + `Day` + `OpenClaw`.
 - Prefer direct `stock / current / PnL / fill / skip` wording over vague phrases like `公开实验 / 实验记录 / 系统日志`.
 - Titles should reflect that day's result directly, using words such as `小盈`、`小亏`、`大亏`、`持平` instead of flat labels such as `起步` or `继续等`.
-- Keep the GitHub-poster visual language and preserve `本金 5000 HKD`、`current`、`PnL` on the cover.
+- Keep the GitHub-poster visual language and preserve `本金 10000 HKD`、`current`、`PnL` on the cover.
 - Avoid direct Chinese high-risk phrases such as `美股全自动`、`自动量化交易`、`交易复盘`、`日盈亏`、`当前持仓`.
 
 ## Required structure
