@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-04-28 21:33:44 CST`
+Last synced by decision / 决策触发同步时间: `2026-04-28 21:36:40 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,10 +19,10 @@ Last synced by decision / 决策触发同步时间: `2026-04-28 21:33:44 CST`
 | --- | --- |
 | Day / 当前天数 | `50 / 30` (166.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
-| Current equity / 当前权益 | HKD 9,819.16 |
-| Net PnL / 累计盈亏 | -HKD 180.84 |
+| Current equity / 当前权益 | HKD 9,776.91 |
+| Net PnL / 累计盈亏 | -HKD 223.09 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
-| Latest move / 最新动作 | [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会） |
+| Latest move / 最新动作 | [US] SELL `BABA` / [US] 卖出 `BABA` |
 
 ## 30-Day Tracker / 30 天挑战总览
 
@@ -40,10 +40,10 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-04-28 21:33:44 CST
+- Updated / 更新时间: 2026-04-28 21:36:40 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 91.12
-- Latest decision / 最新决策: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
+- Floating PnL / 当前浮动盈亏: +HKD 48.87
+- Latest decision / 最新决策: [US] SELL `BABA` / [US] 卖出 `BABA`
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-04-28.md](./docs/public-monitor/2026/2026-04-28.md)
 - Daily report / 每日报告: [docs/daily-reports/2026/2026-04-28.md](./docs/daily-reports/2026/2026-04-28.md)
@@ -55,15 +55,15 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Latest gate result / 最新门槛结论: The system selected `BABA` for a sell because it best fit the current fee-aware pocket-account setup. / BABA 已触发硬止损阈值，优先保护本金。
 
 ## Latest Decision Basis / 最新决策依据
 
-- Result / 结果: [HK] HOLD (no qualified setup) / [HK] 观望（无达标机会）
-- Rationale / 理由: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
-- Decision basis / 决策依据: Regime: unavailable; Path: pre-check guard only; Model: no research model invoked; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：仅前置守门；模型：未调用研究模型；目的：常规审查；置信度 0.00。
+- Result / 结果: [US] SELL `BABA` / [US] 卖出 `BABA`
+- Rationale / 理由: The system selected `BABA` for a sell because it best fit the current fee-aware pocket-account setup. / BABA 已触发硬止损阈值，优先保护本金。
+- Decision basis / 决策依据: Regime: unavailable; Path: pre-check guard only; Model: no research model invoked; Purpose: stop loss; confidence 0.99; limit 129.5550. / 市场状态：暂无；决策链路：仅前置守门；模型：未调用研究模型；目的：STOP_LOSS；置信度 0.99；限价 129.5550。
 - Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: 当前港股动态活跃池为空，已跳过本轮决策。 / 当前港股动态活跃池为空，已跳过本轮决策。
+- Watch next / 下一步观察: Sharp moves in tracked symbols may create missed-opportunity risk if the system remains patient. / 若盘中快速拉回，止损后会承受反弹机会成本。
 
 ## Core Rules / 基本规则
 
