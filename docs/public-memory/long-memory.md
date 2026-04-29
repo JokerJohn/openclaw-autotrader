@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-29 23:56:02 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-30 00:02:54 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,16 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 60
-
-## sync_error_must_be_sanitized
-
-**Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
-**Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 16
-**Last Seen / 最后出现**: 2026-04-29
-**Dates / 出现日期**: 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29
-**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
+**Total Evidence Points / 累计证据点**: 56
 
 ## event_market_gate_first
 
@@ -34,22 +25,31 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-10, 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
+## sync_error_must_be_sanitized
+
+**Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
+**Scope / 作用域**: `ops`
+**Evidence Count / 证据次数**: 15
+**Last Seen / 最后出现**: 2026-04-29
+**Dates / 出现日期**: 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29
+**Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
+
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 15
+**Evidence Count / 证据次数**: 14
 **Last Seen / 最后出现**: 2026-04-29
-**Dates / 出现日期**: 2026-04-09, 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29
+**Dates / 出现日期**: 2026-04-10, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## us_buy_no_chasing_and_tighter_caps
 
 **Lesson / 教训**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
 **Scope / 作用域**: `portfolio`
-**Evidence Count / 证据次数**: 4
+**Evidence Count / 证据次数**: 3
 **Last Seen / 最后出现**: 2026-04-25
-**Dates / 出现日期**: 2026-04-09, 2026-04-23, 2026-04-24, 2026-04-25
+**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
 ## missed_opportunity_NVDA
@@ -70,15 +70,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-14, 2026-04-15
 **Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
 
-## realtime_quote_gate
-
-**Lesson / 教训**: 需要实时行情或明确的开盘状态才能进入实盘决策，缺行情时不要强行交易。
-**Scope / 作用域**: `execution`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-04-10
-**Dates / 出现日期**: 2026-04-09, 2026-04-10
-**Tags / 标签**: `execution:quotes, execution:session`
-
 ## missed_opportunity_AMD
 
 **Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -96,6 +87,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-16
 **Dates / 出现日期**: 2026-04-16
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
+
+## realtime_quote_gate
+
+**Lesson / 教训**: 需要实时行情或明确的开盘状态才能进入实盘决策，缺行情时不要强行交易。
+**Scope / 作用域**: `execution`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-10
+**Dates / 出现日期**: 2026-04-10
+**Tags / 标签**: `execution:quotes, execution:session`
 
 ## missed_opportunity_AMZN
 
