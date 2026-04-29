@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-30 03:19:33 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-30 03:33:34 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -70,15 +70,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-14, 2026-04-15
 **Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
 
-## missed_opportunity_MU
-
-**Lesson / 教训**: MU 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-30
-**Dates / 出现日期**: 2026-04-30
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:energy_oil, event_theme:shipping_logistics`
-
 ## missed_opportunity_AMD
 
 **Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -105,3 +96,12 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-10
 **Dates / 出现日期**: 2026-04-10
 **Tags / 标签**: `execution:quotes, execution:session`
+
+## missed_opportunity_AMZN
+
+**Lesson / 教训**: AMZN 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AMZN`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-10
+**Dates / 出现日期**: 2026-04-10
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict, event_theme:macro_rates`
