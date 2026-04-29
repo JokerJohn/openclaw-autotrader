@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-04-29 22:31:46 CST (UTC+08:00)
+Updated / 更新时间: 2026-04-29 22:46:54 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,8 +13,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 59
+**Total Lessons / 教训总数**: 10
+**Total Evidence Points / 累计证据点**: 60
 
 ## sync_error_must_be_sanitized
 
@@ -78,6 +78,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-10
 **Dates / 出现日期**: 2026-04-09, 2026-04-10
 **Tags / 标签**: `execution:quotes, execution:session`
+
+## missed_opportunity_AMD
+
+**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AMD`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-04-29
+**Dates / 出现日期**: 2026-04-29
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics`
 
 ## missed_opportunity_ASML
 
