@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-05-01 02:16:54 CST`
+Last synced by decision / 决策触发同步时间: `2026-05-01 02:20:24 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-05-01 02:16:54 CST`
 | --- | --- |
 | Day / 当前天数 | `53 / 30` (176.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
-| Current equity / 当前权益 | HKD 9,754.69 |
-| Net PnL / 累计盈亏 | -HKD 245.31 |
+| Current equity / 当前权益 | HKD 9,758.60 |
+| Net PnL / 累计盈亏 | -HKD 241.40 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-05-01 02:16:54 CST
+- Updated / 更新时间: 2026-05-01 02:20:24 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 132.27
+- Floating PnL / 当前浮动盈亏: +HKD 136.18
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-05-01.md](./docs/public-monitor/2026/2026-05-01.md)
@@ -55,13 +55,13 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Live pools today / 今日实盘池: US: `AAPL`, `MSFT`, `META`, `GOOGL`, `AMZN`, `NVDA`, `AVGO`, `MU`, `BABA`, `RIVN`, `AMD`, `QCOM`, `TSM`, `TSLA`, `ORCL`, `WMT`, `LLY`, `JPM`, `XOM`, `V`, `MA`, `ASML`, `JNJ`, `ABBV`, `PG`, `BAC`, `HD`, `COST` | HK: `0388.HK`, `1810.HK`, `1024.HK`, `1211.HK`, `3750.HK`, `0700.HK`, `9988.HK`, `3690.HK`, `9999.HK`, `9618.HK`, `9888.HK`. 今日实盘池如上，按市场分别执行。
 - Observation focus today / 今日观察重点: themes `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`; public observation pool US: none / 暂无 | HK: none / 暂无. 今日观察主题为 `半导体`, `AI芯片`, `云软件`, `中概`, `电动车`, `手机链`, `消费电子`, `CPO`, `光模块`, `存储`，并同步公开观察池变化。
 - Explicit exclusions / 明确排除: `智谱`, `MiniMax`, `三星电子`, `SK 海力士`, `7709.HK` stay out of the live universe when they violate the rules. 凡与规则冲突的标的（如上）均不进入实盘池。
-- Latest gate result / 最新门槛结论: critic gate 拦截：final expected_edge_pct -1.63% 低于成本覆盖门槛 0.31% / critic gate 拦截：final expected_edge_pct -1.63% 低于成本覆盖门槛 0.31%
+- Latest gate result / 最新门槛结论: critic gate 拦截：final expected_edge_pct -1.90% 低于成本覆盖门槛 0.31% / critic gate 拦截：final expected_edge_pct -1.90% 低于成本覆盖门槛 0.31%
 
 ## Latest Decision Basis / 最新决策依据
 
 - Result / 结果: [US] HOLD / [US] 观望
-- Rationale / 理由: critic gate 拦截：final expected_edge_pct -1.63% 低于成本覆盖门槛 0.31% / critic gate 拦截：final expected_edge_pct -1.63% 低于成本覆盖门槛 0.31%
-- Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: deepseek-v4-pro; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：deepseek-v4-pro；目的：常规审查；置信度 0.00。
+- Rationale / 理由: critic gate 拦截：final expected_edge_pct -1.90% 低于成本覆盖门槛 0.31% / critic gate 拦截：final expected_edge_pct -1.90% 低于成本覆盖门槛 0.31%
+- Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: research deepseek-v4-flash, compare deepseek-v4-pro; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：研究模型 deepseek-v4-flash，候选比较 deepseek-v4-pro；目的：常规审查；置信度 0.00。
 - Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
 - Watch next / 下一步观察: 研究输出存在执行风险，已降级为 HOLD。 / 研究输出存在执行风险，已降级为 HOLD。
 
