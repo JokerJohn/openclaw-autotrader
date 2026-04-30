@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-05-01 00:30:55 CST`
+Last synced by decision / 决策触发同步时间: `2026-05-01 00:43:41 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-05-01 00:30:55 CST`
 | --- | --- |
 | Day / 当前天数 | `53 / 30` (176.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
-| Current equity / 当前权益 | HKD 9,749.53 |
-| Net PnL / 累计盈亏 | -HKD 250.47 |
+| Current equity / 当前权益 | HKD 9,748.78 |
+| Net PnL / 累计盈亏 | -HKD 251.22 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | [US] HOLD / [US] 观望 |
 
@@ -40,9 +40,9 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-05-01 00:30:55 CST
+- Updated / 更新时间: 2026-05-01 00:43:41 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
-- Floating PnL / 当前浮动盈亏: +HKD 127.12
+- Floating PnL / 当前浮动盈亏: +HKD 126.36
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
 - Next milestone / 下一阶段: Day `30` of `30`
 - Public monitor / 公开监控: [docs/public-monitor/2026/2026-05-01.md](./docs/public-monitor/2026/2026-05-01.md)
@@ -63,7 +63,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Rationale / 理由: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
 - Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: A; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：A；目的：常规审查；置信度 0.00。
 - Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: node:internal/modules/cjs/loader:1451 throw err; ^ Error: Cannot find module '/Users/xhubd/.local/nodejs/node-v24.13.1-darwin-arm64/lib/node_modules/openclaw/openclaw.mjs' at Module._resolveFilename (node:internal/modules/cjs/loader:1448:15) at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19) at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22) at Module._load (node:internal/modules/cjs/loader:1234:25) at TracingChannel.traceSync (node:diagnostics_channel:328:14) at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) at node:internal/main/run_main_module:33:47 { code: 'MODULE_NOT_FOUND', requireStack: [] } Node.js v24.13.1 / 研究代理异常，按失败即 HOLD 保护实盘。
+- Watch next / 下一步观察: [channels] failed to load bundled channel feishu: ENOENT: no such file or directory, open '/Users/xhubd/.openclaw/plugin-runtime-deps/openclaw-2026.4.27-3bd31151c9b6/dist/live-auth-keys-BPPESU2n.js' Config warnings: - plugins.entries.openclaw-weixin: plugin openclaw-weixin: channel plugin manifest declares openclaw-weixin without channelConfigs metadata; add openclaw.plugin.json#channelConfigs so config schema and setup surfaces work before runtime loads - plugins.entries.openclaw-weixin: plugin openclaw-weixin: channel plugin manifest declares openclaw-weixin without channelConfigs metadata; add openclaw.plugin.json#channelConfigs so config schema and setup surfaces work before runtime loads Gateway call failed: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason Gateway target: ws://127.0.0.1:18789 Source: local loopback Config: /Users/xhubd/.openclaw/openclaw.json Bind: loopback Possible causes: - Gateway not yet ready to accept connections (retry after a moment) - TLS mismatch (connecting with ws:// to a wss:// gateway, or vice versa) - Gateway crashed or was terminated unexpectedly Run `openclaw doctor` for diagnostics. / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Core Rules / 基本规则
 
