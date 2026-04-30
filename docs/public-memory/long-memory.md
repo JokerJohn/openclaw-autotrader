@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-01 00:00:40 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-01 00:06:25 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,16 +13,16 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 8
-**Total Evidence Points / 累计证据点**: 55
+**Total Lessons / 教训总数**: 9
+**Total Evidence Points / 累计证据点**: 58
 
 ## event_market_gate_first
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 16
-**Last Seen / 最后出现**: 2026-04-30
-**Dates / 出现日期**: 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30
+**Evidence Count / 证据次数**: 17
+**Last Seen / 最后出现**: 2026-05-01
+**Dates / 出现日期**: 2026-04-11, 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## sync_error_must_be_sanitized
@@ -43,6 +43,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
+## missed_opportunity_AMD
+
+**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `AMD`
+**Evidence Count / 证据次数**: 3
+**Last Seen / 最后出现**: 2026-05-01
+**Dates / 出现日期**: 2026-04-29, 2026-04-30, 2026-05-01
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+
 ## us_buy_no_chasing_and_tighter_caps
 
 **Lesson / 教训**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
@@ -51,15 +60,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-25
 **Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
-
-## missed_opportunity_AMD
-
-**Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `AMD`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-04-30
-**Dates / 出现日期**: 2026-04-29, 2026-04-30
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics`
 
 ## missed_opportunity_NVDA
 
@@ -78,6 +78,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-15
 **Dates / 出现日期**: 2026-04-14, 2026-04-15
 **Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
+
+## missed_opportunity_ABBV
+
+**Lesson / 教训**: ABBV 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `ABBV`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-01
+**Dates / 出现日期**: 2026-05-01
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
 ## missed_opportunity_ASML
 
