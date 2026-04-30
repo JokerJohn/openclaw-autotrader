@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-01 00:15:48 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-01 00:17:27 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -149,24 +149,27 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-05-01
 
-**Summary / 摘要**: 2026-05-01 共 1 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,745.79，对账账本周期盈亏 HKD -254.21，对账未实现盈亏 +HKD 123.37。
+**Summary / 摘要**: 2026-05-01 共 2 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,744.55，对账账本周期盈亏 HKD -255.45，对账未实现盈亏 +HKD 122.14。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 1 |
+| Decision Count / 决策次数 | 2 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 6 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 9,745.79 |
-| End Net PnL / 结束累计盈亏 | HKD -254.21 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 123.37 |
+| End Equity / 结束权益 | HKD 9,744.55 |
+| End Net PnL / 结束累计盈亏 | HKD -255.45 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 122.14 |
 | Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
 **Lessons Learned / 提取教训**
+
+- **sync_error_must_be_sanitized**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
+  - Tags / 标签: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 - **event_market_gate_first**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
   - Tags / 标签: `event:market-gate, risk:macro-politics, memory:event-layer`

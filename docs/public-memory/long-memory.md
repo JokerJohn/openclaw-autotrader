@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-01 00:15:48 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-01 00:17:27 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 9
-**Total Evidence Points / 累计证据点**: 58
+**Total Evidence Points / 累计证据点**: 59
 
 ## event_market_gate_first
 
@@ -29,9 +29,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 15
-**Last Seen / 最后出现**: 2026-04-30
-**Dates / 出现日期**: 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30
+**Evidence Count / 证据次数**: 16
+**Last Seen / 最后出现**: 2026-05-01
+**Dates / 出现日期**: 2026-04-13, 2026-04-14, 2026-04-15, 2026-04-16, 2026-04-17, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
