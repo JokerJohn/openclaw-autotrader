@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-04 22:43:49 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-04 22:50:00 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -79,6 +79,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-24, 2026-04-25
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
+## positive_followthrough_buy_ORCL
+
+**Lesson / 教训**: ORCL 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `ORCL`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-04
+**Dates / 出现日期**: 2026-05-04
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:cloud_software, theme:云软件, theme:企业AI, confirm:neutral, event_theme:war_conflict`
+
 ## missed_opportunity_TSLA
 
 **Lesson / 教训**: TSLA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-01
 **Dates / 出现日期**: 2026-05-01
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
-
-## missed_opportunity_ASML
-
-**Lesson / 教训**: ASML 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `ASML`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-04-16
-**Dates / 出现日期**: 2026-04-16
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
