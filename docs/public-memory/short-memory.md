@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-06 04:04:24 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-06 04:09:00 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -155,19 +155,19 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-05-06
 
-**Summary / 摘要**: 2026-05-06 共 8 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,796.71，对账账本周期盈亏 HKD -203.29，对账未实现盈亏 +HKD 174.29。
+**Summary / 摘要**: 2026-05-06 共 9 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,795.84，对账账本周期盈亏 HKD -204.16，对账未实现盈亏 +HKD 173.43。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 8 |
+| Decision Count / 决策次数 | 9 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 7 |
-| Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 9,796.71 |
-| End Net PnL / 结束累计盈亏 | HKD -203.29 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 174.29 |
+| Benchmarks / 基准快照 | 14 |
+| Latest Decision / 最新决策 | [US] 跳过决策 |
+| End Equity / 结束权益 | HKD 9,795.84 |
+| End Net PnL / 结束累计盈亏 | HKD -204.16 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 173.43 |
 | Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
@@ -177,7 +177,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 - **sync_error_must_be_sanitized**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
   - Tags / 标签: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
-- **missed_opportunity_QCOM**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics`
+- **skipped_decision_still_needs_context**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
+  - Tags / 标签: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ---
