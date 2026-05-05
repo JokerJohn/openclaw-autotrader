@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-06 00:02:14 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-06 00:05:04 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -70,6 +70,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-24, 2026-04-25
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
+## missed_opportunity_QCOM
+
+**Lesson / 教训**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `QCOM`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-06
+**Dates / 出现日期**: 2026-05-06
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics`
+
 ## positive_followthrough_buy_ORCL
 
 **Lesson / 教训**: ORCL 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-02
 **Dates / 出现日期**: 2026-05-02
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:policy_trade, event_theme:shipping_logistics`
-
-## missed_opportunity_ABBV
-
-**Lesson / 教训**: ABBV 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `ABBV`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-01
-**Dates / 出现日期**: 2026-05-01
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, event:market_block, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
