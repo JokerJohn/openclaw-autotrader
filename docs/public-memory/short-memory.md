@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-07 00:03:17 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-07 00:14:58 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -146,21 +146,29 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-05-07
 
-**Summary / 摘要**: 2026-05-07 共 1 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,817.24，对账账本周期盈亏 HKD -182.76，对账未实现盈亏 +HKD 178.75。
+**Summary / 摘要**: 2026-05-07 共 2 次计划、0 次成交、0 次换汇记录，对账权益 HKD 9,801.83，对账账本周期盈亏 HKD -198.17，对账未实现盈亏 +HKD 179.41。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 1 |
+| Decision Count / 决策次数 | 2 |
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 0 |
+| Benchmarks / 基准快照 | 10 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
-| End Equity / 结束权益 | HKD 9,817.24 |
-| End Net PnL / 结束累计盈亏 | HKD -182.76 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD 178.75 |
+| End Equity / 结束权益 | HKD 9,801.83 |
+| End Net PnL / 结束累计盈亏 | HKD -198.17 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD 179.41 |
 | Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
+
+**Lessons Learned / 提取教训**
+
+- **missed_opportunity_ORCL**: ORCL 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict, event_theme:energy_oil`
+
+- **missed_opportunity_NVDA**: NVDA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:shipping_logistics, event_theme:war_conflict, event_theme:energy_oil`
 
 ---
