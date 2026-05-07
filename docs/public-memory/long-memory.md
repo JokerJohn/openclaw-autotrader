@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-08 02:16:23 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 02:23:25 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 62
+**Total Evidence Points / 累计证据点**: 63
 
 ## sync_error_must_be_sanitized
 
@@ -47,9 +47,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
 **Scope / 作用域**: `portfolio`
-**Evidence Count / 证据次数**: 4
-**Last Seen / 最后出现**: 2026-05-04
-**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25, 2026-05-04
+**Evidence Count / 证据次数**: 5
+**Last Seen / 最后出现**: 2026-05-08
+**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25, 2026-05-04, 2026-05-08
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
 ## missed_opportunity_AMD
