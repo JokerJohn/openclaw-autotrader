@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-08 02:01:14 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 02:15:22 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,7 +14,7 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 61
+**Total Evidence Points / 累计证据点**: 62
 
 ## sync_error_must_be_sanitized
 
@@ -29,9 +29,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 16
-**Last Seen / 最后出现**: 2026-05-07
-**Dates / 出现日期**: 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07
+**Evidence Count / 证据次数**: 17
+**Last Seen / 最后出现**: 2026-05-08
+**Dates / 出现日期**: 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## event_market_gate_first
