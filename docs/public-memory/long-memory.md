@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-08 04:02:24 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 04:17:33 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -70,14 +70,23 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-24, 2026-04-25
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
-## missed_opportunity_QCOM
+## positive_followthrough_buy_AAOI
 
-**Lesson / 教训**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `QCOM`
+**Lesson / 教训**: AAOI 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+**Scope / 作用域**: `AAOI`
 **Evidence Count / 证据次数**: 1
 **Last Seen / 最后出现**: 2026-05-08
 **Dates / 出现日期**: 2026-05-08
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:energy_oil, event_theme:macro_rates`
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+
+## missed_opportunity_COHR
+
+**Lesson / 教训**: COHR 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `COHR`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-08
+**Dates / 出现日期**: 2026-05-08
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
 
 ## missed_opportunity_MU
 
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-04
 **Dates / 出现日期**: 2026-05-04
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:cloud_software, theme:云软件, theme:企业AI, confirm:neutral, event_theme:war_conflict`
-
-## event_source_failure_explicit
-
-**Lesson / 教训**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
-**Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-02
-**Dates / 出现日期**: 2026-05-02
-**Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`

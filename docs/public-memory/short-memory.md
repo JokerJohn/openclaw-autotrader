@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-08 04:02:24 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 04:17:33 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -157,7 +157,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Order Submissions / 提交订单 | 2 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 14 |
+| Benchmarks / 基准快照 | 26 |
 | Latest Decision / 最新决策 | [US] HOLD 无 |
 | End Equity / 结束权益 | HKD 9,783.47 |
 | End Net PnL / 结束累计盈亏 | HKD -216.53 |
@@ -166,9 +166,9 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 **Recent Trade Episodes / 最近交易片段**
 
-- BUY AAOI | plan_only | edge=+3.71% | conf=0.68 | q=-1.75 | one_hour buy_neutral -1.35% | regret=+1.00%
-- BUY AAOI | plan_only | edge=+4.48% | conf=0.66 | q=-1.75 | one_hour buy_neutral -1.35% | regret=+1.00%
-- BUY AAOI | plan_only | edge=+3.93% | conf=0.67 | q=-1.75 | one_hour buy_neutral -1.35% | regret=+1.00%
+- BUY AAOI | plan_only | edge=+3.71% | conf=0.68 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
+- BUY AAOI | plan_only | edge=+4.48% | conf=0.66 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
+- BUY AAOI | plan_only | edge=+3.93% | conf=0.67 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
@@ -183,7 +183,10 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 - **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
   - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
-- **missed_opportunity_QCOM**: QCOM 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:energy_oil, event_theme:macro_rates`
+- **positive_followthrough_buy_AAOI**: AAOI 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
+  - Tags / 标签: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+
+- **missed_opportunity_COHR**: COHR 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+  - Tags / 标签: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
 
 ---
