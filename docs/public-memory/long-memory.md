@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-08 23:59:44 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-09 00:13:12 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -38,9 +38,9 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 14
+**Evidence Count / 证据次数**: 13
 **Last Seen / 最后出现**: 2026-05-05
-**Dates / 出现日期**: 2026-04-18, 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-04, 2026-05-05
+**Dates / 出现日期**: 2026-04-20, 2026-04-21, 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-04, 2026-05-05
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## us_buy_no_chasing_and_tighter_caps
@@ -52,6 +52,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25, 2026-05-04, 2026-05-08
 **Tags / 标签**: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`
 
+## event_source_failure_explicit
+
+**Lesson / 教训**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
+**Scope / 作用域**: `ops`
+**Evidence Count / 证据次数**: 3
+**Last Seen / 最后出现**: 2026-05-09
+**Dates / 出现日期**: 2026-05-02, 2026-05-08, 2026-05-09
+**Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
+
 ## missed_opportunity_AMD
 
 **Lesson / 教训**: AMD 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -61,15 +70,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-29, 2026-04-30, 2026-05-01
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
-## event_source_failure_explicit
-
-**Lesson / 教训**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
-**Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 2
-**Last Seen / 最后出现**: 2026-05-08
-**Dates / 出现日期**: 2026-05-02, 2026-05-08
-**Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
-
 ## missed_opportunity_NVDA
 
 **Lesson / 教训**: NVDA 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
@@ -78,6 +78,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-04-25
 **Dates / 出现日期**: 2026-04-24, 2026-04-25
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+
+## weak_followthrough_buy_AAOI
+
+**Lesson / 教训**: AAOI 最近买入后的延续较弱，除非 EV 和胜率显著改善，否则不要继续追高。
+**Scope / 作用域**: `AAOI`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-09
+**Dates / 出现日期**: 2026-05-09
+**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
 ## positive_followthrough_buy_AAOI
 
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-08
 **Dates / 出现日期**: 2026-05-08
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
-
-## missed_opportunity_MU
-
-**Lesson / 教训**: MU 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
-**Scope / 作用域**: `MU`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-07
-**Dates / 出现日期**: 2026-05-07
-**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:mixed, confirm:neutral, event_theme:energy_oil, event_theme:macro_rates`
