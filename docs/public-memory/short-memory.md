@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-08 23:29:27 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 23:42:59 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -149,11 +149,11 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-05-08
 
-**Summary / 摘要**: 2026-05-08 共 30 次计划、1 次成交、0 次换汇记录，对账权益 HKD 9,797.62，对账账本周期盈亏 HKD -202.38，对账未实现盈亏 HKD 0.00。
+**Summary / 摘要**: 2026-05-08 共 31 次计划、1 次成交、0 次换汇记录，对账权益 HKD 9,797.62，对账账本周期盈亏 HKD -202.38，对账未实现盈亏 HKD 0.00。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 30 |
+| Decision Count / 决策次数 | 31 |
 | Order Submissions / 提交订单 | 2 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
@@ -179,6 +179,9 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 - **skipped_decision_still_needs_context**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
   - Tags / 标签: `ops:decision-output, ux:skip-context, memory:decision-explain`
+
+- **event_source_failure_explicit**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
+  - Tags / 标签: `ops:event-source, ops:fallback, memory:event-layer`
 
 - **us_buy_no_chasing_and_tighter_caps**: 美股新开仓不能只因盘中强势就追价；日内涨幅显著扩张时应先等回撤/换手确认，高波动半导体与同类强势股的单票上限应压到 30% 或以下，不要追高。
   - Tags / 标签: `market:us, risk:anti-chase, sizing:tighter-cap, execution:pullback-first`

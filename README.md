@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-05-08 23:29:25 CST`
+Last synced by decision / 决策触发同步时间: `2026-05-08 23:42:56 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-05-08 23:29:25 CST
+- Updated / 更新时间: 2026-05-08 23:42:56 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: HKD 0.00
 - Latest decision / 最新决策: [US] HOLD / [US] 观望
@@ -63,7 +63,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 - Rationale / 理由: 研究代理异常，按失败即 HOLD 保护实盘。 / 研究代理异常，按失败即 HOLD 保护实盘。
 - Decision basis / 决策依据: Regime: unavailable; Path: standard decision flow; Model: gpt-5.5; Purpose: standard review; confidence 0.00. / 市场状态：暂无；决策链路：常规决策链路；模型：gpt-5.5；目的：常规审查；置信度 0.00。
 - Candidate check / 候选检查: No public candidate check yet. / 暂无公开候选检查。
-- Watch next / 下一步观察: aborted / 研究代理异常，按失败即 HOLD 保护实盘。
+- Watch next / 下一步观察: tiger-pocket-research timed out / 研究代理异常，按失败即 HOLD 保护实盘。
 
 ## Core Rules / 基本规则
 
