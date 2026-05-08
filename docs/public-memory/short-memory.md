@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-09 04:02:16 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-09 04:17:26 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -162,7 +162,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | Order Submissions / 提交订单 | 0 |
 | Filled Trades / 成交笔数 | 0 |
 | FX Events / 换汇记录 | 0 |
-| Benchmarks / 基准快照 | 11 |
+| Benchmarks / 基准快照 | 15 |
 | Latest Decision / 最新决策 | [US] 跳过决策 |
 | End Equity / 结束权益 | HKD 9,783.47 |
 | End Net PnL / 结束累计盈亏 | HKD -216.53 |
@@ -189,6 +189,6 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
   - Tags / 标签: `ops:event-source, ops:fallback, memory:event-layer`
 
 - **weak_followthrough_buy_AAOI**: AAOI 最近买入后的延续较弱，除非 EV 和胜率显著改善，否则不要继续追高。
-  - Tags / 标签: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
+  - Tags / 标签: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
 ---
