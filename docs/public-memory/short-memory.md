@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-05-08 22:13:39 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-08 22:21:58 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -149,26 +149,26 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-05-08
 
-**Summary / 摘要**: 2026-05-08 共 28 次计划、1 次成交、0 次换汇记录，对账权益 HKD 9,797.62，对账账本周期盈亏 HKD -202.38，对账未实现盈亏 HKD 0.00。
+**Summary / 摘要**: 2026-05-08 共 29 次计划、1 次成交、0 次换汇记录，对账权益 HKD 9,797.62，对账账本周期盈亏 HKD -202.38，对账未实现盈亏 HKD 0.00。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
-| Decision Count / 决策次数 | 28 |
+| Decision Count / 决策次数 | 29 |
 | Order Submissions / 提交订单 | 2 |
 | Filled Trades / 成交笔数 | 1 |
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 27 |
-| Latest Decision / 最新决策 | [US] HOLD 无 |
+| Latest Decision / 最新决策 | [US] BUY ASML |
 | End Equity / 结束权益 | HKD 9,797.62 |
 | End Net PnL / 结束累计盈亏 | HKD -202.38 |
 | End Unrealized PnL / 结束未实现盈亏 | HKD 0.00 |
-| Trade Episodes / 交易片段 | 6 |
+| Trade Episodes / 交易片段 | 7 |
 
 **Recent Trade Episodes / 最近交易片段**
 
+- BUY ASML | plan_only | edge=+1.27% | conf=0.64 | q=+0.00
 - BUY AAOI | plan_only | edge=+3.71% | conf=0.68 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
 - BUY AAOI | plan_only | edge=+4.48% | conf=0.66 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
-- BUY AAOI | plan_only | edge=+3.93% | conf=0.67 | q=-0.29 | close buy_neutral +1.38% | regret=+1.00%
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
 
