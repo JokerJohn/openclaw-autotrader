@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-09 23:59:50 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-10 00:16:47 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -79,6 +79,15 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Dates / 出现日期**: 2026-04-24, 2026-04-25
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:core, sector:semiconductor, theme:半导体, theme:光刻机, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
 
+## missed_opportunity_ASML
+
+**Lesson / 教训**: ASML 在最近复盘中体现出更强的事后收益，后续对高 EV 候选不要过度保守。
+**Scope / 作用域**: `ASML`
+**Evidence Count / 证据次数**: 1
+**Last Seen / 最后出现**: 2026-05-10
+**Dates / 出现日期**: 2026-05-10
+**Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
+
 ## event_positive_still_needs_ev
 
 **Lesson / 教训**: 正面新闻/财报只能加分，不能替代手续费后 EV、胜率和仓位纪律；即使有利好，净优势不足时仍应 HOLD。
@@ -96,12 +105,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-09
 **Dates / 出现日期**: 2026-05-09
 **Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
-
-## positive_followthrough_buy_AAOI
-
-**Lesson / 教训**: AAOI 最近买入后的延续较好，可继续作为同类强势轮动的优先候选。
-**Scope / 作用域**: `AAOI`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-08
-**Dates / 出现日期**: 2026-05-08
-**Tags / 标签**: `action:buy, purpose:open, market:us, regime:high_volatility, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
