@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-12 23:54:06 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-13 00:09:53 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -14,33 +14,33 @@ Public lessons that survived repetition and became part of the challenge's evolv
 ## Lesson Summary / 经验摘要
 
 **Total Lessons / 教训总数**: 10
-**Total Evidence Points / 累计证据点**: 65
+**Total Evidence Points / 累计证据点**: 62
 
 ## sync_error_must_be_sanitized
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 19
+**Evidence Count / 证据次数**: 18
 **Last Seen / 最后出现**: 2026-05-12
-**Dates / 出现日期**: 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-11, 2026-05-12
+**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-11, 2026-05-12
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 18
+**Evidence Count / 证据次数**: 17
 **Last Seen / 最后出现**: 2026-05-12
-**Dates / 出现日期**: 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-11, 2026-05-12
+**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-27, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05, 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-09, 2026-05-11, 2026-05-12
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## event_market_gate_first
 
 **Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
 **Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 12
+**Evidence Count / 证据次数**: 11
 **Last Seen / 最后出现**: 2026-05-09
-**Dates / 出现日期**: 2026-04-22, 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-04, 2026-05-05, 2026-05-09
+**Dates / 出现日期**: 2026-04-23, 2026-04-24, 2026-04-25, 2026-04-28, 2026-04-29, 2026-04-30, 2026-05-01, 2026-05-02, 2026-05-04, 2026-05-05, 2026-05-09
 **Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
 
 ## us_buy_no_chasing_and_tighter_caps
