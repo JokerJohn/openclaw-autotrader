@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-05-29 22:08:02 CST (UTC+08:00)
+Updated / 更新时间: 2026-05-30 03:24:41 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -13,25 +13,25 @@ Public lessons that survived repetition and became part of the challenge's evolv
 
 ## Lesson Summary / 经验摘要
 
-**Total Lessons / 教训总数**: 8
-**Total Evidence Points / 累计证据点**: 56
+**Total Lessons / 教训总数**: 4
+**Total Evidence Points / 累计证据点**: 50
 
 ## sync_error_must_be_sanitized
 
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 18
+**Evidence Count / 证据次数**: 17
 **Last Seen / 最后出现**: 2026-05-29
-**Dates / 出现日期**: 2026-05-09, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15, 2026-05-16, 2026-05-18, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29
+**Dates / 出现日期**: 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15, 2026-05-16, 2026-05-18, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
 
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
-**Evidence Count / 证据次数**: 18
+**Evidence Count / 证据次数**: 17
 **Last Seen / 最后出现**: 2026-05-29
-**Dates / 出现日期**: 2026-05-09, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15, 2026-05-16, 2026-05-18, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29
+**Dates / 出现日期**: 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15, 2026-05-16, 2026-05-18, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## realtime_quote_gate
@@ -51,39 +51,3 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Last Seen / 最后出现**: 2026-05-10
 **Dates / 出现日期**: 2026-05-10
 **Tags / 标签**: `action:hold, purpose:hold, market:us, regime:high_volatility, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:macro_rates`
-
-## event_market_gate_first
-
-**Lesson / 教训**: 宏观/国际政治级事件 gate 命中时，市场级风险应先于单票冲动，先阻断新开仓再等待 headline 风险消退。
-**Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-09
-**Dates / 出现日期**: 2026-05-09
-**Tags / 标签**: `event:market-gate, risk:macro-politics, memory:event-layer`
-
-## event_positive_still_needs_ev
-
-**Lesson / 教训**: 正面新闻/财报只能加分，不能替代手续费后 EV、胜率和仓位纪律；即使有利好，净优势不足时仍应 HOLD。
-**Scope / 作用域**: `event_layer`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-09
-**Dates / 出现日期**: 2026-05-09
-**Tags / 标签**: `event:positive-signal, risk:cost-discipline, memory:event-layer`
-
-## event_source_failure_explicit
-
-**Lesson / 教训**: 事件源异常时必须显式暴露 source_status，并回退到 quotes 与既有记忆，不能编造实时新闻结论。
-**Scope / 作用域**: `ops`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-09
-**Dates / 出现日期**: 2026-05-09
-**Tags / 标签**: `ops:event-source, ops:fallback, memory:event-layer`
-
-## weak_followthrough_buy_AAOI
-
-**Lesson / 教训**: AAOI 最近买入后的延续较弱，除非 EV 和胜率显著改善，否则不要继续追高。
-**Scope / 作用域**: `AAOI`
-**Evidence Count / 证据次数**: 1
-**Last Seen / 最后出现**: 2026-05-09
-**Dates / 出现日期**: 2026-05-09
-**Tags / 标签**: `action:buy, purpose:open, market:us, regime:mixed, tier:promoted, sector:optical_networking, theme:CPO, theme:光模块, theme:AI算力, confirm:neutral, event_theme:war_conflict, event_theme:shipping_logistics, event_theme:energy_oil`
