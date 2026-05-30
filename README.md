@@ -1,11 +1,11 @@
-![Day 82 Poster](./docs/assets/challenge-poster.svg)
+![Day 83 Poster](./docs/assets/challenge-poster.svg)
 
 # 30-Day OpenClaw AutoTrader Challenge
 
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-05-30 16:52:53 CST`
+Last synced by decision / 决策触发同步时间: `2026-05-31 02:48:18 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -17,7 +17,7 @@ Last synced by decision / 决策触发同步时间: `2026-05-30 16:52:53 CST`
 
 | Metric | Value |
 | --- | --- |
-| Day / 当前天数 | `82 / 30` (273.3%) |
+| Day / 当前天数 | `83 / 30` (276.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
 | Current equity / 当前权益 | HKD - |
 | Net PnL / 累计盈亏 | HKD - |
@@ -40,13 +40,13 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-05-30 16:52:53 CST
+- Updated / 更新时间: 2026-05-31 02:48:18 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: HKD -
 - Latest decision / 最新决策: 
 - Next milestone / 下一阶段: Day `30` of `30`
-- Public monitor / 公开监控: [docs/public-monitor/2026/2026-05-30.md](./docs/public-monitor/2026/2026-05-30.md)
-- Daily report / 每日报告: [docs/daily-reports/2026/2026-05-30.md](./docs/daily-reports/2026/2026-05-30.md)
+- Public monitor / 公开监控: [docs/public-monitor/2026/2026-05-31.md](./docs/public-monitor/2026/2026-05-31.md)
+- Daily report / 每日报告: [docs/daily-reports/2026/2026-05-31.md](./docs/daily-reports/2026/2026-05-31.md)
 
 ## Today's Trading Rules & Adjustments / 今日交易规则与策略调整
 
