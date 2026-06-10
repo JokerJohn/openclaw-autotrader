@@ -1,6 +1,6 @@
 # Durable Lessons / 长期经验库
 
-Updated / 更新时间: 2026-06-10 23:48:23 CST (UTC+08:00)
+Updated / 更新时间: 2026-06-11 00:02:39 CST (UTC+08:00)
 
 Public lessons that survived repetition and became part of the challenge's evolving playbook.
 那些经得住重复验证、逐渐沉淀为挑战经验手册的公开教训。
@@ -21,8 +21,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Lesson / 教训**: GitHub 披露卡片失败时必须返回可理解的重试提示，不能暴露 raw git/subprocess/json 错误。
 **Scope / 作用域**: `ops`
 **Evidence Count / 证据次数**: 14
-**Last Seen / 最后出现**: 2026-06-10
-**Dates / 出现日期**: 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-01, 2026-06-02, 2026-06-03, 2026-06-08, 2026-06-09, 2026-06-10
+**Last Seen / 最后出现**: 2026-06-11
+**Dates / 出现日期**: 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-01, 2026-06-02, 2026-06-03, 2026-06-08, 2026-06-09, 2026-06-10, 2026-06-11
 **Tags / 标签**: `ops:github-sync, ux:error-sanitization, memory:public-output`
 
 ## skipped_decision_still_needs_context
@@ -30,8 +30,8 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Lesson / 教训**: 即使 local_guard、非交易时段或行情门槛提前跳过决策，也必须保留模型链路、市场状态和候选摘要，不能只剩一句提醒。
 **Scope / 作用域**: `decision_output`
 **Evidence Count / 证据次数**: 14
-**Last Seen / 最后出现**: 2026-06-10
-**Dates / 出现日期**: 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-01, 2026-06-02, 2026-06-03, 2026-06-08, 2026-06-09, 2026-06-10
+**Last Seen / 最后出现**: 2026-06-11
+**Dates / 出现日期**: 2026-05-22, 2026-05-23, 2026-05-25, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-01, 2026-06-02, 2026-06-03, 2026-06-08, 2026-06-09, 2026-06-10, 2026-06-11
 **Tags / 标签**: `ops:decision-output, ux:skip-context, memory:decision-explain`
 
 ## realtime_quote_gate
@@ -39,6 +39,6 @@ Public lessons that survived repetition and became part of the challenge's evolv
 **Lesson / 教训**: 需要实时行情或明确的开盘状态才能进入实盘决策，缺行情时不要强行交易。
 **Scope / 作用域**: `execution`
 **Evidence Count / 证据次数**: 11
-**Last Seen / 最后出现**: 2026-06-10
-**Dates / 出现日期**: 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-02, 2026-06-03, 2026-06-09, 2026-06-10
+**Last Seen / 最后出现**: 2026-06-11
+**Dates / 出现日期**: 2026-05-22, 2026-05-23, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-06-02, 2026-06-03, 2026-06-09, 2026-06-10, 2026-06-11
 **Tags / 标签**: `execution:quotes, execution:session`
