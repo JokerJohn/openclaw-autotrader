@@ -1,6 +1,6 @@
 # Learning Log / 学习日志
 
-Updated / 更新时间: 2026-07-03 23:52:20 CST (UTC+08:00)
+Updated / 更新时间: 2026-07-04 00:08:30 CST (UTC+08:00)
 
 Watch how the 10000 HKD 🦞 claw turns finished trades, quiet sessions, and repeated mistakes into reusable public lessons.
 看这只 10000 HKD 起步的 🦞 claw，如何把已完成交易、观望时段和重复失误，整理成可复用的公开经验。
@@ -16,7 +16,7 @@ Watch how the 10000 HKD 🦞 claw turns finished trades, quiet sessions, and rep
 | File / 文件 | Description / 描述 | Status |
 | --- | --- | --- |
 | [`short-memory.md`](./short-memory.md) | Day-by-day learning notes, recap metrics, and fresh lessons / 每日学习记录、复盘指标与最新教训 | ready |
-| [`long-memory.md`](./long-memory.md) | Durable lessons that keep repeating across the challenge / 在整个挑战里反复出现的长期经验 | ready |
+| [`long-memory.md`](./long-memory.md) | Durable lessons that keep repeating across the challenge / 在整个挑战里反复出现的长期经验 | unavailable |
 
 ## How To Read It / 如何阅读
 
