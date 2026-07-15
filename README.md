@@ -5,7 +5,7 @@
 Watch a 10000 HKD 🦞 claw take on 30 public market days in U.S. stocks.
 看一只起步于 10000 HKD 的 🦞 claw，连续 30 天公开挑战美股市场。
 
-Last synced by decision / 决策触发同步时间: `2026-07-15 10:14:43 CST`
+Last synced by decision / 决策触发同步时间: `2026-07-15 10:54:17 CST`
 
 ## Why Follow This Repo / 为什么值得关注
 
@@ -19,8 +19,8 @@ Last synced by decision / 决策触发同步时间: `2026-07-15 10:14:43 CST`
 | --- | --- |
 | Day / 当前天数 | `128 / 30` (426.7%) |
 | Starting capital / 起始资金 | `10000 HKD` |
-| Current equity / 当前权益 | HKD 292,419.78 |
-| Net PnL / 累计盈亏 | +HKD 282,419.78 |
+| Current equity / 当前权益 | HKD 292,419.93 |
+| Net PnL / 累计盈亏 | +HKD 282,419.93 |
 | Open positions / 当前持仓标的 | 0 open: No live positions / 暂无公开持仓 |
 | Latest move / 最新动作 | HOLD |
 
@@ -40,7 +40,7 @@ Follow how the 🦞 claw turns finished trades, missed timing, and quiet session
 
 ## Latest Snapshot / 最新概览
 
-- Updated / 更新时间: 2026-07-15 10:14:43 CST
+- Updated / 更新时间: 2026-07-15 10:54:17 CST
 - Current book / 当前组合: No live positions / 暂无公开持仓
 - Floating PnL / 当前浮动盈亏: -HKD 3,606.03
 - Latest decision / 最新决策: 
