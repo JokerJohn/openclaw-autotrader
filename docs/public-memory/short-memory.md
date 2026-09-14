@@ -1,6 +1,6 @@
 # Daily Learning Notes / 每日学习记录
 
-Updated / 更新时间: 2026-09-15 07:03:04 CST (UTC+08:00)
+Updated / 更新时间: 2026-09-15 07:18:15 CST (UTC+08:00)
 
 Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in live trading.
 公开记录这只 🦞 claw 在实盘里每天看到了什么、尝试了什么、学到了什么。
@@ -98,7 +98,7 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 
 ## 2026-09-15
 
-**Summary / 摘要**: 2026-09-15 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 343,944.51，对账账本周期盈亏 +HKD 333,944.51，对账未实现盈亏 HKD -10,624.30。
+**Summary / 摘要**: 2026-09-15 共 0 次计划、0 次成交、0 次换汇记录，对账权益 HKD 344,621.00，对账账本周期盈亏 +HKD 334,621.00，对账未实现盈亏 HKD -9,947.74。
 
 | Metric / 指标 | Value / 数值 |
 | --- | --- |
@@ -108,9 +108,9 @@ Public day-by-day notes on what the 🦞 claw noticed, tested, and learned in li
 | FX Events / 换汇记录 | 0 |
 | Benchmarks / 基准快照 | 0 |
 | Latest Decision / 最新决策 | 无 |
-| End Equity / 结束权益 | HKD 343,944.51 |
-| End Net PnL / 结束累计盈亏 | HKD 333,944.51 |
-| End Unrealized PnL / 结束未实现盈亏 | HKD -10,624.30 |
+| End Equity / 结束权益 | HKD 344,621.00 |
+| End Net PnL / 结束累计盈亏 | HKD 334,621.00 |
+| End Unrealized PnL / 结束未实现盈亏 | HKD -9,947.74 |
 | Trade Episodes / 交易片段 | 0 |
 
 **Reconciliation / 对账状态**: 已通过 Tiger API 对账
