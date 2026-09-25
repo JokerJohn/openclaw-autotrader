@@ -69,7 +69,7 @@ async function clickFirstText(page, labels) {
 async function findButtonText(page, candidates) {
   for (const text of candidates ?? []) {
     try {
-      await page.getByRole("button", { name: new RegExp(text, "i") }).first().waitFor({
+      await page.getByRole("button", { name: text }).first().waitFor({
         state: "visible",
         timeout: 2000
       });
@@ -89,6 +89,10 @@ async function main() {
   }
 
   const configPath = path.resolve(process.cwd(), configArg);
+  if (!configPath.startsWith(process.cwd() + path.sep)) {
+    console.error("Error: config path must reside within the current working directory");
+    process.exit(1);
+  }
   const config = await readJson(configPath);
   const userDataDir = resolveConfigPath(configPath, config.xhs.userDataDir);
   const artifactDir = resolveConfigPath(
@@ -176,8 +180,8 @@ async function main() {
       );
     }
 
-    console.log(`Updated ${configPath}`);
-    console.log(`Calibration report: ${calibrationReportPath}`);
+    console.log("Updated", configPath);
+    console.log("Calibration report:", calibrationReportPath);
   } finally {
     await closePersistentChromeContext({ context, configPath, config }).catch(() => {});
   }
